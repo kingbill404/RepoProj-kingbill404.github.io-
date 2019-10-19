@@ -26,6 +26,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #333;
+  display: grid;
 }
 
 .text-large {
@@ -33,7 +34,8 @@ body {
 }
 
 body div {
-background-color: 313141;
+  background-color: #414141;
+  color: #fff;
   margin: 10px;
   padding: 10px;
   border: #555 solid 13px;
@@ -41,30 +43,57 @@ background-color: 313141;
   box-shadow: 3px 4px 6px #1f1f1f;
 }
 
-body .wrapper {
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+body .wrapper header nav ul {
   background-color: 4a4a4a;
   margin: 10px;
   padding: 10px;
-  border: #5a5 solid 13px;
+  border: #5a5 solid 8px;
   border-radius: 10px;
   box-shadow: 3px 4px 6px #1f1f1f;
-  display: flex;
+  display: inline-block;
+  list-style: none;
 }
 
-header {
-
+header  {
+  display: flex;  
 }
 
-header nav {
-
+header navMenu ul li {
+  display: inline-block;
+}
+  
+header nav li {
+  margin: 0 3px;
+  border: solid 3px;
+  border-color: #0ef; 
 }
 
-.logo {
+.menu {
   background-color: #999;
-  width: 120px;
-  height: 120px;
-  float: left;
+  width: 200px;
+  height: 200px;
+  float: none;
+  box-shadow: 3px 4px 6px #3e3e3e;
 }
+
+article {
+  border: #999 solid 10px;
+  border-radius: 10px;
+  box-shadow:inset 4px 5px 7px #5a5a5a, 4px 4px 6px #222;
+}
+
+.main section {
+  padding: 20px;
+  background: #01d191;
+  color #ddd;
+  text-shadow: #111 2px 2pc 6px;
+} 
 </style>
 <script>
   $(function onLoad() {
@@ -96,7 +125,28 @@ header nav {
           <li><a href="#"><span class="fa fa-envelope"></span>Work</a></li>
         </ul>
       </nav>
+      <section>
+        <h1>kingBill404's Repository Index.html</h1>
+        <p>Heresd where i try and make sense of all the disorganized, half-thought-out projects ive been haphazardly  throwing here.</p>
+      </section>
     </header>
+    <article class="main">
+      <section class="one">
+        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
+      </section>
+<section class="one">
+        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
+      </section>
+<section class="one">
+        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
+      </section>
+<section class="one">
+        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
+      </section>
+<section class="one">
+        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
+      </section>
+    </article>
   </div>
 </body>
 </html>
