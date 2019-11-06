@@ -1,432 +1,82 @@
-<!DOCTYPE html><head lang="en-US">
-<!--
-  Developer Comment Section:
-    Temp
-    <meta name="" content="" />
-    <meta name="" content="" />
-    <link rel="" href="" />
-    <link rel="" href="" />
--->
+<!DOCTYPE html>
+<html>
 <head>
-<title>KingBill404's Github Repository Website Script</title>
-<!-- Meta -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="This is the website script for Repository: KingBill404" />
-<!-- links -->
-<!link rel="stylesheet"href="" />
-<link rel="stylesheet" href="./assets/css/main.css" />
-<style>
-:root {
-  /*var(custom-name, value)*/
-  --clr-light, #ddd;
-  --clr-dark, #333;
-  --clr-trim, #38C638;
-  --sha-out, 1px 2px 2px #222;
-}
-* {
+<meta name="viewport" content="width=device-width user-scalable=yes initial-size=1.0" />
+<style type="text/css">
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding:0;
   text-align: center;
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
 }
+
 body {
-  padding: 6px;
-  background-color: var(--clr-light);
-  display: block;
+  padding: 20px 25%;
 }
-.text-large {
-  font-size: 120%;
-}
-body div {
-  background-color: RGBA(65, 65, 65, .8);
-  color: #ddd;
-  margin: 6px;
-  padding: 0 10px;
-  border: #5f5f5f solid 13px;
-  border-radius: 10px;
-  box-shadow: 3px 4px 6px #1f1f1f;
-}
-nav li a {
-  color: var(--clr-light);
-  text-decoration: none;
-  display: inline-block;
-}
-body .wrapper header nav ul {
-  background-color:var(--clr-dark);
-  margin: 10px;
+
+body .notes  {
+  justify-content: center;
+  display: flexbox;
+  background-color: #3ddd3d;
+  color: #fff;
   padding: 10px;
-  border: #5a5 solid 8px;
+  border: 3px solid #333;
   border-radius: 10px;
-  box-shadow: 3px 4px 6px #1f1f1f;
-  display: inline-block;
-  list-style: none;
+  text-shadow: 3px 2px 1px rgba(100,100, 100, 0.8);
+  box-shadow: 3px 5px 5px rgba(146, 146, 146, 0.8),
+        inset 8px 5px 6px rgba(255, 1255, 255, 0.5);
 }
-header  {
-  display: flex;  
-}
-header navMenu ul li {
+.notes ul {
   display: inline-block;
 }
   
-header nav li {
-  margin: 0 3px;
-  border: solid 3px;
-  border-color: #0ef; 
-}
-.menu {
-  background-color: #999;
-  width: 200px;
-  height: 200px;
-  float: none;
-  box-shadow: 3px 4px 6px #3e3e3e;
-}
-article {
-  border: #999 solid 10px;
+.notes ul li {
+  border-bottom: 2px dotted #000;
   border-radius: 10px;
-  box-shadow:inset 4px 5px 7px #5a5a5a, 4px 4px 6px #222;
 }
-.main section {
-  padding: 20px;
-  background: #01d191;
-  color #ddd;
-  text-shadow: #111 2px 2pc 6px;
-} 
+  
+.notes h2 {
+text-transform: underline;
+text-decoration: uppercase;
+}
 </style>
-<script>
-  $(function onLoad() {
-    const q = 0;
-    alert('Welcome to my Repository, take a minute to sign my guestBook and while you\'re there' + <br /> 
-    'I would appreciate it if you could leave me a message with your thoughts.' + q);
-  };);
-    q++;
-    var elements = [];
-    for (i=0, element in elements) {
-      document.getElementByClass(".array");
-      inner.html = document.Write(elements[i] + " status: Indexed");
-    } else {alert("there is an issue indexing the" + elements[i] + "element.")}; 
-    else {alert("its broken :((")}; break;
-</script>
 </head>
-<body class="text-large">
-  <div class="wrapper">
-    <header>
-      <div class="logo">
-        <h2>KingBill404 github repository</h2>
-        <p>Welcome to my Github repository Homepage. use the navigation bar to browse my other pages.</p>
-      </div>
-      <nav class="menu">
-        <ul><h3>Nav Menu</h3>
-          <li><a href="http://www.youtube.com"><span class="fa fa-diamond"></span>YouTube</a></li>
-          <li><a href="#"><span class="fa fa-star"></span>Scripts</a></li>
-          <li><a href="#"><span class="fa fa-user"></span>Browse</a></li>
-          <li><a href="#"><span class="fa fa-envelope"></span>Work</a></li>
-        </ul>
-      </nav>
-      <section>
-        <h1>kingBill404's Repository Index.html</h1>
-        <p>Heresd where i try and make sense of all the disorganized, half-thought-out projects ive been haphazardly  throwing here.</p>
-      </section>
-    </header>
+<body>
+	<div class="notes">
+		<ul><strong>Bills_Computer Diagnostic report</strong><br />
+			<h2>Display</h2>
+			<li>Adapter RAM			1.00 GB </li>
+			<li>Bits/Pixel			32</li>
+			<h2>Disks</h2>
+			<li>partition #0		119.24 GB</li>
+			<li>partition #1		118.00 GB</li>
+			<li>partition #2		1,000,000 MB</li>
+			<h2>Ram:</h2>
+			<li>Motherboard slot #1	2.00 GB</li>
+			<li>Motherboard slot #2 2.00 GB</li>
+		</ul>
+	</div>
+	<div>
+	  <div>
+		<h2>JavaScript Functions</h2>
+		  <p>Acessing a function without perenthesis \"()\" <br />
+		  will return the function definition instead of the function result:</p>
+		  <p id="demo"></p>
+			
+		<p>iframe:
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=billybillions-20&language=en_US&marketplace=amazon&region=US&placement=B06XFMFMZL&asins=B06XFMFMZL&linkId=b5fd4c95ee43cf1fa30c49e783262d6c&show_border=true&link_opens_in_new_window=true"></iframe>
+    <hr width="70%" /></p>
 	
-	<!-- main Article -->>
-    <article class="main">
-      
-	  <section class="one">
-        <h1><a href="https://amzn.to/2PDdvqX">MyQ Smart Garage Door Opener Chamberlain MYQ-G0301 - Wireless & Wi-Fi enabled Garage Hub with Smartphone Control </a></h1>
-		<p>This is the Main body of the document</p>
-		<br /><br /><br /><br /><br />
-      </section>
-	  
-<section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-<section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-<section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-<section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-    </article>
-  </div>
+  <script>
+  function toCelcius(f) {
+    return (5/9) * (f-32);
+  }
+  document.getElementById("demo").innerhtml = toCelcius;
+  </script>
+  <script>
+    var text= "if the temperature is 77 Farenheiht" +
+toCelcius(77) + " Celcius." ; alert(textx);
+  </script>
 </body>
 </html>
-            
-            nav li a {
-                color: var(--clr-light);
-                text-decoration: none;
-                display: inline-block;
-            }
-            
-            body .wrapper header nav ul {
-                background-color: var(--clr-dark);
-                margin: 10px;
-                padding: 10px;
-                border: #5a5 solid 8px;
-                border-radius: 10px;
-                box-shadow: 3px 4px 6px #1f1f1f;
-                display: inline-block;
-                list-style: none;
-            }
-            
-            header {
-                display: flex;
-            }
-            
-            header navMenu ul li {
-                display: inline-block;
-            }
-            
-            header nav li {
-                margin: 0 3px;
-                border: solid 3px;
-                border-color: #0ef;
-            }
-            
-            .menu {
-                background-color: #999;
-                width: 200px;
-                height: 200px;
-                float: none;
-                box-shadow: 3px 4px 6px #3e3e3e;
-            }
-            
-            article {
-                border: #999 solid 10px;
-                border-radius: 10px;
-                box-shadow: inset 4px 5px 7px #5a5a5a, 4px 4px 6px #222;
-            }
-            
-            .main section {
-                padding: 20px;
-                background: #01d191;
-                color #ddd;
-                text-shadow: #111 2px 2pc 6px;
-            }
-        </style>
-        <script>
-            $(function onLoad() {
-                const q = 0;
-                alert('Welcome to my Repository, take a minute to sign my guestBook and while you\'re there' + < br / >
-                    'I would appreciate it if you could leave me a message with your thoughts.' + q);
-            };);
-            q++;
-            var elements = [];
-            for (i = 0, element in elements) {
-                document.getElementByClass(".array");
-                inner.html = document.Write(elements[i] + " status: Indexed");
-            } else {
-                alert("there is an issue indexing the" + elements[i] + "element.")
-            };
-            else {
-                alert("its broken :((")
-            };
-            break;
-        </script>
-    </head>
-
-    <body class="text-large">
-        <div class="wrapper">
-            <header>
-                <div class="logo">
-                    <h2>KingBill404 github repository</h2>
-                    <p>Welcome to my Github repository Homepage. use the navigation bar to browse my other pages.</p>
-                </div>
-                <nav class="menu">
-                    <ul>
-                        <h3>Nav Menu</h3>
-                        <li><a href="http://www.youtube.com"><span class="fa fa-diamond"></span>YouTube</a></li>
-                        <li><a href="#"><span class="fa fa-star"></span>Scripts</a></li>
-                        <li><a href="#"><span class="fa fa-user"></span>Browse</a></li>
-                        <li><a href="#"><span class="fa fa-envelope"></span>Work</a></li>
-                    </ul>
-                </nav>
-                <section>
-                    <h1>kingBill404's Repository Index.html</h1>
-                    <p>Heresd where i try and make sense of all the disorganized, half-thought-out projects ive been haphazardly throwing here.</p>
-                </section>
-            </header>
-            <article class="main">
-                <section class="one">
-                    <h4>Section</h4>
-                    <p><!DOCTYPE html><head lang="en-US">
-<!--
-  Developer Comment Section:
-    Pastables:
-    <meta name="" content="" />
-    <meta name="" content="" />
-    <link rel="" href="" />
-    <link rel="" href="" />
--->
-<head>
-<title>KingBill404's Github Repository Website Script</title>
-<!-- Meta -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="This is the website script for Repository: KingBill404" />
-<!-- links -->
-<!link rel="stylesheet"href="" />
-<link rel="stylesheet" href="./assets/css/main.css" />
-<style>
-:root {
-  /*var(custom-name, value)*/
-  --clr-light, #ddd;
-  --clr-dark, #333;
-  --clr-trim, #38C638;
-  --sha-out, 1px 2px 2px #222;
-}
-* {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
-}
-body {
-  padding: 6px;
-  background-color: var(--clr-light);
-  display: block;
-}
-.text-large {
-  font-size: 120%;
-}
-body div {
-  background-color: RGBA(65, 65, 65, .8);
-  color: #ddd;
-  margin: 6px;
-  padding: 0 10px;
-  border: #5f5f5f solid 13px;
-  border-radius: 10px;
-  box-shadow: 3px 4px 6px #1f1f1f;
-}
-nav li a {
-  color: var(--clr-light);
-  text-decoration: none;
-  display: inline-block;
-}
-body .wrapper header nav ul {
-  background-color:var(--clr-dark);
-  margin: 10px;
-  padding: 10px;
-  border: #5a5 solid 8px;
-  border-radius: 10px;
-  box-shadow: 3px 4px 6px #1f1f1f;
-  display: inline-block;
-  list-style: none;
-}
-header  {
-  display: flex;  
-}
-header navMenu ul li {
-  display: inline-block;
-}
-  
-header nav li {
-  margin: 0 3px;
-  border: solid 3px;
-  border-color: #0ef; 
-}
-.menu {
-  background-color: #999;
-  width: 200px;
-  height: 200px;
-  float: none;
-  box-shadow: 3px 4px 6px #3e3e3e;
-}
-article {
-  border: #999 solid 10px;
-  border-radius: 10px;
-  box-shadow:inset 4px 5px 7px #5a5a5a, 4px 4px 6px #222;
-}
-.main section {
-  padding: 20px;
-  background: #01d191;
-  color #ddd;
-  text-shadow: #111 2px 2pc 6px;
-} 
-</style>
-<script>
-  $(function onLoad() {
-    const q = 0;
-    alert('Welcome to my Repository, take a minute to sign my guestBook and while you\'re there' + <br /> 
-    'I would appreciate it if you could leave me a message with your thoughts.' + q);
-  };);
-    q++;
-    var elements = [];
-    for (i=0, element in elements) {
-      document.getElementByClass(".array");
-      inner.html = document.Write(elements[i] + " status: Indexed");
-    } else {alert("there is an issue indexing the" + elements[i] + "element.")}; 
-    else {alert("its broken :((")}; break;
-</script>
-</head>
-<body class="text-large">
-  <div class="wrapper">
-    <header>
-      <div class="logo">
-        <h2>KingBill404 github repository</h2>
-        <p>Welcome to my Github repository Homepage. use the navigation bar to browse my other pages.</p>
-      </div>
-      <nav class="menu">
-        <ul><h3>Nav Menu</h3>
-          <li><a href="http://www.youtube.com"><span class="fa fa-diamond"></span>YouTube</a></li>
-          <li><a href=""><span class="fa fa-star"></span>MyQ Smart Garage Door Opener Chamberlain MYQ-G0301 - Wireless & Wi-Fi enabled Garage Hub with Smartphone Control</a></li>
-          <li><a href="#"><span class="fa fa-user"></span>Browse</a></li>
-          <li><a href="#"><span class="fa fa-envelope"></span>Work</a></li>
-        </ul>
-      </nav>
-	  
-	    <>
-      <section>
-        <h1></h1>
-        <p><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=billybillions-20&marketplace=amazon&region=US&placement=B075H7Z5L8&asins=B075H7Z5L8&linkId=681dccfd336e296810031045362b746b&show_border=true&link_opens_in_new_window=true">
-		  </iframe>
-		</p>
-      </section>
-    </header>
-    <article class="main">
-      <section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-<section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-<section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-<section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-<section class="one">
-        <h4>Section</h4><p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-      </section>
-    </article>
-  </div>
-</body>
-</html></p><br /><br /><br /><br /><br />
-                </section>
-                <section class="one">
-                    <h4>Section</h4>
-                    <p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-                </section>
-                <section class="one">
-                    <h4>Section</h4>
-                    <p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-                </section>
-                <section class="one">
-                    <h4>Section</h4>
-                    <p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-                </section>
-                <section class="one">
-                    <h4>Section</h4>
-                    <p>This is the Main body of the document</p><br /><br /><br /><br /><br />
-                </section>
-            </article>
-        </div>
-    </body>
-
-    </html>
