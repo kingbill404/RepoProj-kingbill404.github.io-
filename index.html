@@ -11,30 +11,38 @@
   text-align: center;
 }
 
+:root { /* Vars */
+    --dark: #333;
+    --light: #eee;
+    --med: #3ddd3d;
+    --med2: #4ddd4d;
+    --sha: 8px 13px 2px rgba(95, 95, 95, 0.8), 
+		  inset 13px 8px 10px rgba(200, 200, 200, 0.8);
+    --sha1: 1px 2px 1px rgba(120, 120, 120, 0.8);
+    --bdr: 2px solid #111;
+
 body {
   padding: 20px 25%;
 }
 
-	body div {
-	  justify-content: center;
-          display: flexbox;
-          background-color: #3ddd3d;
-          color: #fff;
-          padding: 10px;
-          border: 3px solid #333;
-          border-radius: 10px;
-          text-shadow: 3px 2px 1px rgba(100,100, 100, 0.8);
-          box-shadow: 3px 5px 5px rgba(146, 146, 146, 0.8),
-          inset 8px 5px 6px rgba(255, 1255, 255, 0.5);
-	}
+body div {
+  justify-content: center;
+  display: flexbox;
+  background-color: #3ddd3d;
+  color: #fff;
+  padding: 10px;
+  border: 3px solid #333;
+  border-radius: 10px;
+  text-shadow: 3px 2px 1px rgba(100,100, 100, 0.8);
+  box-shadow: 3px 5px 5px rgba(146, 146, 146, 0.8),
+        inset 8px 5px 6px rgba(255, 1255, 255, 0.5);
+}
 	
 body .notes  {
-  
+  box-shadow; 0 0 10px 2px #fff;	
 }
 	
-.notes ul {
-  display: inline-block;
-}
+.notes ul {}
   
 .notes ul li {
   border-bottom: 2px dotted #000;
@@ -45,10 +53,25 @@ body .notes  {
 text-transform: underline;
 text-decoration: uppercase;
 }
+	
+.btn {
+    ---hue var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ddd;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: #111;
+}
+
 </style>
 </head>
 <body>
-	<div>
+	<div class='links'>
 	<h2>Links:<h2>
 	  <ul>
              <li><a href="https://soundcloud.com/you/library">SoundCloud</a></li>
