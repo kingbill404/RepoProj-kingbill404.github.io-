@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <meta http-equiv="xmlns" ie="edge" />
 
-    <!-- Document Spacific meta data -->
+    <!-- Settings -->
     <title>Bill_Billions' Server, Databse and index script</title>
     <meta name="description" content="" />
     <!--meta name="og:description" content=""-->
@@ -17,22 +17,21 @@
     <meta name="description" content="npm node.js server sandbox by Bill_Billlions, This Text will be indexed and displayed by search engines" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CDN -->
+    <!-- Refrence -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-	
+
 
     <style type="text/css">
          :root {
-            /* Vars */
+            /* Colors */
             --dark: #333;
             --light: #eee;
             --med: #3ddd3d;
-			--med2: #3d3;
-            --sha: 8px 13px 2px rgba(95, 95, 95, 0.8), 
-			  inset 13px 8px 10px rgba(200, 200, 200, 0.8);
+            --med2: #3d3;
+            /* Shadows & Borders */
+            --sha: 8px 13px 2px rgba(95, 95, 95, 0.8), inset 13px 8px 10px rgba(200, 200, 200, 0.8);
             --sha1: 1px 2px 1px rgba(120, 120, 120, 0.8);
-			--bdr: 2px solid #111;
-			
+            --bdr: 2px solid #111;
         }
         
         * {
@@ -48,22 +47,22 @@
             box-shadow: 0 0 10px #ddd;
         }
         
-		.box {
-		    margin: 6rem 0;
+        .box {
+            margin: 6rem 0;
             padding: 0 8px;
             border: var(--bdr);
             border-radius: 8px;
             box-shadow: var(--sha);
-			background-color: var(--med);
-		}
-		
+            background-color: var(--med);
+        }
+        
         header {
             margin: 6rem 0;
             padding: 0 8px;
             border: var(--bdr);
             border-radius: 8px;
             box-shadow: var(--sha);
-			background-color: var(--med);
+            background-color: var(--med);
         }
         
         header nav {
@@ -71,10 +70,11 @@
         }
         
         .header ul {
-		    background: transparent;
+            text-shadow: var(--sha1);
+            background: transparent;
             list-style: none;
-			box-shadow: var(--sha1);
-			background-color: var(--med2);
+            box-shadow: var(--sha);
+            background-color: var(--med2);
         }
         
         .font-large {
@@ -85,7 +85,7 @@
             border: var(--bdr);
             border-radius: 3px;
             display: block;
-			background-color: var(--med);
+            background-color: var(--med);
         }
         
         .menuBtn {
@@ -114,7 +114,7 @@
         }
         
         .text-large {
-            text-size: 120%;
+            text-transform: 120%;
         }
         
         .box-shad1 {
@@ -122,13 +122,15 @@
         }
         
         #input {
-		   background-color: var(--med2);
-		   padding-bottom: 10px;
-		}
+            background-color: var(--med2);
+            padding-bottom: 10px;
+        }
         
         #myTextBox {
-		   background-color: var(--med);
-		}
+            background-color: var(--med);
+        }
+        
+        .navbar {}
         
         .results-panel {}
         
@@ -151,29 +153,29 @@
             text-transform: uppercase;
         }
     </style>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="font-large">
 
     <div class="content">
-	
+        a-archway:before fa-arrow-circle-right:before fa-artstation:before fa-baseball-ball:before fa-book-dead:before
         <header>
             <nav class="header-nav">
                 <ul class="menu">
-                    <li class="btn menu-button">
-                        <a href="youtube.com"><span class='fa-diamond'></span>
+                    <li class="fancybox-nav">
+                        <a href="http://www.youtube.com" class='btn menu-btn'><span class='fa fa-diamond'></span>
                           <span class='icon span-icon fa fa-diamond'></span>YouTube
                         </a>
                     </li>
 
                     <li>
                         <a href="github.com"><img src="logo.jpg" width="100%">
-			  <span class='btn fa-cog'></span><p>GitHub</p>    
-		        </a>
+                            <span class='btn fa-cog'></span>
+                            <p>GitHub</p>
+                        </a>
                     </li>
-	
-	            <li><a href='gmail.com'><span class='btn fa-envelope'></span><p>Gmail</p></a></li>
+
+                    <li><a href='gmail.com'><span class='btn fa-envelope'></span><p>Gmail</p></a></li>
                 </ul>
             </nav>
         </header>
@@ -181,11 +183,12 @@
         <div class="title">
             <h1>Big Kahuna Sports</h1>
         </div>
-		
+
         <section class="box iframe-box">
-            <ul><div>Iframe Box</div>
+            <ul>
+                <div>Iframe Box</div>
                 <li class="iframe0">
-		    <p>frame:</p>
+                    <p>frame:</p>
                     <iframe src="https://onedrive.live.com/embed?cid=721ABA21564E58A2&resid=721ABA21564E58A2%2110764&authkey=ADNXqwWXHIORqmE" width="98" height="120" frameborder="0" scrolling="no"></iframe>
                 </li>
 
@@ -213,7 +216,7 @@
             <div>
                 <p>product pannels have been made above this.</p>
             </div>
-			<hr width='78%'/>
+            <hr width='78%' />
             <h1>This is the Notes Section</h1>
             <p>
                 <ul>
@@ -224,18 +227,18 @@
                     <li>main</li>
                     <li>jquery.min</li>
                     <li>three</li>
-		    <li>bootstrap</li>
+                    <li>bootstrap</li>
                 </ul><br />
             </p>
         </section>
-        
-	<section>
+
+        <section>
             <div>
                 <p>short description</p>
             </div>
-			<hr width='78%'/>
-            
-			<h1>This is a Section</h1>
+            <hr width='78%' />
+
+            <h1>This is a Section</h1>
             <p>
                 <ul>
                     <div><u><b>list<b></u></div>
@@ -243,12 +246,12 @@
                     <li>item</li>
                     <li>item</li>
                 </ul>
-				<br />
+                <br />
             </p>
-		</section>		
-    
-	</div>
-</div>
+        </section>
+
+    </div>
+    </div>
 
     <script type="text/javascript">
         function substitute() {
@@ -273,8 +276,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js." type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" type="text/javascript"></script>
-	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" type="text/javascript"></script>
+
 </body>
 
 </html>
