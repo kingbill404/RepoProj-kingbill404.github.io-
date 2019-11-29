@@ -33,9 +33,11 @@
             --sha: 8px 13px 2px rgba(95, 95, 95, 0.8), inset 13px 8px 10px rgba(200, 200, 200, 0.8);
             --sha1: 1px 2px 1px rgba(120, 120, 120, 0.8);
             --bdr: 2px solid #111;
+			--bdr2: 2px dotted rgba(120, 120, 120, 0.8);
         }
         
         * {
+			color: var(--light);
             margin: 20px auto;
             padding: auto 10px;
             box-sizing: border-box;
@@ -48,10 +50,12 @@
             color: #fff;
             box-shadow: 0 0 10px #ddd;
         }
-        .cpontent {
+        .background {
 			bsackground: url("bg.jpg");
 		}
         .box {
+			justify-content: center;
+			color: #eee;
             margin: 6rem 0;
             padding: 0 8px;
             border: var(--bdr);
@@ -89,13 +93,14 @@
         }
         
         .menu-Btn {
-            color: var(--dark);
+            color: var(--light);
             margin-left: 20px;
-            flex: left;
+            flex: center;
             width: 100px;
             border: var(--bdr);
             border-radius: 8px;
             box-shadow: var(--sha);
+			text-shadow: var(--sha);
         }
         
         .menu {
@@ -104,15 +109,19 @@
         }
         
         .btn {
+			height: 220px;
+			width: 76px;
             margin: 10px;
             padding: 0 10px;
-            border: 2px dotted rgba(120, 120, 120, 0.8);
+            border: var(--bdr2);
             vertical-align: auto;
             border-radius: 3px;
             background-color: rgba(20, 120, 20, .8);
-        }
+            text-transform: 120%;
+		}
         
         .btn:hover {
+			animation: lift 1s infinite;
             box-shadow: var(--sha);
             text-shadow: var(--sha1);
         }
@@ -205,7 +214,7 @@
         .body ul {
             border: var(--bdr);
             display: block;
-            background-color: 3d3;
+            background-color: #494;
         }
         
         .body ul li {
@@ -214,10 +223,14 @@
         }
         
         .fancybox-nav {
-            width: 200px;
-            height: 200px;
+			text-align: center;
+			background-color: var(--clrb);
+			color: var(--light);
+            width: 120px;
+            height: 65px;
             border: var(--bdr);
-        }
+            border-radius: 8px;
+		}
         
         h2 {
             color: var(--clrb);
@@ -235,8 +248,23 @@
         
         .header-nav {
             display: inline-block;
-            Background-color: var(--dark);
+            Background-color: var(--med2);
+			border: var(--bdr2);
         }
+		
+		@keyframes animation lift {
+			from: {
+				box-shadow: var(--sha1);
+			}
+			
+			50% {
+				box-shadow: 4px 4px 2px #777;
+			}
+			
+			to {
+				var(--bdr2);
+			}
+		}
     </style>
 </head>
 
@@ -250,32 +278,28 @@
             </div>
 
             <div>
-                <p><span class='fa-x2 fade-in fa-diamond'></span></p>
+                <p><span class='fa-x2 btn fade-in fa-diamond'></span></p>
                 <p><span class='fa-x2 btn fa-youtube'>YouTube</span></p>
-                <p><span class='fa-x2 fa-eraser'></span></p>
-                <p><span class='fa-x2 fa-baseball-ball'></span></p>
-                <p><span class='fa-x2 fa-book-dead'></span></p>
+                <p><span class='fa-x2 btn fa-eraser'></span></p>
+                <p><span class='fa-x2 btn fa-baseball-ball'></span></p>
+                <p><span class='fa-x2 btn fa-book-dead'></span></p>
             </div>
 
             <nav class="header-nav">
                 <ul class="menu">
-                    <li class="fancybox-nav">
-                        <a href="http://www.youtube.com' class='btn menu-btn'><span class='fa fa-diamond'></span>
-                              <span class='icon span-icon fa fa-youtube'></span>YouTube
-                        </a>
+                    <li class="btn fancybox-nav">
+                        <a href='http://www.youtube.com' class='btn menu-btn'>
+						<span class='icon span-icon fa-x5 fa-youtube'></span>YouTube</a>
                     </li>
 
-                    <li class='fancybox-nav'>
+                    <li class='btn fancybox-nav'>
                         <a href="http://www.github.com"><img src="logo.jpg' width="100%">
-                            <span class='btn fa-cog'></span>
-                            <p>GitHub</p>
-                        </a>
+                        <span class='fa fa-cog'></span>GitHub</a>
                     </li>
 
-                    <li class="fancybox-nav">
+                    <li class='btn fancybox-nav'>
                         <a href='http://www.gmail.com'>
-                            <span class='btn fa-envelope '></span> Gmail
-                        </a>
+                        <span fa-envelope'></span>WR Gmail - inbox</a>
                     </li>
                 </ul>
 			</nav>
