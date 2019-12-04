@@ -103,8 +103,8 @@
         .menu-Btn {
             color: var(--light);
             margin-left: 20px;
-            flex: center;
-            width: 100px;
+            display: inline-block; 
+            width: 200px;
             border: var(--bdr);
             border-radius: 8px;
             box-shadow: var(--sha);
@@ -117,10 +117,10 @@
         }
         
         .btn {
-			height: 220px;
-			width: 76px;
-            margin: 10px;
-            padding: 0 10px;
+			height: 120px;
+			width: 240px;
+            margin: 0;
+            padding: 0;
             border: var(--bdr2);
             vertical-align: auto;
             border-radius: 3px;
@@ -203,7 +203,7 @@
         h6 {
             text-decoration: underline;
             letter-spacing: 3px;
-            border: 2px solid #ddd;
+           
             border-radius: 3px;
             color: #eee;
         }
@@ -231,7 +231,8 @@
         }
         
         .fancybox-nav {
-			text-align: center;
+		    display: flexbox;
+			margin-left: 10px;
 			background-color: var(--clrb);
 			color: var(--light);
             width: 120px;
@@ -240,6 +241,14 @@
             border-radius: 8px;
 		}
         
+		span-icon {
+		  text-align: center;
+		}
+		
+		h1 {
+		   border: 2px solid #ddd;
+		}
+		
         h2 {
             color: var(--clrb);
         }
@@ -305,17 +314,17 @@
                 <ul class='menu'>
                     <li class='btn fancybox-nav'>
                         <a href='http://www.youtube.com' class='btn menu-btn'>
-						<span class='icon span-icon fa-5x fa-youtube'></span>YouTube</a>
+						<span class='icon span-icon fa-youtube'></span>YouTube</a>
                     </li>
 
                     <li class='btn fancybox-nav'>
                         <a href='http://www.github.com' class='btn menu-btn'>
-                        <span class='icon span-icon fa-5x fa-cog'></span>GitHub</a>
+                        <span class='icon span-icon fa-cog'></span>GitHub</a>
                     </li>
 
                     <li class='btn fancybox-nav'>
                         <a href='http://www.gmail.com' class='btn menu-btn'>
-                        <span class='icon span-icon fa-5x fa-envelope'></span>Gmail - inbox</a>
+                        <span class='icon span-icon fa-envelope'></span>Gmail - inbox</a>
                     </li>
                 </ul>
 			</nav>
@@ -375,62 +384,64 @@
 		<article>
 		    <section class='box'>
 	   <div class='box'>
-             <p>[Intro: Redman (Method Man)]
-Oh my god, oh my god!
-Aaaow! (Boo!)
-Uh, uh, yo, uh
+			<p><pre>
+			[Intro: Redman (Method Man)]
+					Oh my god, oh my god!
+					Aaaow! (Boo!)
+					Uh, uh, yo, uh
 
-[Verse 1: Method Man]
-Microphone checka, swingin' sword lecture
-Closin' down the sector, supreme neck protector
-Better warn 'em kid, Mr. Meth's a boiling pot
-About to blow his lid from the pressure, too hot for TV
-For sheesy, too many wanna be hard be easy
-It's all N'together, going all out together
-It don't take much to please me
-Still homes I'm never satisfied like the Stones
-We don't condone bitin' see them skull and crossbones
-Protecting what I'm writing
-Don't clash with the Titan who blast with a license
-To kill rap reciting
-Come on, in the zone with ya nigga from the Group Home TICAL (Fuck your lifestyle!)
-Put your lights out
-Get the shit to crackin' got you fiending with your pipes out
-Time for some action
-Surfin' the avenue, mad at you, where I used to battle crews
-Back when Antoinette had that attitude
-Cover me I'm going in, walls closing in
-Got us bustin' off these pistols, my niggas got issues
-Again, same song armed with the mega bomb
-Blow you out the frame and then I'm gone
+					[Verse 1: Method Man]
+					Microphone checka, swingin' sword lecture
+					Closin' down the sector, supreme neck protector
+					Better warn 'em kid, Mr. Meth's a boiling pot
+					About to blow his lid from the pressure, too hot for TV
+					For sheesy, too many wanna be hard be easy
+					It's all N'together, going all out together
+					It don't take much to please me
+					Still homes I'm never satisfied like the Stones
+					We don't condone bitin' see them skull and crossbones
+					Protecting what I'm writing
+					Don't clash with the Titan who blast with a license
+					To kill rap reciting
+					Come on, in the zone with ya nigga from the Group Home TICAL (Fuck your lifestyle!)
+					Put your lights out
+					Get the shit to crackin' got you fiending with your pipes out
+					Time for some action
+					Surfin' the avenue, mad at you, where I used to battle crews
+					Back when Antoinette had that attitude
+					Cover me I'm going in, walls closing in
+					Got us bustin' off these pistols, my niggas got issues
+					Again, same song armed with the mega bomb
+					Blow you out the frame and then I'm gone
 
-[Verse 2: Redman]
-Yo, I was gone too but we roam, cellular phones
-Doc-Meth back in the flesh, blood and bones
-Don't condone, spend bank loans on homegrown
-Suckers break like Turbo and Ozone 
-When I, grab the broom
-Moon-walk platoon hawk my goons bark
-Leave you in a blue lagoon lost (true)
-Three nines in the glove with Masu, D-Don and The Gov'
-Right behind on a bus
-Haters don't touch (what?) weigh us both up
-Now my neighbor doped up
-Got the cable hooked up, all channels
-Lift my shirt all mammal
-You ship off keys and we ship Grand Pianos
-Sawed off shotgun, hand on the pump
-Sippin' on a forty, yo smokin' on a blunt
-Bust my gun y'all. Red and Meth didn't jump
-La, la, la, la, la, la, la, laaaaa
-Yeah come on, Red and Meth didn't jump
-La, la, la, la, la, la, la, laaaaa</p>
+					[Verse 2: Redman]
+					Yo, I was gone too but we roam, cellular phones
+					Doc-Meth back in the flesh, blood and bones
+					Don't condone, spend bank loans on homegrown
+					Suckers break like Turbo and Ozone 
+					When I, grab the broom
+					Moon-walk platoon hawk my goons bark
+					Leave you in a blue lagoon lost (true)
+					Three nines in the glove with Masu, D-Don and The Gov'
+					Right behind on a bus
+					Haters don't touch (what?) weigh us both up
+					Now my neighbor doped up
+					Got the cable hooked up, all channels
+					Lift my shirt all mammal
+					You ship off keys and we ship Grand Pianos
+					Sawed off shotgun, hand on the pump
+					Sippin' on a forty, yo smokin' on a blunt
+					Bust my gun y'all. Red and Meth didn't jump
+					La, la, la, la, la, la, la, laaaaa
+					Yeah come on, Red and Meth didn't jump
+					La, la, la, la, la, la, la, laaaaa
+				</pre></p>
            </div>	
 		   </section>
         </article>
 
         
-        <!--article class='box article-box'>
+        <article class='box article-box'>
             <section class="box results-box' id="panel000">
                 <div id="pannel-header">
                     <div id="result">
@@ -479,7 +490,7 @@ La, la, la, la, la, la, la, laaaaa</p>
                     <br />
                 </p>
             </section>
-        </article-->
+        </article>
 
     </div>
 
