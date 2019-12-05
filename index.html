@@ -59,7 +59,7 @@
             box-shadow: 0 0 10px #ddd;
         }
         .background {
-			bsackground: url("bg.jpg");
+			background: url("bg.jpg");
 		}
         .box {
 			justify-content: center;
@@ -100,7 +100,7 @@
             background-color: var(--med);
         }
         
-        .menu-Btn {
+        .menu-btn {
             color: var(--light);
             margin-left: 20px;
             display: inline-block; 
@@ -278,7 +278,7 @@
 				box-shadow: 4px 4px 2px #777;
 			}
 			
-			to {
+			100% {
 				box-shadow: var(--sha);
 			}
 		}
@@ -302,7 +302,7 @@
                 <p>Dont't worry about it, Warrior 'bout it!</p>
 			</div>
 
-            <div class='iocn-grid'><h2>Icon Test Grid</h2>
+            <div class='icon-grid'><h2>Icon Test Grid</h2>
                 <p><span class='fa-x2 btn fade-in fa-diamond'>Diamond</span></p>
                 <p><span class='fa-x2 btn fa-youtube'></span>YouTube</p>
                 <p><span class='fa-x2 btn fa-eraser'></span>Eraser</p>
@@ -310,13 +310,19 @@
                 <p><span class='fa-x2 btn fa-book-dead'></span>Book</p>
             </div>
 
-            <nav class='header-nav'>
+            <nav class='background header-nav'>
                 <ul class='menu'>
+			
                     <li class='btn fancybox-nav'>
                         <a href='http://www.youtube.com' class='btn menu-btn'>
-						<span class='icon span-icon fa-youtube'></span>YouTube</a>
+			<span class='icon span-icon fa-youtube'></span>YouTube</a>
                     </li>
 
+		    <li class='btn fancybox-nav'>
+                        <a href='https://www.messenger.com/new' class='btn menu-btn'>
+                        <span class='icon span-icon fa-cog'></span>Messenger</a>
+                    </li>
+			
                     <li class='btn fancybox-nav'>
                         <a href='http://www.github.com' class='btn menu-btn'>
                         <span class='icon span-icon fa-cog'></span>GitHub</a>
@@ -324,33 +330,33 @@
 
                     <li class='btn fancybox-nav'>
                         <a href='http://www.gmail.com' class='btn menu-btn'>
-                        <span class='icon span-icon fa-envelope'></span>Gmail - inbox</a>
+                        <span class='icon span-icon fa-envelope'></span>Gmail</a>
                     </li>
                 </ul>
-			</nav>
+	     <nav>
         </header>
         
 		<article>
 		
 			<section class='box'>
 				<ul>
-					<li class='iframe-box'>
+					<li class='box iframe-box'>
 						<h2>Maceys button script</h2>
 						<iframe src='https://onedrive.live.com/embed?cid=721ABA21564E58A2&resid=721ABA21564E58A2%2110764&authkey=ADNXqwWXHIORqmE' width='98' height='120' frameborder='0' scrolling='no'></iframe>
 					</li>
 
-					<li class='iframe-box'>
+					<li class='box iframe-box'>
 						<h2><del>iframe:</del></h2>
 					</li>
 				</ul>
 				
-				<div class='input'>
+				<div class='box input'>
 					<h3>Input Test pannels:<h3>
 					<p>Enter A Username and Password ('any info is not saved this is just a test') </p>
 					<input type='text' id='myTextBox' />
-					<inout type='password' id='userpass' />
+					<input type='password' id='userpass' />
 					<input type='submit' value='Substitute' onclick='substitute()' />
-					<h2 claee=''><h2>
+					<h2 class='title'><h2>
 				</div>
 			</section>
 	    </article>
@@ -383,8 +389,9 @@
 		
 		<article>
 		    <section class='box'>
-	   <div class='box'>
-			<p><pre>
+	                <div class='box'>
+		            <h3>Wu Tang Lyrics</h3>
+			        <p><pre>
 			[Intro: Redman (Method Man)]
 					Oh my god, oh my god!
 					Aaaow! (Boo!)
@@ -436,8 +443,8 @@
 					Yeah come on, Red and Meth didn't jump
 					La, la, la, la, la, la, la, laaaaa
 				</pre></p>
-           </div>	
-		   </section>
+                </div>	
+	    </section>
         </article>
 
         
@@ -447,14 +454,14 @@
                     <div id="result">
                         <p><b><u>Input Result</u></b></p>
                         <h1 id='title'></h1>
-                        <p></p>
+                        <p>This is result panel 2</p>
                     </div>
                 </div>
             </section>
 
             <section class='box notes'>
                 <div>
-                    <p>product pannels have been made above this.</p>
+                    <p>blah blah</p>
                 </div>
                 <hr width='78%' />
                 <h1>This is the Notes Section</h1>
