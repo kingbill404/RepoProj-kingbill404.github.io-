@@ -120,6 +120,11 @@ i {
     padding: 0 16px;
 }
 
+	.picarray {
+	  display: grid;
+         grid-auto-rows: 2(repeat);
+	 border: var(--bor);
+	}
 </style>
 
 </head>
@@ -150,7 +155,17 @@ i {
 				View attributions
 			    </i>
 			</p>
-		</div>
+			<div class='picarray'>
+				<img src='img1.png' width='120px' height='120px' />
+				<img src='img2.png' width='120px' height='120px' />
+				<img src='img3.png' width='120px' height='120px' />
+				<img src='img4.png' width='120px' height='120px' />
+				<img src='img5.png' width='120px' height='120px' />
+				<img src='img6.png' width='120px' height='120px' />
+				<img src='img7.png' width='120px' height='120px' />
+				<img src='img8.png' width='120px' height='120px' />
+			</div>
+	        </div>
 		
 		<div class='box button-box'>
 			<button class='btn' onclick="myFunction()">Click Me!</button>
