@@ -4,22 +4,23 @@
 <head>
     <!-- Required Meta -->
     <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width initial-scale=0.5'>
+    <meta name='viewport' content='width=device-width initial-scale=1.0'>
     <meta http-equiv='content-type' content='text/html; charset=UTF-8' />
-   
+
     <!-- Settings -->
     <title>Bill Billions Sandbox Website</title>
-    
-	<!--Search Engines -->
-	<meta name='robots' content='index' />
-	<meta name='description' content='Hello Web Surfers! Welcome to kingBill404s Freehand Sandbox script. Have a look around I usually keep some cool suff here' />
-    
-	<meta name='og:description' content='This is kingBill404s node sandbox'>
-    
-	<meta name='keywords' content='github kingbill kingbill404 repository fullstack development cose programming html hyper text language css javascript cascading stylesheets' />
-    <meta name='og:description' content='kingBill404s web Sanbox By BillBillions aka kingBillThaWizard. Amatuer full-stack Developer Welcome to my Sandbox This is where i stage projects and keep some good stuff for sharing recently been focusing my efforts on web Dev coming from Admin and back-end, object oriented languages. now im trying out the design aspect and enjoying how different yet simailar the two can be. now featuring rick and morty season 4 section' />
-    
-	<!--meta name="" content="" /-->
+
+    <!--Search Engines -->
+    <meta name='robots' content='index' />
+    <meta name='description' content='Hello Web Surfers! Welcome to kingBill404s Freehand Sandbox script. Have a look around I usually keep some cool suff here' />
+
+    <meta name='og:description' content='This is kingBill404s node sandbox'>
+
+    <meta name='keywords' content='github kingbill kingbill404 repository fullstack development index.html hyper text language css javascript cascading stylesheets' />
+    <meta name='og:description' content='kingBill404s web Sanbox By BillBillions aka kingBillThaWizard. Amatuer full-stack Developer Welcome to my Sandbox This is where i stage projects and keep some good stuff for sharing recently been focusing my efforts on web Dev coming from Admin and back-end, object oriented languages. now im trying out the design aspect and enjoying how different yet simailar the two can be. now featuring rick and morty season 4 section'
+    />
+
+    <!--meta name="" content="" /-->
     <!--meta name='description' content="polyServerSandBox by Bill_Billlions, This Text will be indexed and displayed by search engines' />
     <meta name='viewport' content="width=device-width, initial-scale=1.0' /-->
 
@@ -35,35 +36,37 @@
             --med: #3ddd3d;
             --med2: #3d3;
             --clrb: #333dd3;
-			--med3: #3aaa3a;
-			
+            --med3: #3aaa3a;
             /* Shadows and Borders */
             --sha: 8px 13px 2px rgba(95, 95, 95, 0.8), inset 13px 8px 10px rgba(200, 200, 200, 0.8);
             --sha1: 1px 2px 1px rgba(120, 120, 120, 0.8);
             --bdr: 2px solid #111;
-			--bdr2: 2px dotted rgba(120, 120, 120, 0.8);
+            --bdr2: 2px dotted rgba(120, 120, 120, 0.8);
         }
         
         * {
-			color: var(--light);
+            color: var(--light);
             margin: 20px auto;
             padding: auto 10px;
             box-sizing: border-box;
             position: relative;
-		}
+        }
         
         body {
+            display: flexbox;
             text-shadow: var(--sha1);
             background-color: #333;
             color: #fff;
             box-shadow: 0 0 10px #ddd;
         }
+        
         .background {
-			background: url("bg2.jpg");
-		}
+            background: url("bg2.jpg");
+        }
+        
         .box {
-			justify-content: center;
-			color: #eee;
+            justify-content: center;
+            color: #eee;
             margin: 6rem 0;
             padding: 0 8px;
             border: var(--bdr);
@@ -90,9 +93,10 @@
             background: transparent;
             list-style: none;
             box-shadow: var(--sha);
+            width: 20px;
             background-color: var(--med2);
         }
-		
+        
         .content {
             border: var(--bdr);
             border-radius: 3px;
@@ -103,12 +107,12 @@
         .menu-btn {
             color: var(--light);
             margin-left: 20px;
-            display: inline-block; 
+            display: inline-block;
             width: 200px;
             border: var(--bdr);
             border-radius: 8px;
             box-shadow: var(--sha);
-			text-shadow: var(--sha);
+            text-shadow: var(--sha1);
         }
         
         .menu {
@@ -117,8 +121,8 @@
         }
         
         .btn {
-			height: 120px;
-			width: 240px;
+            height: 120px;
+            width: 200px;
             margin: 0;
             padding: 0;
             border: var(--bdr2);
@@ -126,10 +130,10 @@
             border-radius: 3px;
             background-color: rgba(20, 120, 20, .8);
             text-transform: 120%;
-		}
+        }
         
         .btn:hover {
-			animation: lift 1s infinite;
+            animation: lift 1s 1;
             box-shadow: var(--sha);
             text-shadow: var(--sha1);
         }
@@ -158,16 +162,15 @@
             box-shadow: var(--sha);
         }
         
-		
-		
         #input {
             background-color: var(--med2);
             padding-bottom: 10px;
         }
         
-        #myTextBox:active, #myTextBoxhover {
+        #myTextBox:active,
+        #myTextBoxhover {
             background-color: var(--dark);
-			color: var(--clrb);
+            color: var(--clrb);
         }
         
         .navbar {
@@ -175,7 +178,6 @@
         }
         
         .results-panel {
-			
             color: var(--clrb);
         }
         
@@ -203,9 +205,10 @@
         h6 {
             text-decoration: underline;
             letter-spacing: 3px;
-           
             border-radius: 3px;
+            border: var(--bdr2);
             color: #eee;
+            text-transform: uppercase;
         }
         
         .body {
@@ -231,24 +234,24 @@
         }
         
         .fancybox-nav {
-		    display: flexbox;
-			margin-left: 10px;
-			background-color: var(--clrb);
-			color: var(--light);
+            display: flexbox;
+            margin-left: 10px;
+            background-color: var(--clrb);
+            color: var(--light);
             width: 120px;
             height: 65px;
             border: var(--bdr);
             border-radius: 8px;
-		}
+        }
         
-		span-icon {
-		  text-align: center;
-		}
-		
-		h1 {
-		   border: 2px solid #ddd;
-		}
-		
+        span-icon {
+            text-align: center;
+        }
+        
+        h1 {
+            border: 2px solid #ddd;
+        }
+        
         h2 {
             color: var(--clrb);
         }
@@ -266,37 +269,34 @@
         .header-nav {
             display: inline-block;
             Background-color: var(--med2);
-			border: var(--bdr2);
+            border: var(--bdr2);
         }
-		
-		@keyframes animation lift {
-			0% {
-				box-shadow: var(--sha1);
-			}
-			
-			50% {
-				box-shadow: 4px 4px 2px #777;
-			}
-			
-			100% {
-				box-shadow: var(--sha);
-			}
-		}
         
-	    .rap-box {
-	      padding: 0 10px;
-	      justify-text: left;
-	      color: #111;
-	      text-shadow: 1px 2px 2px #eee;
-	    }
-	    
-		/*
+        @keyframes animation lift {
+            0% {
+                box-shadow: var(--sha1);
+            }
+            50% {
+                box-shadow: 4px 4px 2px #777;
+            }
+            100% {
+                box-shadow: var(--sha);
+            }
+        }
+        
+        .rap-box {
+            padding: 0 10px;
+            justify-content: left;
+            color: #111;
+            text-shadow: 1px 2px 2px #eee;
+        }
+        /*
 		icon-grid {
 		  display: grid;
 		  grid-auto-rows: 2(repeat);
 		}
 		*/
-	</style>
+    </style>
 </head>
 
 <body class="content">
@@ -307,9 +307,10 @@
             <div class="title">
                 <h1>Bill Billions Freehand Sandbox Page</h1>
                 <p>Dont't worry about it, Warrior 'bout it!</p>
-			</div>
+            </div>
 
-            <div class='icon-grid'><h2>Icon Test Grid</h2>
+            <div class='icon-grid'>
+                <h2>Icon Test Grid</h2>
                 <p><span class='fa-x2 btn fade-in fa-diamond'>Diamond</span></p>
                 <p><span class='fa-x2 btn fa-youtube'></span>YouTube</p>
                 <p><a href='drumbeats.html'><span class='fa-x2 btn fa-eraser'>Drum Patterns</span></a></p>
@@ -319,58 +320,59 @@
 
             <nav class='background header-nav'>
                 <ul class='menu'>
-			
+
                     <li class='btn fancybox-nav'>
                         <a href='http://www.youtube.com' class='btn menu-btn'>
-			<span class='icon span-icon fa-youtube'></span>YouTube</a>
+                            <span class='icon span-icon fa-youtube'></span>YouTube</a>
                     </li>
 
-		    <li class='btn fancybox-nav'>
+                    <li class='btn fancybox-nav'>
                         <a href='https://www.messenger.com/new' class='btn menu-btn'>
-                        <span class='icon span-icon fa-cog'></span>Messenger</a>
+                            <span class='icon span-icon fa-cog'></span>Messenger</a>
                     </li>
-			
+
                     <li class='btn fancybox-nav'>
                         <a href='http://www.github.com' class='btn menu-btn'>
-                        <span class='icon span-icon fa-cog'></span>GitHub</a>
+                            <span class='icon span-icon fa-cog'></span>GitHub</a>
                     </li>
 
                     <li class='btn fancybox-nav'>
                         <a href='http://www.gmail.com' class='btn menu-btn'>
-                        <span class='icon span-icon fa-envelope'></span>Gmail</a>
+                            <span class='icon span-icon fa-envelope'></span>Gmail</a>
                     </li>
                 </ul>
-	     <nav>
+                <nav>
         </header>
-        
-		<article>
-		
-			<section class='box'>
-				<ul>
-					<li class='box iframe-box'>
-						<h2>Maceys button script</h2>
-						<iframe src='https://onedrive.live.com/embed?cid=721ABA21564E58A2&resid=721ABA21564E58A2%2110764&authkey=ADNXqwWXHIORqmE' width='98' height='120' frameborder='0' scrolling='no'></iframe>
-					</li>
-
-					<li class='box iframe-box'>
-						<h2><del>iframe:</del></h2>
-					</li>
-				</ul>
-				
-				<div class='box input'>
-					<h3>Input Test pannels:<h3>
-					<p>Enter A Username and Password ('any info is not saved this is just a test') </p>
-					<input type='text' id='myTextBox' />
-					<input type='password' id='userpass' />
-					<input type='submit' value='Substitute' onclick='substitute()' />
-					<h2 class='title'><h2>
-				</div>
-			</section>
-	    </article>
 
         <article>
-		/* class='box body box-body' */
-		
+
+            <section class='box'>
+                <ul>
+                    <li class='box iframe-box'>
+                        <h2>Maceys button script</h2>
+                        <iframe src='https://onedrive.live.com/embed?cid=721ABA21564E58A2&resid=721ABA21564E58A2%2110764&authkey=ADNXqwWXHIORqmE' width='98' height='120' frameborder='0' scrolling='no'></iframe>
+                    </li>
+
+                    <li class='box iframe-box'>
+                        <h2><del>iframe:</del></h2>
+                        <iframe src='https://onedrive.live.com/embed?cid=721ABA21564E58A2&resid=721ABA21564E58A2%2110764&authkey=ADNXqwWXHIORqmE' width='98' height='120' frameborder='0' scrolling='no'></iframe>
+                    </li>
+                </ul>
+
+                <div class='box input'>
+                    <h3>Input Test pannels:</h3>
+                    <p>Enter A Username and Password ('any info is not saved this is just a test') </p>
+                    <input type='text' id='myTextBox' />
+                    <input type='password' id='userpass' />
+                    <input type='submit' value='Substitute' onclick='substitute()' />
+                    <h2 class='title'></h2>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <!--/* class='box body box-body' */-->
+
             <section class='box iframe-box' id='401'>
                 <h2>Ep. 401 - Edge of Tomorty: Rick Die Rickpeat</h2>
                 <iframe width='713' height='401' src='https://www.youtube.com/embed/9l9I0slGBEU?list=ELookltG2FBbU9zMWy7pbkqg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
@@ -385,7 +387,7 @@
             </section>
             <section class='box iframe-box' id='404'>
                 <h2>Ep. 404 - [title]</h2>
-		<iframe width="713" height="401" src="https://www.youtube.com/embed/PIf_M_BQjNM?list=ELookltG2FBbU9zMWy7pbkqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="713" height="401" src="https://www.youtube.com/embed/PIf_M_BQjNM?list=ELookltG2FBbU9zMWy7pbkqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <section class='box iframe-box' id='405'>
                 <h2>Ep. 405 - [title]</h2>
@@ -394,12 +396,12 @@
                 <h2>Ep. 406 - [title]</h2>
             </section>
         </article>
-		
-		<article>
-		    <section class='box'>
-	                <div class='box  rap-box'>
-		            <h3>Wu Tang Lyrics</h3>
-			        <p><pre>
+
+        <article>
+            <section class='box'>
+                <div class='box  rap-box'>
+                    <h3>Wu Tang Lyrics</h3>
+                    <p><pre>
 			[Intro: Redman (Method Man)]
 					Oh my god, oh my god!
 					Aaaow! (Boo!)
@@ -451,16 +453,16 @@
 					Yeah come on, Red and Meth didn't jump
 					La, la, la, la, la, la, la, laaaaa
 				</pre></p>
-                </div>	
-	    </section>
-						
-	    <section class='box'>
-		  
-		<div class='box'>
-		
-			<div class='box  rap-box'>
-		            <h3>Wu Tang Lyrics</h3>
-			        <p><pre>
+                </div>
+            </section>
+
+            <section class='box'>
+
+                <div class='box'>
+
+                    <div class='box  rap-box'>
+                        <h3>Wu Tang Lyrics</h3>
+                        <p><pre>
 									    THEY SAY OM AWEFULY 
 
 
@@ -520,9 +522,9 @@
 					when you heard and leave you with those contusu=ions i was tyaloking aout in the last verse im be 
 
 				</pre></p>
-		</div>				
-	       <div class='box rap-box'>
-		<p><pre>
+                    </div>
+                    <div class='box rap-box'>
+                        <p><pre>
 		    THEY SAY OM AWEFULY  
 
   
@@ -674,17 +676,17 @@ of any worries, foot on the gas and time to spare, I light a flare to the sky li
 im the only one left I cant bare another second on the edge, time to step, my lifes
 
 only fueled by the overwhelming regret, that fills my soul every time I allow myself to forget. 
-		</pre></p>    
-	       </div>
-	    </section>
-        
+		</pre></p>
+                    </div>
+            </section>
+
         </article>
 
         <article class='box article-box'>
-            
-            <section class="box results-box' id="panel000">
-                <div id="pannel-header">
-                    <div id="result">
+
+            <section class="box results-box' id=" panel000 ">
+                <div id="pannel-header ">
+                    <div id="result ">
                         <p><b><u>Input Result</u></b></p>
                         <h1 id='title'></h1>
                         <p>This is result panel 2</p>
@@ -734,7 +736,7 @@ only fueled by the overwhelming regret, that fills my soul every time I allow my
 
     </div>
 
-    <script type="text/javascript">
+    <script type="text/javascript ">
         function substitute() {
             var myValue = document.getElementById('myTextBox').value;
 
@@ -748,16 +750,16 @@ only fueled by the overwhelming regret, that fills my soul every time I allow my
         }
     </script>
 
-    <script src="./server.js' type="text/javascript"></script>
-    <script src="./example.js' type="text/javascript"></script>
-    <script src="./main.js' type="text/javascript"></script>
-    <script src="./mode.js' type="text/javascript"></script>
-    <script src="./index.js' type="text/javascript"></script>
+    <script src="./server.js " type="text/javascript "></script>
+    <script src="./example.js " type="text/javascript "></script>
+    <script src='./main.js' type=" text/javascript "></script>
+    <script src='./mode.js ' type="text/javascript "></script>
+    <script src='./index.js' type="text/javascript "></script>
 
-    <script src="https://use.fontawesome.com/257608c757.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js." type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js' type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js' type="text/javascript"></script>
+    <script src="https://use.fontawesome.com/257608c757.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js. " type="text/javascript "></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js' type=" text/javascript "></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js ' type="text/javascript "></script>
 
 </body>
 </html>
