@@ -1,0 +1,306 @@
+
+<!-- Created by Bill Billions -->
+
+<!DOCTYPE html>
+<html>                  <!-- Required tags -->
+	<head>
+	  <meta charset='UTF-8' />
+	  <meta name='viewport' content='width=device-width initial-scale=1 user-scalable=yes' />
+	  <meta http-equiv='xmlns' content='ie=edge' />	
+	  <meta http-equiv='content-type' content='text/html; charset=UTF-8' />
+	  <meta http-equiv='default-style' content='./css/style.css'>
+	  
+	                    <!-- Setting the Refresh Atribute will cause
+ 						     a failure in content accessibility  -->
+	  <!--meta http-equiv="refresh" content="300"-->
+	  
+	  <title>Audio SandBox</title>
+		
+		                <!-- Vendor CDN's -->
+	  <script type='application/javascript' src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	  <script type='application/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
+      <script type='application/javascript' src="https://threejs.org/examples/js/controls/TrackballControls.js"></script>		
+		
+		                <!-- My Linked Scripts -->
+		<script type='application/javascript' href='./js/audio.js'></script>
+        <link type='text/css' href='./audio.css' />
+	</head>
+	
+	<body>
+	<a href='http://kingbill404.github.io'>Go Home</a>
+	  <div class='wrap'>
+	    <article class='musicplayer-array' >
+		  <h1>Billions Audio Webpage</h1>
+		    <section id='musicplayer-array'>
+					  <h4>Sections:</h4>
+				<ul>	
+				  <li>Singles
+				    <ol>
+					  <li>OOber</li>
+					  <li>Bumpy Feet</li>
+					  <li>What The chunk</li>
+					  <li>Pull Your Weight</li>
+					  <li>Saskatchewan</li>
+					</ol>
+				  </li>
+				  <li>Two Headed Bryan LP
+				    <ol>
+					  <li></li>
+					  <li></li>
+				      <li></li>
+				      <li></li>
+			  	      <li></li>
+					</ol>
+				  </li>
+				</ul>
+<del>
+			  <h4>Follow Me</h4>
+				<ul class="icons">
+				  <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				  <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				  <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				  <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+				</ul>
+
+			  <h4>Actions</h4>
+				<ul class="actions">
+				  <li><a href="#" class="button special">Default</a></li>
+				  <li><a href="#" class="button">Default</a></li>
+				</ul>
+</del>
+		<!-- switch # and . from muicplayer-array in css file for different styling-->
+		  </section>
+		  
+		  <section>
+		    
+
+		    <h3 class="major">Music Player Array</h3>
+			  <h4>Singles</h4>
+			  
+			  <div class="table-wrapper">
+			    <table>
+			      <thead>
+			  	    <tr>
+				      <th>Track #</th>
+				      <th>Song Title</th>
+				      <th>player</th>
+				    </tr>
+			      </thead>
+			      
+				  <tbody>
+				      <tr>
+				        <td>1.</td>
+				        <td>OOber</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./MusicProj/OOber.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>2.</td>
+				        <td>Bumpy Feet</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./MusicProj/bumpyfeet.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>3.</td>
+				        <td>What The Chunk</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./MusicProj/LofiBeat2.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>4.</td>
+				        <td>Pull Your Weight</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./MusicProj/PullYourWeight.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>5.</td>
+				        <td>Saskatchewan</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./MusicProj/saskatchewan.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+			  	      </tr>
+			        </tbody>
+
+			        <tfoot>
+				      <tr>
+				        <td colspan="2"></td>
+			   	        <td>100.00</td>
+				      </tr>
+			        </tfoot>
+			      </table>
+		        </div>	<!-- End Table-Wrap -->
+				
+				<div class='table-wrap'>
+				  <table>
+				    <thead>
+			  	      <tr><h1>Two Headed Bryan LP</h1>
+				        <th>Track #</th>
+				        <th>Song Title</th>
+				        <th>
+						  
+						</th>
+				      </tr>
+			        </thead>
+					<tr>
+					  <th>1</th>
+					  <th>Finish Your Cake</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/1.FinishYourCake.mp3' type='audio/mpeg' />
+						</audio>
+					  </th>
+					</tr>
+					<tr>
+					  <th>2</th>
+					  <th>Boss Level Shit</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/2.BossLevelShit.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>3</th>
+					  <th>Sick Shit Ritz Click</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/3.SickShitRitzCick.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>4</th>
+					  <th>3am Shit</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/4.3amShit.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>5</th>
+					  <th>I Had No Idea</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/5.IhadNoIdea.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>6</th>
+					  <th>Dungeon Mosey</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/6.DungeonMosey.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>7</th>
+					  <th>Confident Crook</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/7.ConfidentCrook.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>8</th>
+					  <th>Forming Circles</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/8.FormingCircles.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>9</th>
+					  <th>Simply Smashing Lad</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/9.Simplysmashinglad.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>10</th>
+					  <th>Yesterday's Aftermath</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/10.YesterdaysAftermath.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>11</th>
+					  <th>Nightmare</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/11.ItsANightmare.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>12</th>
+					  <th>12-20 Jam</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/12.1220jam.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr><tr>
+					  <th>13</th>
+					  <th>Earth Golum</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/13.EarthGolum.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>14</th>
+					  <th>Viejo Blvd.</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/14.ViejoBlvd.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr><tr>
+					  <th>15</th>
+					  <th>1984 For Sure</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./MusicProj/15.1984fsho.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tfoot>
+					  <th></th>
+					  <th></th>
+					  <th>
+					  </th>
+					</tfoot>
+					
+		    </section>
+			
+	
+		</article>
+	  </div>	 	    <!-- End Wrap  --> 
+	  
+      <script src='./js/audio.js'></script>	
+	</body>
+</html>	
