@@ -1,5 +1,5 @@
 <!-- 
-    // Copyright Joyent, Inc. and other Node contributors.
+    // Copyright Box52 LLC, Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
@@ -169,7 +169,7 @@
         
         .iframe-box {
             display: block;
-            margin: 6rem 0;
+            margin: 6rem auto;
             padding: 0 8px;
             border: var(--bdr);
             border-radius: 8px;
@@ -262,7 +262,7 @@
             margin-left: 10px;
             background-color: var(--clrb);
             color: var(--light);
-            width: 65px;
+            max-width: 65px;
             height: 65px;
             border: var(--bdr);
             border-radius: 8px;
@@ -278,6 +278,12 @@
         
         h2 {
             color: var(--clrb);
+	    text-transform: underline;
+	    line-spacing: 2em;
+	    width: 120px;
+	    margin: 10px;
+	    padding: 8px 10px;
+	    text-align: center;
         }
         
         h3 {
@@ -341,9 +347,9 @@
             </div>
 
             <div class='icon-grid'>
-                <h2>Icon Test Grid</h2>
-                <p><span class='fa-x2 btn fade-in fa-diamond'>Diamond</span></p>
-                <p><span class='fa-x2 btn fa-youtube'></span>YouTube</p>
+                <h2>Navigation</h2>
+                <p><span class='fa-x2 btn fade-in fa fa-2x fa-diamond'>Diamond</span></p>
+                <p><a href='#alanwaves'><span class='fa-x2 btn fade-in fa-youtube'>Alan Waves</span></p>
                 <p><a href='drumbeats.html'><span class='fa-x2 btn fa-eraser'>Drum Patterns</span></a></p>
                 <p><a href='mysteryteachings.html'><span class='fa-x2 btn fa-baseball-ball'>Mystery Teachings</span></a></p>
                 <p><span class='fa-x2 btn fa-book-dead'></span>Book</p>
@@ -353,18 +359,18 @@
                 <ul class='menu'>
 
                     <li class='btn fancybox-nav'>
-                        <a href='http://www.youtube.com' class='btn menu-btn'>
-                            <span class='icon span-icon fa fa-youtube'></span>YouTube</a>
+                        <a href='http://www.youtube.com'menu-btn'>
+                            <span class='icon fa fa-youtube'></span>YouTube</a>
                     </li>
 
-                    <li class='btn fancybox-nav'>
+                    <li class='fancybox-nav'>
                         <a href='./audio.html' class='btn menu-btn'>
                             <span class='icon span-icon fa fa-music'></span>Music Project</a>
                     </li>
 
                     <li class='btn fancybox-nav'>
                         <a href='http://www.github.com' class='btn menu-btn'>
-                            <span class='icon span-icon fa fa-cog'></span>GitHub</a>
+                            <span class='icon fa-2x span-icon fa fa-cog'></span>Github</a>
                     </li>
 
                     <li class='btn fancybox-nav'>
@@ -486,6 +492,12 @@
 					La, la, la, la, la, la, la, laaaaa
 				</pre></p>
                 </div>
+		
+		<div class='box iframe-box'>
+			<h2 id='alanwaves'>Alan watts CHillstep</h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/qdTfXJVm_CU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		
             </section>
 
             <section class='box'>
