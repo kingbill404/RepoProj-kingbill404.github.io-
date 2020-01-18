@@ -1,0 +1,21 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "This is the Initialized app in js",
+  "main": "main.js",
+  "scripts": {
+    "test": "2+2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kingbill404.github.io"
+  },
+  "keywords": [
+    "dimension",
+    "audio",
+    "Javascript",
+    "Billions"
+  ],
+  "author": "Billy Billions, box52 llc",
+  "license": "MIT"
+}
