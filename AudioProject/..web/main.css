@@ -32,6 +32,7 @@ body {
 		}
 		
 		body div {
+			display: flex;
 		  color: #eef ;
 		  border: 3px solid #ddd;
 		  box-shadow: var(--shad);
@@ -51,7 +52,8 @@ body {
         }
 		
 		canvas {
-		  background-color: transparent;
+         width:100%;		 
+		 background-color: transparent;
 		}
 	    .wrapper {
 		  margin: 10px;
@@ -60,7 +62,7 @@ body {
 	    .wrapper .box {
 		  position: absolute;
 		  width: Calc(100vh - 20%)/2;
-		  height: 80vh;
+		  /*height: 80vh;*/
 		  border: 10px dashed #3ddd3d;
 		  text-shadow: 0 0 10px 0;
 		  border-radius: 10px;
@@ -89,6 +91,7 @@ body {
 		  font-family: helvetica, arial;
 		  border: 2px solid #333;
 		  border-radius: 3px;
+		  font-size: 20%;
 		}
 		
 		a {
