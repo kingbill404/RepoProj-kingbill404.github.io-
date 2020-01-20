@@ -43,6 +43,7 @@
 	      inset 5px 5px 6px rgba(255, 120, 120, 120, 0.8);
     --head: rgba( 0, 180, 250, 0.6);
 	--shad: 10px 8px 3px rgba(0, 0, 0, 0.8);
+	--shat3: 0 0 6px rgba(220, 220, 220, 0.8);
 }
 
 * {
@@ -52,7 +53,7 @@
 }
 
 html {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0 20px 0 20px;
 }
 
@@ -62,7 +63,6 @@ body {
 			margin: 0;
 			text-align: center;
 			background: black;
-			display: flex;
 			justify-content: center;
 			align-items: center;
 			color: var(--head);
@@ -77,6 +77,7 @@ body {
 		}
 		
 		.canvas {
+		    display:none;
 			border: 3px solid #0af;
 			border-radius: 5px;
 			background-color: rgba( 10, 58, 113, 0.4);
@@ -96,11 +97,11 @@ body {
 		  margin: 10px;
 		  padding: 10px;
 		}
-	    .wrapper .box {
-		  position: absolute;
+	    .wrapper, .box {
+		  position: relative;
 		  width: Calc(100vh - 20%)/2;
 		  /*height: 80vh;*/
-		  border: 10px dashed #3ddd3d;
+		  border: 10px solid rgba(20, 60, 120, 0.8);
 		  text-shadow: 0 0 10px 0;
 		  border-radius: 10px;
 		}
@@ -124,7 +125,10 @@ body {
   background-color: #00f;
 }
 
-
+ul {
+  list-style: none;
+  display: inline-flex;
+}
 
 .btn {
 		
@@ -151,7 +155,6 @@ body {
   font-weight:bold;
   padding:7px 25px;
   text-decoration:none;
-  text-shadow:0px 1px 13px rgba;
 }
 
 .btn:hover {
@@ -200,7 +203,9 @@ body {
 		}
 		
 		a:hover {
+		    color: #3d3ddd;
 			text-decoration: underline;
+			text-shadow: var(--shat3);
 		}
 		
 		audio {
@@ -213,7 +218,7 @@ body {
 		  background-color: transparent;
 		  text-shadow: var(--shat);
 		}
-		.table-wrapper {background-color: #3	d3d9d;}
+		.table-wrapper {background-color: #3d3d9d;}
 		.audio-wrap { background-color: #000}
 		
 		
@@ -229,8 +234,8 @@ body {
       <header>
 	    <nav>
 		  <ul>
-		   <li><a class='btn nav-btn' href='./index.html'></a>HomePage</li>
-		   <li><a class='btn nav-btn' href='./Audioindex.html'></a>Get Back In The Book LP.</li>
+		   <li><a class='btn nav-btn' href='./index.html'>HomePage</a></li>
+		   <li><a class='btn nav-btn' href='./Audioindex.html'>Get Back In The Book LP.</a></li>
 		  </ul>
 		</nav>
 	  </header>

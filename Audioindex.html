@@ -65,6 +65,8 @@
 	      inset 5px 5px 6px rgba(255, 120, 120, 120, 0.8);
     --head: rgba( 0, 180, 250, 0.6);
 	--shad: 10px 8px 3px rgba(0, 0, 0, 0.8);
+	 --shat2: 0 0 6px rgba(20, 20, 20, 0.8);
+  --shat3: 0 0 6px rgba(220, 220, 220, 0.8);
 }
 
 * {
@@ -80,7 +82,7 @@ html {
 
 body {
 	        display: block;
-	        box-shadow: var(--shadio);
+	        box-shadow: var(--shaadio);
 			margin: 0;
 			text-align: center;
 			background: black;
@@ -137,7 +139,7 @@ body {
 		  background-color: transparent;
 		  color: #eee;
 		}
-		
+		/*
 		.btn {
 		  padding: 5px 0;
 		  background-color: var(--head);
@@ -150,16 +152,83 @@ body {
 		  border-radius: 3px;
 		  font-size: 20%;
 		}
-		
+		*/
 		a {
-		  text-decoration: none;
-		  color: inherit;
-		}
+  color: inherit; 
+  text-decoration: none;
+  text-shadow: var(--shat2);
+}
+
+a:hover {
+  text-decoration: underline;
+  text-shadow: var(--shat3);
+}
+
+
+.btn {
 		
-		a:hover {
-			text-decoration: underline;
-		}
-		
+  -moz-box-shadow: 3px 4px 0px 0px #899599;
+  -webkit-box-shadow: 3px 4px 0px 0px #899599;
+  box-shadow: 3px 4px 0px 0px #899599, inset 0 0 6px rgba(120, 120, 120, 0.8);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+  background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background: linear-gradient(to bottom, #757575 5%, #707f70 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#555', endColorstr='#333',GradientType=0);
+  background-color:#000;
+  -moz-border-radius:18px;
+  -webkit-border-radius:18px;
+  border-radius:18px;
+  border: 2px solid #d6bcd6;
+  display:inline-block;
+  cursor:pointer;
+  color: rgba(61, 227, 61, 0.8);
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:7px 25px;
+  text-decoration:none;
+  text-shadow:0px 1px 13px rgba;
+}
+
+.btn:hover {
+  color: #3d3ddd;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d3d3d3), color-stop(1, #d3d3d3));
+  background: -moz-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+  background: -webkit-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+  background: -o-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+  background: -ms-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+  background: linear-gradient(to bottom, #3d3d3d 5%, #d3d3d3 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d, endColorstr='#d3d3d3',GradientType=0);
+  background-color: transparent;
+  text-shadow: var(--shat3);
+}
+
+.btn:active {
+	position: relative;
+	top: 1px; 
+}
+	  
+	  .nav-btn {
+	    color: #dd3d3d;
+	  }
+	  .nav-btn:hover {
+	     text-shadow: var(--shat3);
+	  }
+	btn 2{
+	  font-size: 80%;
+	  
+	  
+	} 
+	.section {
+	  display: flex;
+	}
+		ul {
+	  list-style: none;
+	  display: inline-flex;
+}
 		audio {
 			background-color: #000;
 			
@@ -210,13 +279,13 @@ body {
 
 
 		<h1>Get Back In The Book LP</h1>
-	<!-- Autoplay  -->
+	<!-- Autoplay  >
 	<div class='wrapper'>
 	
 	<header>
   <div class='section'>
 	    <nav class='font1'><div style='text-align: center;'><h2>Links &amp; BookMarks</h2></div>
-			<ul class='links'>
+			<ul class='links' style='display: inline-flex;'>
 			  <li><a class='btn nav btn' href='./index.html'><span class='fa fa-2x fa-home'></span>Home</a></li>
 			  <li><a class='btn nav btn' href='Audioindex-2020'><span class='fa fa-2x fa-compact-disc'></span>Singles</a></li>
 			  <li><a class='btn nav btn' href='./assets/drumbeats.html'><span class='fa fa-2x fa-monster'></span>Drum Beat Basics</a></li>
@@ -232,10 +301,10 @@ body {
 			</ul>
 		</nav>
 	</header>
- <div><h3>Autoplay</h3></div> 
+ <!--div><h3>Autoplay</h3></div> 
 
 		 	  <!-- Cube -->
-		<div class='canvas'>
+		<!--div class='canvas'>
 		 
 	      <canvas></canvas>
 	       <h3>Playing:</h3>
@@ -264,7 +333,7 @@ body {
 			  </optgroup>
 	  
 	    </select> 
-	  </div>  
+	  </div-->  
 	</div>
 	
 	
