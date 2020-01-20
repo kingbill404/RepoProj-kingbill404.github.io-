@@ -32,7 +32,6 @@ body {
 		}
 		
 		body div {
-			display: flex;
 		  color: #eef ;
 		  border: 3px solid #ddd;
 		  box-shadow: var(--shad);
