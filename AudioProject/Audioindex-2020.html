@@ -2,7 +2,7 @@
 <!-- Created by Bill Billions -->
 
 <!DOCTYPE html>
-<html lang='en-US'>                  <!-- Required tags -->
+<html lang='en-US'>                  <!-- Meta -->
 	<head>
 	  <meta charset='UTF-8' />
 	  <meta name='viewport' content='width=device-width' />
@@ -26,16 +26,20 @@
 		
 		
 		<!-- Links -->
-		<!--link rel='stylesheet' href='./web/main.css'-->
+		<link rel='stylesheet' type='text/css' href='./web/main.css' >
+		<link rel='stylesheet' type='text/css' href='./web/fa.min.css'>
 		
 		                <!-- Vendor CDN's -->
 		<script type='application/javascript' src='https://code.jquery.com/jquery-3.1.1.js'></script>
 		<script type='application/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js'></script>
 		<script type='application/javascript' src='https://threejs.org/examples/js/controls/TrackballControls.js'></script> 
 		
+		
+		
 	  
 
-	  <style type='text/css'>
+	  <!--style type='text/css'>
+	  /*
 		:root {
 	--dark: #303a3f;
 	--clrb: #0ef;
@@ -224,36 +228,36 @@ ul {
 		
 		
 		
-		
-	  </style>
+		*/
+	  </style-->
 	</head>
 <body>   
 
           <!-- ###########################   BEGIN BODY   ########################### -->
 
-  <div>
+  <div class='wrapper'>
       <header>
-	    <nav>
+	    
+		<h1>
+		<nav>
 		  <ul>
 		   <li><a class='btn nav-btn' href='../index.html'>HomePage</a></li>
 		   <li><a class='btn nav-btn' href='./Audioindex.html'>Get Back In The Book LP.</a></li>
 		  </ul>
 		</nav>
-	  </header>
-		<h1>Unreleased Tracks</h1>
+		Unreleased Tracks</h1>
 	<!-- Autoplay  -->
-	<div class='wrapper'>
  <!--div><h3>Autoplay</h3></div--> 
 
 		 	  <!-- Cube -->
-		<div class='canvas'>
+		<!--div class='canvas'>
 		 
 	      <canvas></canvas>
-	       <!--h3>Playing:</h3>
+	       <h3>Playing:</h3>
 		   <audio autoplay controls><div>Unreleased Tracks</div>
 		     <source src='./Music/TheTwoHeadedBryan(Mixtape)-Autoplay.mp3' type='audio.mpeg'></source>
 		   </audio-->
-		 </div>
+		 <!--/div-->
 		 
 		 <!--h3>List:</h3>
 		 <select>
@@ -275,10 +279,9 @@ ul {
 			  </optgroup>
 	  
 	    </select--> 
-	  </div>  
-	</div>
+	  <!--/div-->  
 	
-	
+	</header>
 	 <!-- ###########################   Display None   ########################### -->
 	
 	<!-- Display-none  -->
@@ -593,25 +596,25 @@ ul {
 			
 		</section>
 	  </article>
-  
+  </div>
 	<!-- footer -->
 	<footer>
-		<address>
+		<!--address>
 		   Produced by <a href='https://kingbill404.github.io'>kingBill</a> &amp; <a href='https://ryansmind.bravesites.com'>Urban Chi</a>.<br>
 		   Visit me at:<br>
 		   <a href='http://kingbill404.github.io'>Box52 Media llc.</a><br>
 		   Box 427, Ritz<br>
 		   USA
-		</address> 
-        <a class= 'btn wrapper' href='http://kingbill404.github.io'>King Bill -HomePage</a>
+		</address--> 
+        <a class= 'btn wrapper' href='../index.html'>King Bill -HomePage</a>
 	</footer>
 	
   </div>  <!-- ############# End Body Wrapper #############-->
   
   
 	          <!-- ############# Script Section ############# -->
-	<script type='application/javascript' src='./..web/cube.js'></script>		
-	<script type='application/javascript' src='./..web/app.js'></script>
+	<script type='application/javascript' src='./web/cube.js'></script>		
+	<script type='application/javascript' src='./web/app.js'></script>
 	
 	                      <!-- Script Section -->
         <script type='application/javascript'>	  

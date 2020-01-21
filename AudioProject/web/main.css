@@ -1,3 +1,5 @@
+@import url(.web/assets/css/fontawesome-all.min.css);
+
 :root {
 	--dark: #303a3f;
     --darkcomp: #403630;
@@ -13,12 +15,12 @@
 	--shaadio: 0 0 8px rgba( 120, 120, 120, 0.8),
 	      inset 5px 5px 6px rgba(60, 120, 240, 0.8);
     --bluetransparent: rgba( 0, 180, 250, 0.6);
-	--shad: 10px 8px 3px rgba(0, 0, 0, 0.8);
+	--shad: 5px 3px 2px rgba(0, 0, 0, 0.8);
 	--shat: 0 0 6px rgba (120, 120, 120, 0.8);
 	--shat2: 0 0 6px rgba ( 20, 20, 20, 0.8);
 	--shat3:  0 0 6px rgba(60, 220, 255, 0.8);
 	
-	--bdr: 3px solid rgba( 0, 180, 250, 0.6);
+	--bdr: 3px solid rgba( 0, 180, 250, 0.4);
 	--calc80: calc(100%-80px);
 	--shadin: inset 3px 6px 3px  1px rgba(120, 220, 220, 0.4);
 }
@@ -47,7 +49,6 @@ body {
 		
 		body div {
 		  color: var(--light2) ;
-		  border: ;
 		  box-shadow: var(--shad);
 		  text-shadow: var(--shat);
 		}
@@ -77,12 +78,11 @@ body {
 		  margin: 10px var(--calc80);
 		  padding: 10px;
 		}
-	    .wrapper .box {
+	    .wrapper, .box {
 		  position: relative;
 		  width: Calc(100%- 20px);
 		  /*height: 80vh;*/
-		  border: var(--bdr);
-		  text-shadow: 0 0 px ;
+		  text-shadow: var(--shat3) ;
 		  border-radius: 10px;
 		}
 		
@@ -123,7 +123,7 @@ body {
 		
 		.btn:hover {
 			background-color: var(--light3);
-			box-shadow: var(--shadin);
+			box-shadow: var(--shadin), var(--shad);
 		}
 		
 		a {
@@ -138,6 +138,7 @@ body {
 			text-decoration: underline;
 		    text-shadow: var(--shat2);
 			color: var(--dark2);
+			box-shadow: var(--shaadio);
 		}
 		
 		p {
@@ -147,7 +148,7 @@ body {
 		
 		audio {
 			background-color: var(--darkcomp);
-			
+			box-shadow: var(--shaadio);
 		}
 		
 		
@@ -162,6 +163,7 @@ body {
 		}
 		.audio-wrap { 
 		    background-color: var(--dark);
+			color: var(--light3);
 		}
 		
 		td {
@@ -172,6 +174,17 @@ body {
 			color: var(--dark3);
 		}
 		
+		.font1 {
+		    font-family: helvetica, sans seriff;	
+			background: transparent;
+		}
 		
+		thead  td {
+			color: var(--dark);
+		}
+		
+		.bg1 {
+			background: url('./images/bg2.jpg');
+		}
 		
 		
