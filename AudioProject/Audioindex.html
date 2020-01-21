@@ -63,211 +63,8 @@
 		<script type='application/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js'></script>
 		<script type='application/javascript' src='https://threejs.org/examples/js/controls/TrackballControls.js'></script> 
 		
-		
-		
-	  
-<style type='text/css'>
-:root {
-	--dark: #303a3f;
-	--clrb: #0ef;
-	--shaadio: 0 0 8px rgba( 120, 120, 120, 0.8),
-	      inset 5px 5px 6px rgba(255, 120, 120, 120, 0.8);
-    --head: rgba( 20, 180, 250, 0.6);
-	--shad: 10px 8px 3px rgba(0, 0, 0, 0.8);
-	--shat2: 0 0 6px rgba(20, 20, 20, 0.8);
-    --shat3: 0 0 6px rgba(220, 220, 220, 0.8);
-}
-
-* {
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-}
-
-html {
-  margin: 0 auto;
-  padding: 0 auto;
-}
-
-body {
-  display: block;
-  box-shadow: var(--shaadio);
-  margin: 0;
-  text-align: center;
-  background: black;
-  justify-content: center;
-  align-items: center;
-  color: var(--head);
-  background-color: var(--dark);
-}
-
-body div {
-  color: #eef ;
-  border: 3px solid #ddd;
-  box-shadow: var(--shaadio);
-  text-shadow: 0 0 10px #eee;
-}
-
-.canvas {
-  border: 3px solid #0af;
-  border-radius: 5px;
-  background-color: rgba( 10, 58, 113, 0.4);
-  color: #eee;
-  overflow: hidden;
-}
-
-.display-none {
-  display: none;
-}
-
-canvas {
-  width:100%;		 
-  background-color: transparent;
-}
-.wrapper {
-  margin: 10px;
-  padding: 10px;
-}
-
-nav ul {
-  list-style: none;
-}
-.wrapper, .box {
-  width: 80%;
-  border: 10px solid rgba(20, 60, 120, 0.8);
-  text-shadow: var(--shat3);
-  border-radius: 10px;
-}
-
-.box {
-  background-color: #4d4;
-}
-
-h1 {
-  box-shadow: inset 10px 5px 10px 10px var(--head);
-  text-shadow:  0 0 6px rgba(60, 220, 255, 0.8);
-  margin: 10px;
-  padding:10px;
-  background-color: transparent;
-  color: #eee;
-}
-/*
-.btn {
-  padding: 5px 0;
-  background-color: var(--head);
-  position: ;
-  width: 100%;
-  height: 2em;
-  text-align: center;
-  font-family: helvetica, arial;
-  border: 2px solid #333;
-  border-radius: 3px;
-  font-size: 1em;
-}
-*/
-
-a {
-  color: inherit; 
-  text-decoration: none;
-  text-shadow: var(--shat2);
-}
-
-a:hover {
-  text-decoration: underline;
-  text-shadow: var(--shat3);
-}
-
-
-.btn {
-		
-  -moz-box-shadow: 3px 4px 0px 0px #899599;
-  -webkit-box-shadow: 3px 4px 0px 0px #899599;
-  box-shadow: 3px 4px 0px 0px #899599, inset 0 0 6px rgba(120, 120, 120, 0.8);
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
-  background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
-  background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
-  background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
-  background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
-  background: linear-gradient(to bottom, #757575 5%, #707f70 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#555', endColorstr='#333',GradientType=0);
-  background-color:#transparent;
-  -moz-border-radius:18px;
-  -webkit-border-radius:18px;
-  border-radius:18px;
-  border: 2px solid #d6bcd6;
-  display:inline-block;
-  cursor:pointer;
-  color: rgba(61, 227, 61, 0.8);
-  font-family:Arial;
-  font-size:17px;
-  font-weight:bold;
-  padding:7px 25px;
-  text-decoration:none;
-  text-shadow:var(--shat3);
-}
-
-.btn:hover {
-  color: #3d3ddd;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d3d3d3), color-stop(1, #d3d3d3));
-  background: -moz-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
-  background: -webkit-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
-  background: -o-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
-  background: -ms-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
-  background: linear-gradient(to bottom, #3d3d3d 5%, #d3d3d3 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d, endColorstr='#d3d3d3',GradientType=0);
-  background-color: transparent;
-  text-shadow: var(--shat2);
-}
-
-.btn:active {
-	position: relative;
-	top: 1px; 
-}
-	  
-	  .nav-btn {
-	    color: #dd3d3d;
-	  }
-	 
-	  .nav-btn:hover {
-	     text-shadow: var(--shat2);
-	  }
-	  
-	.btn2{
-	  font-size: 80%;
-	} 
-	
-	.section {
-	  display: inline-flex;
-	}
-	
-	ul {
-	  list-style: none;
-	  display: inline-flex;
-     }
-	 
-		audio {
-			background-color: #000;	
-		}
-		
-		
-		.audio-table {
-		  background-color: transparent;
-		  text-shadow: var(--shat);
-		}
-		
-		.table-wrapper {
-		  background-color: #3d3d9d;
-		}
-		
-		.audio-wrap { 
-		  background-color: #000
-		}
-		
-		
-		
-		
-</style>
 	  <style type='text/css'>
+	  /*
 	  *  {
 	    margin: 0;
 		padding: 0;
@@ -282,6 +79,7 @@ a:hover {
 		  color: #333;
 		  text-shadow: inherit;
 		}
+	  */
 	  </style>
 	  
 	  <style type='text/css'>
@@ -305,12 +103,12 @@ a:hover {
 	
 	<header>
       <div class='section'>
-	    <nav class='font1'><div style='text-align: center;'><h2>Links &amp; BookMarks</h2></div>
-			<ul class='links' style='display: inline-flex;'>
-			  <li><a class='btn nav-btn' href='../index.html'><span class='fa fa-2x fa-horse-head'></span>Home</a></li>
-			  <li><a class='btn nav-btn' href='./Audioindex-2020.html'><span class='fa fa-2x fa-music'></span>Singles</a></li>
-			  <li><a class='btn nav-btn' href='../html/drumbeats.html'><span class='fa fa-2x fa-drum-steelpan'></span>Drum Beat Basics</a></li>
-			  <li><a class='btn nav-btn' href='#'><span class='fa fa-2x fa-diamond'></span>Diamond</a></li>
+	    <nav class='font1'><h2>Links &amp; BookMarks
+			<ul class='links'>
+			  <li><a class='btn nav-btn' href='../index.html'><!--span class='fa fa-2x fa-horse-head'></span-->Home</a></li>
+			  <li><a class='btn nav-btn' href='./Audioindex-2020.html'><!--span class='fa fa-2x fa-music'></span-->Singles</a></li>
+			  <li><a class='btn nav-btn' href='../html/drumbeats.html'><!--span class='fa fa-2x fa-user'></span!-->Drum Basics</a></li>
+			  <li><a class='btn nav-btn' href='#'><!--span class='fa fa-2x fa-diamond'></span!-->Diamond</a></li>
 			</ul>
 			<br />
 			<!--ul>
@@ -319,7 +117,8 @@ a:hover {
 			  <li><a class='btn' href='./drumbeats.html'><span class='fa fa-2x fa-drugs'></span>Drum Beats (basic Theory)</a></li>		 
 			  <li><a class='btn' href='https://gmail.com'><span class='fa fa-2x fa-envelope'></span>Gmail</a></li>
 			  <li><a class='btn' href='https://github.com/kingbill404/kingBill404.github.io/edit/master/index.html'><span class='fa fa-2x fa-cog'></span>Edit HTML</a></li>
-			</ul-->
+			</ul!-->
+			</h2>
 		</nav>
 	  </div>
 	</header>
@@ -405,13 +204,13 @@ a:hover {
 	  <article class='audio-table'>
 		<section class='table-wrapper'>
 		    <table>
-			  <thead class=''>
+			  <thead class='btn'>
 			    <tr>
 				  <td>Track</td>
 				  <td>Player</td>
 				</tr>
 			  </thead>
-			  <tbody class=''>
+			  <tbody class='box'>
 			    <tr class='audio-wrap'>
 				  <td>1. Finish Your Cake (Chapters 1 &amp; 2)</td>
 				  <td>
@@ -419,7 +218,7 @@ a:hover {
 					    <source src='./Music/$Album - Get Back In The Book LP/1. Finish Your Cake (Chapters 1 & 2).mp3' type='audio/mpeg' />
 					  </audio>
 				  </td>
-				</tr class='audio-wrap'>
+				</tr>
 				<tr class='audio-wrap'>
 				  <td>2. Boss Level Shit</td>
 				  <td>
@@ -565,17 +364,17 @@ a:hover {
 				  </td>
 				</tr>
 				<tr class='audio-wrap'>
-				  <td>Ryans Tipper(Sneek-Peek</td>
+				  <td>Ryans Tipper(Sneek-Peek)</td>
 				  <td>
 				    <audio controls>
-					  <source src='./Music/$Album - Get Back In The Book LP/Ryans Tipper(Sneek-Peek).mp3' type='audio/mpeg' />
+					  <source src='./Music/$Album - Get Back In The Book LP/Ryans-Tipper (Sneak-Peek).mp3' type='audio/mpeg' />
 					</audio>
 				  </td>
 				</tr>
 			  </tbody>
 			  <tfoot>
 			    <tr>
-				  <td>Copyright &copy; Bill Billions &amp; Urban Chi, Co-producers.</td>
+				  <td class='footer'>Copyright &copy; Bill Billions &amp; Urban Chi, Co-producers.</td>
                 </tr>			 
 			 </tfoot>
 			</table>
@@ -585,13 +384,13 @@ a:hover {
   
 	<!-- footer -->
 	<footer>
-		<address>
+		<!--address>
 		   Produced by <a href='https://kingbill404.github.io'>kingBill</a> &amp; <a href='https://ryansmind.bravesites.com'>Urban Chi</a>.<br>
 		   Visit me at:<br>
 		   <a href='http://kingbill404.github.io'>Box52 Media llc.</a><br>
 		   Box 427, Ritz<br>
 		   USA
-		</address> 
+		</address--> 
         <a class= 'btn wrapper' href='http://kingbill404.github.io'>King Bill -HomePage</a>
 	</footer>
 	

@@ -23,8 +23,8 @@
 		<script type='application/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
 		<script type='application/javascript' src="https://threejs.org/examples/js/controls/TrackballControls.js"></script> 
 		
-        <link type='text/css' href='../css/style.css' />
-	  
+        <!--link type='text/css' href='../css/style.css' /-->
+	    <link rel='stylesheet' type='text/css' href='./web/main.css' >
 	                     <!-- Rotate Cube -->
 	  <script>
 	    /* global THREE */
@@ -99,86 +99,10 @@ requestAnimationFrame(render)
     alert(val);
 });
       </script>
-	  
-	  <style>
-	  	    body {
-		  	margin: 0;
-		  	overflow: hidden;
-		  	width: 100vw;
-		  	height: 100vh;
-		  	text-align: center;
-		  	background: black;
-		  	display: flex;
-		  	justify-content: center;
-		  	align-items: center;
-		    color: #eee;
-			background-color: #333;
-		}
-		
-		body div {
-		  color: #eee;
-		  border: 3px solid #ddd;
-		  box-shadow: 10px 8px 3px #111;
-		  text-shadow: 0 0 10px #eee;
-		}
-		
-		.canvas {
-			border: 3px solid #0af;
-			border-radius: 5px;
-			background-color: #3a9;
-			color: #eee;
-			overflow: hidden;
-		}
-		
-		.display-none {
-              display: none;
-            }
-		
-		canvas {
-		  background-color: #3f3;
-		}
-	    ..wrap {
-		  margin: 10px;
-		  padding:10px;
-		}
-	    ..wrap .box {
-		  position: relative;
-		  width: Calc(100vh - 20%)/2;
-		  height: 80vh;
-		  border: 10px dotted #3ddd3d;
-		  text-shadow 0 0 10px 0;
-		  border-radius: 10px;
-		}
-		
-		box {
-		  background-color: #4d4;
-		}
-		
-		h1 {
-		  margin: 10px;
-		  padding:10px;
-		  background-color: #0a4;
-		  color: #eee;
-		}
-		
-		btn {
-		  background-color: #ef0;
-		  width: 120px;
-		  text-align: center;
-		  font=family: helvetica;
-		  border: 2px solid #333;
-		  border-radius: 3px;
-		}
-		
-		a {
-		  text-decoration: none;
-		  color: inherit;
-		}
-	  </style>
 	</head>
 <body>
 
-  <div class='wrap body-wrap'>
+  <div class='wrapper body-wrap'>
     <header>
     <h1>King BIlls Page Holder Script </h1>
 	<p>Don't worry about it, Warrior 'bout it</p>

@@ -1,41 +1,55 @@
 :root {
 	--dark: #303a3f;
-	--clrb: #0ef;
+    --darkcomp: #403630;
+    --dark2:  #303340;
+    --dark3: #30403D;
+
+	--light: #0ef;
+	--light2: #006eff;
+    --light3: #00ff91;
+	--lightcomp: #01f;
+ 
+
 	--shaadio: 0 0 8px rgba( 120, 120, 120, 0.8),
-	      inset 5px 5px 6px rgba(255, 120, 120, 120, 0.8);
-    --head: rgba( 0, 180, 250, 0.6);
+	      inset 5px 5px 6px rgba(60, 120, 240, 0.8);
+    --bluetransparent: rgba( 0, 180, 250, 0.6);
 	--shad: 10px 8px 3px rgba(0, 0, 0, 0.8);
+	--shat: 0 0 6px rgba (120, 120, 120, 0.8);
+	--shat2: 0 0 6px rgba ( 20, 20, 20, 0.8);
+	--shat3:  0 0 6px rgba(60, 220, 255, 0.8);
+	
+	--bdr: 3px solid rgba( 0, 180, 250, 0.6);
+	--calc80: calc(100%-80px);
+	--shadin: inset 3px 6px 3px  1px rgba(120, 220, 220, 0.4);
 }
 
 * {
-	margin: 0;
-	padding:0 auto;
+	margin:  0;
+	padding:0;
 	box-sizing: border-box;
 }
 
 html {
-	margin: 0 auto;
-	padding: 0 20px 0 20px;
+	margin: 0 10px;
+	padding: 0 0 20px 0;
 }
 
 body {
 	        display: block;
-	        box-shadow: var(--shadio);
+	        box-shadow: var(--shaadio);
 			margin: 0;
 			text-align: center;
-			background: black;
-			display: flex;
+			background-color: var(--dark);
 			justify-content: center;
 			align-items: center;
-			color: var(--head);
-			background-color: var(--dark);
+			color: var(--light3);
 		}
 		
 		body div {
-		  color: #eef ;
-		  border: 3px solid #ddd;
+		  color: var(--light2) ;
+		  border: ;
 		  box-shadow: var(--shad);
-		  text-shadow: 0 0 10px #eee;
+		  text-shadow: var(--shat);
 		}
 		
 		.canvas {
@@ -43,77 +57,120 @@ body {
 			border-radius: 5px;
 			background-color: rgba( 10, 58, 113, 0.4);
 			color: #eee;
-			overflow: hidden;
+			/*overflow: hidden;*/
 		}
 		
 		.display-none {
           display: none;
         }
 		
+		.canvas-wrap {
+			margin: 8px 10px ;
+		}
+		
 		canvas {
          width:100%;		 
 		 background-color: transparent;
 		}
+		
 	    .wrapper {
-		  margin: 10px;
+		  margin: 10px var(--calc80);
 		  padding: 10px;
 		}
 	    .wrapper .box {
-		  position: absolute;
-		  width: Calc(100vh - 20%)/2;
+		  position: relative;
+		  width: Calc(100%- 20px);
 		  /*height: 80vh;*/
-		  border: 10px dashed #3ddd3d;
-		  text-shadow: 0 0 10px 0;
+		  border: var(--bdr);
+		  text-shadow: 0 0 px ;
 		  border-radius: 10px;
 		}
 		
 		.box {
-		  background-color: #4d4;
+		  background-color: var(--dark3);
 		}
 		
-		h1 {
-		  box-shadow: inset 10px 5px 10px 10px var(--head);
-		  text-shadow:  0 0 6px rgba(60, 220, 255, 0.8);
-		  margin: 10px;
+		h1, h2, h3, h4, h5, h6 {
+		  box-shadow: inset 10px 5px 10px var(--bluetransparent);
+		  text-shadow: var(--shat3);
 		  padding:10px;
 		  background-color: transparent;
-		  color: #eee;
+		  color: var(--light3);
+		}
+		
+		ul {
+			list-style: none;
+			display: flex;
+		}
+		
+		ul li {
+			display:  inline-flex;
 		}
 		
 		.btn {
-		  padding: 5px 0;
-		  background-color: var(--head);
-		  position: ;
+		  padding: 3 	px 3px;
+		  background-color: var(--bluetransparent);
+		  position: relative;
 		  width: 100%;
 		  height: 2em;
 		  text-align: center;
 		  font-family: helvetica, arial;
-		  border: 2px solid #333;
+		  border: 2px solid var(--dark2);
 		  border-radius: 3px;
-		  font-size: 20%;
+		  font-size:  10px;
+		  box-shadow: var(--shadin);
+		}
+		
+		.btn:hover {
+			background-color: var(--light3);
+			box-shadow: var(--shadin);
 		}
 		
 		a {
+			padding: 3px 3px;
+			font-weight: 600;
 		  text-decoration: none;
-		  color: inherit;
+		  color: var(--dark3);
+		  text-shadow: var(--shat)
 		}
 		
 		a:hover {
 			text-decoration: underline;
+		    text-shadow: var(--shat2);
+			color: var(--dark2);
+		}
+		
+		p {
+			font-size:1em;
+			color: var(--light3);
 		}
 		
 		audio {
-			background-color: #000;
+			background-color: var(--darkcomp);
 			
 		}
 		
 		
 		.audio-table {
 		  background-color: transparent;
-		  text-shadow: var(--shat);
+		  text-shadow: var(--shat3);
+		  box-shadow: var(--shad);
 		}
-		.table-wrapper {background-color: #3	d3d9d;}
-		.audio-wrap { background-color: #000}
+		
+		.table-wrapper {
+			background-color: var(--bluetransparent);
+		}
+		.audio-wrap { 
+		    background-color: var(--dark);
+		}
+		
+		td {
+			color: var(--light3);
+		}
+		
+		.footer {
+			color: var(--dark3);
+		}
 		
 		
 		
