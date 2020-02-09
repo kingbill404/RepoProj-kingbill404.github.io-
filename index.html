@@ -76,6 +76,14 @@
   --shad: 0 0 10px rgba(61, 227, 61, 0.8);
   --hbdr: 6px solid rgba( 20, 220, 255, 0.6);
   --article-bdr: 6px solid rgba(20, 120, 20, 0.4);
+	--btnclr0: #252525;
+	--btnclr1: #707f70;
+	--btnclr2: #d3d3d3;
+        --btnclr3: #3d3d3d;
+	--btntext: rgba(61, 227, 61, 0.8);
+	--tshathhover: 0px 1px 13px rgba(120,120,120,0.8);
+	--headercolor: rgba(220,220,220,0.2);
+    --btnshad: 3px 4px 0px 0px #899599, inset 0 0 6px rgba(120, 120, 120, 0.8);
 }
 
 * {
@@ -236,7 +244,7 @@ section {
 header {
   display: block;
   padding: 0 20px;
-  background-color: rgba(20,20,120,0.4);
+  background-color: var(--headercolor);
   box-shadow: var(--shadin);
 }
 
@@ -252,19 +260,18 @@ header {
   background-color: #00f;
 }
 
-
+#ededed #bab1ba
 
 .btn {
-		
-  -moz-box-shadow: 3px 4px 0px 0px #899599;
-  -webkit-box-shadow: 3px 4px 0px 0px #899599;
-  box-shadow: 3px 4px 0px 0px #899599, inset 0 0 6px rgba(120, 120, 120, 0.8);
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
-  background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
-  background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
-  background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
-  background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
-  background: linear-gradient(to bottom, #252525 5%, #707f70 100%);
+  -moz-box-shadow: var(--btnshad);
+  -webkit-box-shadow: var(--btnshad);
+  box-shadow: var(--btnshad);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, var(--btnclr0)), color-stop(1, var(--btnclr1)));
+  background:-moz-linear-gradient(top, var(--btnclr0) 5%, var(--btnclr1) 100%);
+  background:-webkit-linear-gradient(top, var(--btnclr0) 5%, var(--btnclr1) 100%);
+  background:-o-linear-gradient(top, var(--btnclr0) 5%, var(--btnclr1) 100%);
+  background:-ms-linear-gradient(top, var(--btnclr0) 5%, var(--btnclr1) 100%);
+  background: linear-gradient(to bottom, var(--btnclr0) 5%, var(--btnclr1) 100%);
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#555', endColorstr='#333',GradientType=0);
   background-color:#000;
   -moz-border-radius:18px;
@@ -273,7 +280,7 @@ header {
   border: 2px solid #d6bcd6;
   display:inline-block;
   cursor:pointer;
-  color: rgba(61, 227, 61, 0.8);
+  color: var(--btntext);
   font-family:Arial;
   font-size:17px;
   font-weight:bold;
@@ -284,16 +291,16 @@ header {
 
 .btn:hover {
   color: #3d3ddd;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d3d3d3), color-stop(1, #d3d3d3));
-  background: -moz-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
-  background: -webkit-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
-  background: -o-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
-  background: -ms-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
-  background: linear-gradient(to bottom, #3d3d3d 5%, #d3d3d3 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d, endColorstr='#d3d3d3',GradientType=0);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, var(--btnclr2), color-stop(1, #d3d3d3));
+  background: -moz-linear-gradient(top, var(--btnclr2) 5%, #d3d3d3 100%);
+  background: -webkit-linear-gradient(top, var(--btnclr2) 5%, var(--btnclr3) 100%);
+  background: -o-linear-gradient(top, var(--btnclr2) 5%, var(--btnclr3) 100%);
+  background: -ms-linear-gradient(top, var(--btnclr2) 5%, var(--btnclr3) 100%);
+  background: linear-gradient(to bottom,var(--btnclr2) 5%, var(--btnclr3) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--btnclr2)', endColorstr='var(--btnclr3)',GradientType=0);
   background-color: transparent;
   text-shadow: var(--shat3);
-	    text-shadow:0px 1px 13px rgba(120,120,120,0.8);
+  text-shadow: var(--tshathhover));
 }
 
 .btn:active {
