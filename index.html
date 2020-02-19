@@ -32,7 +32,7 @@
     <!--link rel='stylesheet' href='../css/kingbill.css' /-->
     <!--link rel='stylesheet' href='../assets/font-awesome/all.min.css' /-->
 
-    <meta name='description' content='King Bill' s Freestyle Sandbox, Hobbyist Full Stack Developer. This is my Sandbox Website for hosting projects, code snippets and anything I deem worthy, Rick and Morty Season 4 Posted as they 're released' />
+    <meta name='description' content='King Bills Freestyle Sandbox, Hobbyist Full Stack Developer. This is my Sandbox Website for hosting projects, code snippets and anything I deem worthy, Rick and Morty Season 4 Posted as theyre released' />
     <meta name='keywords' content='kingBill404, Sandbox website, code, Scripting, App Development, Web Development, Bill Billions, HTML, JavaScript, CSS, C#, CS, XML'>
     <!-- Vendor -->
     <style type='text/css'>
@@ -41,7 +41,7 @@
         }
         /*!----------------------------------------------------------------------*/
     </style>
-    <link type='text.css' rel='stylesheet' href='./assets/css/fa-all.css' />
+    <!--link type='text.css' rel='stylesheet' href='./assets/css/fa-all.css' /-->
     <link type='text/css' rel='stylesheet' href='./AudioProject/web/style.css' />
     <!--link type='text/css' rel='stylesheet' href='./AudioProject/web/main.css' /-->
     <style>
@@ -84,6 +84,8 @@
             --headercolor: rgba(80, 80, 80, 0.2);
             --btnshad: 3px 4px 0px 0px #899599, inset 0 0 6px rgba(120, 120, 120, 0.8);
             --endclrstr: #333;
+			 --wrapclr: rgba(60, 180, 120, 0.4);
+			 --hoverclr: #d2d;
         }
         
         * {
@@ -106,7 +108,7 @@
         }
         
         .wrap {
-            background-color: rgba(60, 180, 120, 0.4);
+            background-color: var(--wrapclr);
             box-shadow: var(--shadin);
             margin: 10px;
             border: 3px solid #3ddd3d;
@@ -190,7 +192,8 @@
         }
         
         a:hover {
-            transform: rotate3d(0.3, 8.0, 3.3, -45);
+		     color: var(--hoverclr);
+            transform-translate: rotate3d(0.3, 8.0, 3.3, -45);
             text-decoration: underline;
             text-shadow: var(--shat3);
         }
@@ -269,7 +272,7 @@
             background-color: #00f;
         }
         
-        #ededed #bab1ba .btn {
+       .btn {
             -moz-box-shadow: var(--btnshad);
             -webkit-box-shadow: var(--btnshad);
             box-shadow: var(--btnshad);
