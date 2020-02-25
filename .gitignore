@@ -1,19 +1,15 @@
 <#
+
     KingBill404 .Music  .Gitignore File
-	    
-		Contents: 
-		    -   log.txt            (Root Dir Only)
-            -   .psc1				(Embedded extention only)
-			-  .dev 				(Folders, Files, Root & Extention)
-            -  dimmension	(Embedded Foder)
-			
 #>
 
-*log.txt 
+*log.txt
+*/*log.txt
 */dimmension/* 
+*/dimmension
 *.psc1
 */.dev/* 
-.dev\* 
+/.dev/* 
 */.SandBox/*
 *dev*
 .dev
