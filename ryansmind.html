@@ -6,9 +6,9 @@
 	<head>
 	  <meta charset='UTF-8' />
 	  <meta name='viewport' content='width=device-width initial-scale=1 user-scalable=no' />
-	  <meta http-equiv='lang:xml' content='ie=edge' />	
-	  <meta http-equiv='content-type' content='text/xml; charset=UTF-8' />
-	  <meta http-equiv='default-style' content='../assets/stylerymind.css'>
+	  <meta http-equiv='xmlns' content='ie=edge' />	
+	  <meta http-equiv='content-type' content='text/html; charset=UTF-8' />
+	  <meta http-equiv='default-style' content='../css/style.css'>
 	  
 	                    <!-- Setting the Refresh Atribute will cause
  						     a failure in content accessibility  -->
@@ -23,158 +23,16 @@
 		<script type='application/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
 		<script type='application/javascript' src="https://threejs.org/examples/js/controls/TrackballControls.js"></script> 
 		
-        <link type='text/css' href='../css/style.css' />
+        <link type='text/css' href='../assets/rymind.css' />
 	  
 	                     <!-- Rotate Cube -->
-	  <script>
-	    /* global THREE */
-
-console.log = () => {}
-
-window.onload = () => {
-
-const {
-	WebGLRenderer, PerspectiveCamera, Scene, BoxGeometry,
-	MeshPhongMaterial, Mesh, DirectionalLight,
-	TrackballControls
-} = THREE
-
-const canvas = document.getElementsByTagName('canvas')[0]
-const renderer = new WebGLRenderer({ canvas })
-
-// Camera setup
-
-const fov = 50, aspect = 2
-const near = 0.1, far = 5
-
-const camera = new PerspectiveCamera(fov, aspect, near, far)
-
-camera.position.z = 2
-
-// Scene setup
-
-const scene = new Scene()
-
-// The cube
-
-const geometry = new BoxGeometry(1, 1, 1)
-
-const material = new MeshPhongMaterial({ color: 'blue' })
-
-const cube = new Mesh(geometry, material)
-
-// The light
-
-const light = new DirectionalLight('white', 1)
-
-light.position.set(-1, 2, 2)
-
-// Add stuff to scene
-
-scene.add(light)
-scene.add(cube)
-renderer.render(scene, camera)
-
-// Controls
-
-const controls = new TrackballControls(camera, renderer.domElement)
-
-const render = time => {
-	time *= 0.001
-	cube.rotation.y = time
-	cube.rotation.x = 0.5
-	renderer.render(scene, camera)
-	requestAnimationFrame(render)
-	camera.updateProjectionMatrix()
-	controls.update()
-}
-
-requestAnimationFrame(render)
-
-}
-	  </script>
+	  <script src=='../assets/ryapp.js'></script>
 	  <script>
 	  $(function() {
     var val = $("p").html();
-    alert(val);
+    alert(val); 
 });
       </script>
-	  
-	  <style>
-	  	    body {
-		  	margin: 0;
-		  	overflow: hidden;
-		  	width: 100vw;
-		  	height: 100vh;
-		  	text-align: center;
-		  	background: black;
-		  	display: flex;
-		  	justify-content: center;
-		  	align-items: center;
-		    color: #eee;
-			background-color: #333;
-		}
-		
-		body div {
-		  color: #eee;
-		  border: 3px solid #ddd;
-		  box-shadow: 10px 8px 3px #111;
-		  text-shadow: 0 0 10px #eee;
-		}
-		
-		.canvas {
-			border: 3px solid #0af;
-			border-radius: 5px;
-			background-color: #3a9;
-			color: #eee;
-			overflow: hidden;
-		}
-		
-		.display-none {
-              display: none;
-            }
-		
-		canvas {
-		  background-color: #3f3;
-		}
-	    ..wrap {
-		  margin: 10px;
-		  padding:10px;
-		}
-	    ..wrap .box {
-		  position: relative;
-		  width: Calc(100vh - 20%)/2;
-		  height: 80vh;
-		  border: 10px dotted #3ddd3d;
-		  text-shadow 0 0 10px 0;
-		  border-radius: 10px;
-		}
-		
-		box {
-		  background-color: #4d4;
-		}
-		
-		h1 {
-		  margin: 10px;
-		  padding:10px;
-		  background-color: #0a4;
-		  color: #eee;
-		}
-		
-		btn {
-		  background-color: #ef0;
-		  width: 120px;
-		  text-align: center;
-		  font=family: helvetica;
-		  border: 2px solid #333;
-		  border-radius: 3px;
-		}
-		
-		a {
-		  text-decoration: none;
-		  color: inherit;
-		}
-	  </style>
 	</head>
 <body>
 
