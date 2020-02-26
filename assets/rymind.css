@@ -1,7 +1,10 @@
-/* rymind.css */ 
-  body {
+/* rymind.css */
+
+
+
+ body {
 		  	margin: 0;
-		  	overflow: hidden;
+		  	
 		  	width: 100vw;
 		  	height: 100vh;
 		  	text-align: center;
@@ -32,7 +35,7 @@
               display: none;
             }
 		
-		canvas {
+		canvas {overflow: hidden;
 		  background-color: #3f3;
 		}
 	    .wrap {
