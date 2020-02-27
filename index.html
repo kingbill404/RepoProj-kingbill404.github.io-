@@ -29,8 +29,8 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width initial-scale=1 user-scalable=yes' />
     <title>King Bill's Freestyle Sandbox</title>
-    <!--link rel='stylesheet' href='../css/kingbill.css' /-->
-    <!--link rel='stylesheet' href='../assets/font-awesome/all.min.css' /-->
+    <link rel='stylesheet' href='./audioproject/web/assets/css/fontawesome-all.min.css' />
+    <link rel='stylesheet' href='./assets/main.css' />
 
     <meta name='description' content='King Bills Freestyle Sandbox, Hobbyist Full Stack Developer. This is my Sandbox Website for hosting projects, code snippets and anything I deem worthy, Rick and Morty Season 4 Posted as theyre released' />
     <meta name='keywords' content='kingBill404, Sandbox website, code, Scripting, App Development, Web Development, Bill Billions, HTML, JavaScript, CSS, C#, CS, XML'>
@@ -39,14 +39,19 @@
         html {
             width: 100%;
         }
+		
+		li {
+		  display: inline-flex;
+		}
+		
         /*!----------------------------------------------------------------------*/
     </style>
     <!--link type='text.css' rel='stylesheet' href='./assets/css/fa-all.css' /-->
-    <link type='text/css' rel='stylesheet' href='./assets/main.css' />
-    <!--link type='text/css' rel='stylesheet' href='./AudioProject/web/main.css' /-->
-    <style>
+    <!--link type='text/css' rel='stylesheet' href='./assets/main.css' /-->
+    <!--link type='text/css' rel='stylesheet' href='./AudioProject/web/assets/css/style.css' /-->
+    <!--link type='text/css' rel='stylesheet' href='./AudioProject/web/assets/css/fontawesome-all.min.css' /-->
+    <link type='text/css' rel='stylesheet' href='./AudioProject/web/assets/css/fa-fonts.css' />
 
-    </style>
 </head>
 
 <body>
@@ -58,13 +63,13 @@
                 <div style='text-align:center;'>
                     <h2>Site Navigation</h2>
                 </div>
-                <ul>
+                <ul class='grid'>
                     <li><a class='btn nav-btn' href='./AudioProject/Audioindex.html'><span class='fa fa-music'></span>Get Back In The Book LP</a></li>
                     <li><a class='btn nav-btn' href='./AudioProject/rhymes.html'><span class='fa fa-microphone'></span>Some Rhymes</a></li>
                     <li><a class='btn nav-btn' href='#rms4'><span class='fa fa-globe'></span>Rick &amp; Morty S4</a></li>
                     <li><a class='btn nav-btn' href='#alanwaves'><span class='fa fa-user'></span>Watts Wave (Alan watts)</a></li>
                     <li><a class='btn nav-btn' href='./AudioProject/Audioindex-2020.html'><span class='fa fa-diamond'></span>2020 Tracks</a></li>
-                    <li><a class='btn nav-btn' href='./ryansmind.html'><span class='fas fa-lighning'></span>Ryans Mind</a></li>
+                    <li><a class='btn nav-btn' href='./ryansmind.html'><span class='fas fa-brain'></span>Ryans Mind</a></li>
                 </ul>
             </nav>
             <section class='table-wrapper'>
@@ -76,9 +81,17 @@
                         </tr>
                     </thead>
                     <tbody class='tbody'>
+					<tr class='audio-wrap'>
+                            <td>My Wacky Unkle Alan</td>
+                            <td>
+                                <audio controls>
+                              <source src='./AudioProject/Music/2020-jams/jazz.mp3' type='audio/mpeg' />
+                            </audio>
+                            </td>
+                        </tr>
                         <tr class='audio-wrap'>
-                            <td class='btn2'>Pop Ops</td>
-                            <td class='btn2'>
+                            <td class=''>Pop Ops</td>
+                            <td class='Audio-Player'>
                                 <audio controls>
                         <source src='./AudioProject/Music/2020-jams/popop.mp3' type='audio/mpeg' />
                       </audio>
@@ -86,7 +99,7 @@
                         </tr>
 
                         <tr class='audio-wrap'>
-                            <td class='btn2'>Jam 2</td>
+                            <td>Jam 2</td>
                             <td>
                                 <audio controls>
                         <source src='./AudioProject/Music/2020-jams/02-22jam2.mp3' type='audio/mpeg' />
@@ -108,7 +121,6 @@
                               <source src='./AudioProject/Music/2020-jams/02-18-pattern3.wav' type='audio/wav' />
                             </audio>
                             </td>
-                        </tr>
                         </tr>
                         <tr class='audio-wrap'>
                             <td>02-11 Jam</td>
