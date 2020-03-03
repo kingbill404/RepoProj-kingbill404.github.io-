@@ -13,7 +13,7 @@
         }
         
         .btn-style-1 {
-            background-color: #337ab7;
+            background-color: #3ddd3d;
             display: inline-block;
             text-align: center;
             padding-right: 15px;
@@ -43,7 +43,7 @@
         }
         
         .btn-style-3 {
-            background-color: #5bc0de;
+            background-color: #3ddd3d;
             display: inline-block;
             text-align: center;
             padding-right: 15px;
@@ -58,7 +58,7 @@
         }
         
         .btn-style-4 {
-            background-color: #f0ad4e;
+            background-color: #3ddd3d;
             display: inline-block;
             text-align: center;
             padding-right: 15px;
@@ -73,7 +73,7 @@
         }
         
         .btn-style-5 {
-            background-color: #d9534f;
+            background-color: #3ddd3d;
             display: inline-block;
             text-align: center;
             padding-right: 15px;
@@ -88,13 +88,13 @@
         }
         
         .btn-style-5:hover {
-            background-color: #d9534f;
+            background-color: #3ddd3d;
             opacity: 1;
             text-decoration: none
         }
         
         .btn-style-6 {
-            background-color: #616161;
+            background-color: #3ddd3d;
             display: inline-block;
             text-align: center;
             padding-right: 15px;

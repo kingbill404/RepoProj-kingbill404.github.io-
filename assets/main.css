@@ -82,8 +82,8 @@
         }
         
         li {
-            position: ;
-            /* display: inline-flex;*/
+            position: repeat-x;
+            display: inline-flex;*/
         }
         
         nav li {
