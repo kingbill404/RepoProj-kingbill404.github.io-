@@ -19,7 +19,7 @@
             font-weight: 400;
             src: url(https://fonts.gstatic.com/s/markazitext/v5/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQf4QvAQ.ttf) format('truetype');
         }
-        
+        @import: url(./button_styles.css);
          :root {
             --shat: 2px 3px 1px #111, 0 0 6px rgba(120, 120, 220, 0.8);
             --shat2: 0 0 6px rgba(20, 220, 120, 0.8);
