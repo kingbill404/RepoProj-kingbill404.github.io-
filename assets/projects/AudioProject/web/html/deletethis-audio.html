@@ -1,0 +1,377 @@
+
+<!-- Created by Bill Billions -->
+
+<!DOCTYPE html>
+<html>                  <!-- Required tags -->
+	<head>
+	  <meta charset='UTF-8' />
+	  <meta name='viewport' content='width=device-width initial-scale=1.6 user-scalable=yes' />
+	  <meta http-equiv='xmlns' content='ie=edge' />	
+	  <meta http-equiv='content-type' content='text/html; charset=UTF-8' />
+	  <meta http-equiv='default-style' content='./css/style.css'>
+	  
+	                    <!-- Setting the Refresh Atribute will cause
+ 						     a failure in content accessibility  -->
+	  <!--meta http-equiv="refresh" content="300"-->
+	  
+	  <title>Audio SandBox</title>
+		
+		                <!-- Vendor CDN's -->
+	  <script type='application/javascript' src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	  <script type='application/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
+      <script type='application/javascript' src="https://threejs.org/examples/js/controls/TrackballControls.js"></script>		
+		
+		                <!-- My Linked Scripts -->
+		<!--script type='application/javascript' href='./js/audio.js'--><!--/script-->
+        <!--link type='text/css' href='./audio.css' /-->
+	<style type='text/css'>
+	   :root {
+		   --light: #eee;
+		   --dark: #333;
+		   --shad: inset 10px 10px 6px gba(20, 120, 20, 0.6), 0 0 10px rgba(255, 255, 255, 0.4);
+   	       --bdr: 8px solid #eee;
+		   --clr: #3ddd3d;
+		   --shat: 0 0 10px rgba(20, 150, 255, 0.3);
+		   --shat2: 3px -2px 3px rgba(55, 255, 120, 0.3);
+		   --bg: #333;
+		   --bg1: rgba(20, 120, 20, 0.6);
+	   }
+	
+		body {
+		  text-shadow: var(--shat);
+	      display: flexbox;
+		  background-color: var(--bg);
+		  color: #eee;
+		  justify-content: center;
+		  text-align: center;
+		}
+		
+		div.wrap {
+		  margin: 0 calc(100% - 20%)/2;
+		  border: 8px solid #var(--light);
+		  border-radius: 10px;	
+          box-shadow: var(--shad);		  
+		}
+		
+		.shad {
+			box-shadow: var(--shad); 
+			border: var(--bdr);
+			
+			}
+		
+		
+		
+		ul {
+		  list-style: none;
+		  border: var(--bdr);
+		  border-radius: 10px;
+		  text-shadow: var(--shat2);
+		  color: #0ef;
+		}
+		
+		div.underline {
+			text-decoration: underline;
+		}
+		
+		article {
+		  background-color: var(--dark);
+		}
+	</style>
+	</head>
+	
+	<body>
+	<a href='https://kingbill404.github.io'>Go Home</a>
+	  <div class='wrap'>
+	    <article class='musicplayer-array shad' >
+		  <h1>Billions Audio Webpage</h1>
+		    <section id='musicplayer-array'>
+					  <h4><u>Sections:</u></h4>
+				<ul class='shad'>	
+				  <li><div class='underline'>Singles</div>
+				    <ol>
+					  <li>OOber</li>
+					  <li>Bumpy Feet</li>
+					  <li>What The chunk</li>
+					  <li>Pull Your Weight</li>
+					  <li>Saskatchewan</li>
+					  <li>Eat Cake Shit</li>
+					</ol>
+				  </li>
+				  <li><div class='underline'>Two Headed Bryan LP </div>
+				    <ol>
+				      <li>Finish YOur Cake</li>
+				      <li>Boss Level Shit</li>
+				      <li>Sick Shit Ritz Click</li>
+				      <li>3am Shit</li>
+			  	      <li>I Had No Idea</li>
+			          <li>Dungeon Mosey</li>
+				      <li>Confident Crook</li>
+				      <li>Forming Circles</li>
+				      <li>Simply Smashing Lad</li>
+				      <li>Yesterday's Aftermath</li>
+				      <li>Nightmare</li>
+				      <li>12-20 Jam</li>
+				      <li>Earth Golum</li>
+			              <li>Viejo Blvd.</li>
+			              <li>1984 For Sure</li>
+				    </ol>
+				  </li>
+				</ul>
+<del>
+			  <h4><div class='underline'>Follow Me</div></h4>
+				<ul class="icons">
+				  <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				  <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				  <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				  <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+				</ul>
+
+			  <h4><div class='underline'>Actions</div></h4>
+				<ul class="actions">
+				  <li><a href="#" class="button special">Default</a></li>
+				  <li><a href="#" class="button">Default</a></li>
+				</ul>
+</del>
+		<!-- switch # and . from muicplayer-array in css file for different styling-->
+		  </section>
+		  
+		  <section>
+		    
+
+		    <h3 class="major">Music Player Array</h3>
+			  <h4><div class='underline'>Singles</div></h4>
+			  
+			  <div class="table-wrapper">
+			    <table>
+			      <thead>
+			  	    <tr>
+				      <th><div class='underline'>Track #</div></th>
+				      <th><div class='underline'>Song Title</div></th>
+				      <th><div class='underline'>player</div></th>
+				    </tr>
+			      </thead>
+			      
+				  <tbody>
+				      <tr>
+				        <td>1.</td>
+				        <td>OOber</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./OOber.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>2.</td>
+				        <td>Bumpy Feet</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./bumpyfeet.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>3.</td>
+				        <td>What The Chunk</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./LofiBeat2.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>4.</td>
+				        <td>Pull Your Weight</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./PullYourWeight.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>5.</td>
+				        <td>Saskatchewan</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./saskatchewan.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+			  	      </tr>
+					  				      <tr>
+				        <td>6.</td>
+				        <td>Eat Cake Shit</td>
+				        <td>
+						  <audio controls>
+		                    <source src='./EatCakeShit.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+			  	      </tr>
+			        </tbody>
+
+			        <tfoot>
+				      <tr>
+				        <td colspan="2"></td>
+			   	        <td>100.00</td>
+				      </tr>
+			        </tfoot>
+			      </table>
+		        </div>	<!-- End Table-Wrap -->
+				
+				<div class='table-wrap'>
+				  <table>
+				    <thead>
+			  	      <tr><h1>Two Headed Bryan LP</h1>
+				        <th>Track </th>
+				        <th>Song Title</th>
+						<th>Player</th>
+				      </tr>
+			        </thead>
+					<tr>
+					  <th>1</th>
+					  <th>Finish Your Cake</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./1.FinishYourCake.mp3' type='audio/mpeg' />
+						</audio>
+					  </th>
+					</tr>
+					<tr>
+					  <th>2</th>
+					  <th>Boss Level Shit</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./2.BossLevelShit.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>3</th>
+					  <th>Sick Shit Ritz Click</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./3.SickShitRitzCick.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>4</th>
+					  <th>3am Shit</th>
+					  <th>
+					    <audio controls>
+		                    <source src='.4.3amShit.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>5</th>
+					  <th>I Had No Idea</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./5.IhadNoIdea.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>6</th>
+					  <th>Dungeon Mosey</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./6.DungeonMosey.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>7</th>
+					  <th>Wild West Coast (Beat)</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./WestCoastBeat.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>8</th>
+					  <th>Forming Circles</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./8.FormingCircles.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>9</th>
+					  <th>Simply Smashing Lad</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./9.Simplysmashinglad.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>10</th>
+					  <th>Yesterday's Aftermath</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./10.YesterdaysAftermath.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>11</th>
+					  <th>Nightmare</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./11.ItsANightmare.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>12</th>
+					  <th>12-20 Jam</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./12.1220jam.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr><tr>
+					  <th>13</th>
+					  <th>Earth Golum</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./13.EarthGolum.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tr>
+					  <th>14</th>
+					  <th>Viejo Blvd.</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./14.ViejoBlvd.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr><tr>
+					  <th>15</th>
+					  <th>1984 For Sure</th>
+					  <th>
+					    <audio controls>
+		                    <source src='./15.1984fsho.mp3' type='audio/mpeg' />
+						</audio> 
+					  </th>
+					</tr>
+					<tfoot>
+					  <th></th>
+					  <th></th>
+					  <th>
+					  </th>
+					</tfoot>
+					
+		    </section>
+			
+	
+		</article>
+	  </div>	 	    <!-- End Wrap  --> 
+	  
+      <script src='./js/audio.js'></script>	
+	</body>
+</html>	
