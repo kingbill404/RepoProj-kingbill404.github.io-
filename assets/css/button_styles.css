@@ -21,8 +21,8 @@
             font-family: Arial;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #ffffff;
-            border-color: #000000;
+            color: #08f8e8;
+            border-color: #eee;
             font-size: 20px;
             padding-top: 5px
         }
@@ -33,10 +33,10 @@
             text-align: center;
             padding-right: 15px;
             border-radius: 7px;
-            font-family: Times New Roman;
+            font-family: calibri, Helvetica, Times New Roman;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #ffffff;
+            color: #2459f3;
             border-color: #000000;
             font-size: 20px;
             padding-top: 5px
@@ -51,8 +51,8 @@
             font-family: Verdana;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #ffffff;
-            border-color: #000000;
+            color: #03e3f3;
+            border-color: #e37393;
             font-size: 20px;
             padding-top: 5px
         }
@@ -99,10 +99,10 @@
             text-align: center;
             padding-right: 15px;
             border-radius: 3px;
-            font-family: Georgia;
+            font-family: Georgia, calibri;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #ffffff;
+            color: var(--colT rgba:   );
             border-color: #000000;
             font-size: 20px;
             padding-top: 5px
