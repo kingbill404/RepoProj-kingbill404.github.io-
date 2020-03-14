@@ -1,0 +1,68 @@
+/* https://kingbill404.github.io/assets/css/_format.css */
+@import "./main.css";
+@import "./_vars.css";
+@import "./_textography";
+* {
+	margin: 0;
+	padding: 1px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+body {
+	text-shadow: var(--shat);
+	font-weight: 100;
+	background-color: var(--bodybg);
+	color: #eee;
+	width: 100%;
+	color: #eee;
+	display: block;
+	max-width: 90%;
+	align-items: center;
+}
+
+.wrap {
+	background-color: var(--wrapclr);
+	box-shadow: var(--shadin);
+	margin: 10px;
+	border: 3px solid var(--wrapborder);
+	border-radius: 6px;
+}
+
+header {
+	width: 80%;
+	height: 600px;
+	background-color: var(--bg);
+}
+
+ul {
+	display: flexbox;
+	list-style: none;
+}
+
+ol {
+	list-style: none;
+	display: block;
+}
+
+li {
+	position: repeat-x;
+	display: inline-flex;
+}
+
+nav li {
+	position: relative;
+}
+
+article {
+	padding: 10px;
+	border: var(--article-bdr);
+}
+
+section {
+	display: flexbox;
+}
+
+nav {
+	padding: auto;
+}

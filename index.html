@@ -19,29 +19,53 @@
 // DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-    
     -->
 <!DOCTYPE html>
 <html>
-
+<!-- 
+    Homepage (index.html) 
+     https://kingbill404.github.io 
+-->
 <head>
+  
+    <!-- Settings -->
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width initial-scale=1 user-scalable=yes' />
     <title>King Bill's Freestyle Sandbox</title>
-    <link rel='stylesheet' href='./audioproject/web/assets/css/fontawesome-all.min.css' />
-    <link rel='stylesheet' href='./assets/main.css' />
+    
+	<![if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]>
+    <![if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]>
+    <![if IE 8]>         <html class="no-js lt-ie9"> <![endif]>
+    <![if gt IE 8]>      <html class="no-js"> <![endif]>
+	
+	<!-- Vendor CDNs-->
+	<link rel='stylesheet' href='./assets/vendor/font-awesome/all.min.css' />
+    
+	<!-- Stylesheets -->
+	<link rel='stylesheet' href='./assets/css/main.css' />
+	<link rel='stylesheet' href='./assets/css/_format.css' />
+	<link rel='stylesheet' href='./assets/css/_textography.css' />
+	<link rel='stylesheet' href='./assets/css/_vars.css' />
+	<link rel='stylesheet' href='./assets/css/button_styles.css' />
 
-    <meta name='description' content='King Bills Freestyle Sandbox, Hobbyist Full Stack Developer. This is my Sandbox Website for hosting projects, code snippets and anything I deem worthy, Rick and Morty Season 4 Posted as theyre released' />
+    <!-- Meta -->
+	<meta name='description' content='King Bills Freestyle Sandbox, Hobbyist Full Stack Developer. This is my Sandbox Website for hosting projects, code snippets and anything I deem worthy, Rick and Morty Season 4 Posted as theyre released' />
     <meta name='keywords' content='kingBill404, Sandbox website, code, Scripting, App Development, Web Development, Bill Billions, HTML, JavaScript, CSS, C#, CS, XML'>
-    <!-- Vendor -->
+    
+	<!-- Embedded Stylesheet (CSS) -->
     <style type='text/css'>
         html {
             width: 100%;
         }
-		
+		* {
+		  margin:0;
+		  padding:0;
+		}
 		li {
-		  display: inline-flex;
+		  
+	      background-color: #333;
+		  display: grid;
+		  grid-auto-rows: 20%;
 		}
 		
         /*!----------------------------------------------------------------------*/
@@ -64,91 +88,128 @@
                     <h2>Site Navigation</h2>
                 </div>
                 <ul class='grid'>
-                    <li><a class='btn nav-btn' href='./AudioProject/Audioindex.html'><span class='fa fa-music'></span>Get Back In The Book LP</a></li>
-                    <li><a class='btn nav-btn' href='./AudioProject/rhymes.html'><span class='fa fa-microphone'></span>Some Rhymes</a></li>
-                    <li><a class='btn nav-btn' href='#rms4'><span class='fa fa-globe'></span>Rick &amp; Morty S4</a></li>
-                    <li><a class='btn nav-btn' href='#alanwaves'><span class='fa fa-user'></span>Watts Wave (Alan watts)</a></li>
-                    <li><a class='btn nav-btn' href='./AudioProject/Audioindex-2020.html'><span class='fa fa-diamond'></span>2020 Tracks</a></li>
-                    <li><a class='btn nav-btn' href='./ryansmind.html'><span class='fas fa-brain'></span>Ryans Mind</a></li>
+                    <li><a class='btn nav-btn' href='./assets/AudioProject/Audioindex.html'><span class='fa fa-music'></span>Get Back In The Book LP</a></li>
+                    <li><a class='btn nav-btn' href='./assets/projects/AudioProject/rhymes.html'><span class='fa fa-microphone'></span>Rhymes</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/rhymes.html'><span class='fa fa-microphone'></span>Random Rhymes</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/rms4.html'><span class='fa fa-globe'></span>Rick &amp; Morty S4</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/philosophy.html'><span class='fa fa-user'></span>Philosophy</a></li>
+                    <li><a class='btn nav-btn' href='./assets/projects/AudioProject/Audioindex-2020.html'><span class='fa fa-diamond'></span>2020 Tracks</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/ryansmind.html'><span class='fa fa-brain'></span>Ryans Mind</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/randomerrhymes.html'><span class='fa fa-microphone'></span>Randomer Rhymes</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/morerhymes.html'><span class='fa fa-microphone'></span>rhymes3</a></li>
                 </ul>
             </nav>
+			</header>
+			<article>
             <section class='table-wrapper'>
-                <table>
+                <table><div>Billion Beats &amp; Urban Chi</div>
                     <thead class='thead'>
                         <tr>
                             <td>Track</td>
                             <td>Player</td>
                         </tr>
                     </thead>
-                    <tbody class='tbody'>02-27-BillionzSamplwz.mp3
+                    <tbody>
 					   <tr class='audio-wrap'>
-                            <td>02-27-BilionsAllSamples</td>
+                            <td>beatzzz</td>
                             <td>
-                                <audio controls>
-                              <source src='./AudioProject/Music/2020-jams/02-27-BillionzSamplwz.mp3' type='audio/mpeg' />
-                            </audio>
+                              <audio controls>
+                                <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-05-beatzzz.mp3' type='audio/mpeg' />
+                              </audio>
                             </td>
                         </tr>
 					
 					<tr class='audio-wrap'>
-                            <td>My Wacky Unkle Alan</td>
+                            <td>TYB</td>
                             <td class='audio-player'>
                                 <audio controls>
-                                   <source src='./AudioProject/Music/2020-jams/Jazz.mp3' type='audio/mpeg' />
+                                   <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-05-tyb.mp3' type='audio/mpeg' />
                                 </audio>
                             </td>
                         </tr>
                         <tr class='audio-wrap'>
-                            <td class=''>Pop Ops</td>
+                            <td class='#'>Ambient As Fuck</td>
                             <td class='Audio-Player'>
                                 <audio controls>
-                        <source src='./AudioProject/Music/2020-jams/popop.mp3' type='audio/mpeg' />
+                        <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-06-ambientasfuck.wav' type='audio/wav' />
                       </audio>
                             </td>
                         </tr>
 
                         <tr class='audio-wrap'>
-                            <td>Jam 2</td>
+                            <td>Beaches and Islands</td>
                             <td>
                                 <audio controls>
-                        <source src='./AudioProject/Music/2020-jams/02-22jam2.mp3' type='audio/mpeg' />
+                        <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-06-beachesanislands.mp3' type='audio/mpeg' />
                       </audio>
                             </td>
                         </tr>
                         <tr class='audio-wrap'>
-                            <td>02-20 Jam</td>
+                            <td>Rap it Up (beaches and islands 2)</td>
                             <td>
                                 <audio controls>
-                        <source src='./AudioProject/Music/2020-jams/02-21-20jam.mp3' type='audio/mpeg' />
+                        <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-06-raptothis.mp3' type='audio/mpeg' />
                     </audio>
                             </td>
                         </tr>
                         <tr class='audio-wrap'>
-                            <td>02-18 Pattern3</td>
+                            <td>Spooky</td>
                             <td>
                                 <audio controls>
-                              <source src='./AudioProject/Music/2020-jams/02-18-pattern3.wav' type='audio/wav' />
+                              <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-06spooky.wav' type='audio/wav' />
                             </audio>
                             </td>
                         </tr>
                         <tr class='audio-wrap'>
-                            <td>02-11 Jam</td>
+                            <td>Bass Guitar 01</td>
                             <td>
                                 <audio controls>
-                              <source src='./AudioProject/Music/2020-jams/02-11.jam.mp3' type='audio/mpeg' />
+                              <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/03-09bassguitar01.mp3' type='audio/mpeg' />
                             </audio>
                             </td>
                         </tr>
                         </tr>
                         <tr class='audio-wrap'>
-                            <td>Ominous</td>
+                            <td>Fuck Treble</td>
                             <td>
                                 <audio controls>
-                <source src='./AudioProject/Music/2020-jams/02-04-Omnous.mp3' type='audio/mpeg' />
+                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/03-09-highbasses.mp3' type='audio/mpeg' />
             </audio>
                             </td>
                         </tr>
-
+						                        <tr class='audio-wrap'>
+                            <td>Nice Polys</td>
+                            <td>
+                                <audio controls>
+                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/03-10-nicepolys.mp3' type='audio/mpeg' />
+            </audio>
+                            </td>
+                        </tr>
+                        <tr class='audio-wrap'>
+                            <td>Knowpe</td>
+                            <td>
+                                <audio controls>
+                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/03-12.nope.wav' type='audio/wav' />
+            </audio>
+                            </td>
+                        </tr>
+						                        <tr class='audio-wrap'>
+                            <td>Fuck Treble</td>
+                            <td>
+                                <audio controls>
+                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/hiphopjam1(RapToThis).mp3' type='audio/mpeg' />
+            </audio>
+                            </td>
+                        </tr>
+						                        <tr class='audio-wrap'>
+                            <td>Fuck Treble</td>
+                            <td>
+                                <audio controls>
+                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/mar-6-ry-22(RapToThis).mp3' type='audio/mpeg' />
+            </audio>
+                            </td>
+                        </tr>
+						
                     </tbody>
                     <tfoot>
                         <tr>
@@ -156,7 +217,7 @@
                         </tr>
                     </tfoot>
                 </table>
-
+</header>
             </section>
             <section class='fugaz'>
                 <div style='text-align: center;'>

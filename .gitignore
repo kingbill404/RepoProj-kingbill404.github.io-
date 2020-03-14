@@ -4,13 +4,15 @@
 #>
 
 *log.txt
-*/*log.txt
+/*log.txt
 */dimmension/* 
-*/dimmension
+*dimmension/
 *.psc1
-*/.dev/* 
 /.dev/* 
+.dev/*
+.dev 
 */.SandBox/*
 *dev*
 .dev
 */web/*.dev/*
+*.txt
