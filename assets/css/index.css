@@ -1,0 +1,264 @@
+	 @font-face {
+	     font-family: 'Abril Fatface';
+	     font-style: normal;
+	     font-weight: 400;
+	     src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v10/zOL64pLDlL1D99S8g8PtiKchq-dmiA.ttf) format('truetype');
+	 }
+	 
+	 @font-face {
+	     font-family: 'Fugaz One';
+	     font-style: normal;
+	     font-weight: 400;
+	     src: local('Fugaz One'), local('FugazOne-Regular'), url(https://fonts.gstatic.com/s/fugazone/v8/rax_HiWKp9EAITukFsl8Axha.ttf) format('truetype');
+	 }
+	 
+	 @font-face {
+	     font-family: 'Markazi Text';
+	     font-style: normal;
+	     font-weight: 400;
+	     src: url(https://fonts.gstatic.com/s/markazitext/v5/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQf4QvAQ.ttf) format('truetype');
+	 }
+	 
+	 :root {
+	     --shat: 2px 3px 1px #111, 0 0 6px rgba(120, 120, 220, 0.8);
+	     --shat2: 0 0 6px rgba(20, 20, 20, 0.8);
+	     --shat3: 0 0 6px rgba(220, 220, 220, 0.8);
+	     --shadin: inset 0 0 6px rgba(255, 255, 255, 0.6);
+	     --shad: 0 0 10px rgba(61, 227, 61, 0.8);
+	     --hbdr: 6px solid rgba( 20, 220, 255, 0.6);
+	     --article-bdr: 6px solid rgba(20, 120, 20, 0.4);
+	 }
+	 
+	 * {
+	     margin: 0;
+	     padding: 1px;
+	     box-sizing: border-box;
+	     position: relative;
+	 }
+	 
+	 body {
+	     text-shadow: var(--shat);
+	     font-weight: 100;
+	     background-color: #333;
+	     color: #eee;
+	     width: 100%;
+	     color: #eee;
+	     display: block;
+	     max-width: 90%;
+	     align-items: center;
+	 }
+	 
+	 .wrap {
+	     background-color: transparent;
+	     box-shadow: var(--shadin);
+	     margin: 10px;
+	     border: 3px solid ##3ddd3d;
+	     border-radius: 6px;
+	 }
+	 
+	 ul {
+	     display: flex;
+	     list-style: none;
+	 }
+	 
+	 ol {
+	     list-style: none;
+	     display: block;
+	 }
+	 
+	 li {
+	     position: relative;
+	     display: inline-flex;
+	 }
+	 
+	 nav li {
+	     position: relative;
+	 }
+	 
+	 h1,
+	 h2,
+	 h3,
+	 h4,
+	 h5,
+	 h6 {
+	     font-family: Markazi Text;
+	     margin: 5%;
+	     padding: 0 auto;
+	     font-weight: 900;
+	     text-decoration: underline;
+	     text-transform: uppercase;
+	     color: #0ef;
+	 }
+	 
+	 h1 {
+	     justify: center;
+	     letter-spacing: 1em;
+	     font-size: 2em;
+	     width: calc(100%/2);
+	     text-shadow: var(--shat2);
+	 }
+	 
+	 h2 {
+	     font-family: Abril Fatface;
+	     letter-spacing: 0.5em;
+	     font-size: 1em;
+	 }
+	 
+	 .font1 {
+	     font-family: Abril Fatface;
+	 }
+	 
+	 .font2 {
+	     font-family: Fugaz One;
+	 }
+	 
+	 .font3 {
+	     font-family: Markazi Text;
+	 }
+	 
+	 article {
+	     padding: 10px;
+	     border: var(--article-bdr);
+	 }
+	 
+	 a {
+	     color: inherit;
+	     text-decoration: none;
+	     text-shadow: var(--shat2);
+	 }
+	 
+	 a:hover {
+	     text-decoration: underline;
+	     text-shadow: var(--shat3);
+	 }
+	 
+	 section {
+	     display: flexbox;
+	 }
+	 
+	 b {
+	     font-weight: 900;
+	 }
+	 
+	 ul {
+	     list-style: none;
+	 }
+	 
+	 h1 {
+	     text-transform: uppercase;
+	     letter-spacing: 1em;
+	     text-size: 2em;
+	     text-decoration: underline;
+	 }
+	 
+	 nav {
+	     padding: auto;
+	 }
+	 
+	 .free {
+	     border: 1px solid gray;
+	     transition: all 1s ease;
+	     border-radius: 2px;
+	     color: gray;
+	     display: inline-block;
+	     padding: 2px 8px;
+	     font: bold 10px/21px Tahoma;
+	     margin-left: 2px;
+	     text-transform: uppercase;
+	 }
+	 
+	 section {
+	     msrgin: 10px;
+	     background-transparent;
+	     box-shadow: var(--shadin), var(--shad);
+	 }
+	 
+	 .rap-box {
+	     color: #efe;
+	     padding: 10px;
+	     text-shadow: var(--shat2);
+	 }
+	 
+	 .links {
+	     padding: 10px;
+	 }
+	 
+	 .links li {
+	     margin-left: 22.4%:
+	 }
+	 
+	 header {
+	     display: block;
+	     padding: 0 20px;
+	     background-color: transparent;
+	     box-shadow: var(--shadin);
+	 }
+	 
+	 .header {
+	     text-align: center;
+	     margin: 2px;
+	     box-shadow: var(--shadin):
+	 }
+	 
+	 .btn2 {
+	     text-size: 0.3em;
+	     max-height: 20px;
+	     background-color: #00f;
+	 }
+	 
+	 .btn {
+	     -moz-box-shadow: 3px 4px 0px 0px #899599;
+	     -webkit-box-shadow: 3px 4px 0px 0px #899599;
+	     box-shadow: 3px 4px 0px 0px #899599, inset 0 0 6px rgba(120, 120, 120, 0.8);
+	     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	     background: -moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	     background: -webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	     background: -o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	     background: -ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	     background: linear-gradient(to bottom, #757575 5%, #707f70 100%);
+	     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#555', endColorstr='#333', GradientType=0);
+	     background-color: #000;
+	     -moz-border-radius: 18px;
+	     -webkit-border-radius: 18px;
+	     border-radius: 18px;
+	     border: 2px solid #d6bcd6;
+	     display: inline-block;
+	     cursor: pointer;
+	     color: rgba(61, 227, 61, 0.8);
+	     font-family: Arial;
+	     font-size: 17px;
+	     font-weight: bold;
+	     padding: 7px 25px;
+	     text-decoration: none;
+	     text-shadow: 0px 1px 13px rgba;
+	 }
+	 
+	 .btn:hover {
+	     color: #3d3ddd;
+	     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d3d3d3), color-stop(1, #d3d3d3));
+	     background: -moz-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+	     background: -webkit-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+	     background: -o-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+	     background: -ms-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+	     background: linear-gradient(to bottom, #3d3d3d 5%, #d3d3d3 100%);
+	     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d, endColorstr='#d3d3d3',GradientType=0);
+ background-color: transparent;
+	     text-shadow: var(--shat3);
+	 }
+	 
+	 .btn:active {
+	     position: relative;
+	     top: 1px;
+	 }
+	 
+	 .nav-btn {
+	     color: #dd3d3d;
+	 }
+	 
+	 .nav-btn:hover {
+	     text-shadow: var(--shat3);
+	 }
+	 
+	 btn 2 {
+	     font-size: 80%;
+	 }

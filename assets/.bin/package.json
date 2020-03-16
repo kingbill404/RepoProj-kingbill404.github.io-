@@ -1,0 +1,23 @@
+{
+  "name": "kingbill404.github.io",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingbill404.github.io/.git.git"
+  },
+  "keywords": [
+    "king",
+    "bill"
+  ],
+  "author": "BIll_BIllions",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/kingbill404.github.io/.git/issues"
+  },
+  "homepage": "https://kingbill404.github.io/index.hhtml"
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='text/html' />
+<meta charset='utf-8' />
+<meta name='viewport' content='width=device-width initial-scale=1 user-scalable=yes' />
+
+<style type='text/css'>
+/* Colors */
+:root {
+  --C: #4F3133;
+  --c2: #314f4d;
+  --c0: #33e;
+  --cT: #00f;
+  --c3: #ded;
+  --cB: #333;
+  --AB: #314F3E;
+  --AG: #3142aF; 
+  --c1: #333d3d;
+  --cHB: #dd3ddd;
+  --cBu: #3d7d37d; 
+  
+
+/* Shadows and Borders */
+
+  --shaT: 4px 2px 2px #242;
+  --shaB: 0 0 10px 2px #2ae, inset 10px -13px 8px 8px rgba(120, 120, 120, .8);
+  --bor: 2px solid #3e3,; border-radius: 13px; overflow: hidden;
+  --bor2: 5px dotted #2aaaa2a;
+  --bor3: 2px dashed #5c5cc5;
+}
+
+* {
+  margin: 0;
+  padding:0;  
+  box-sizing: border-box;
+/*
+  border-box: var(--shaB);
+  */
+}
+
+
+
+body {
+	align-items: center;
+  background-color: var(--c2);
+  color: var(--cT);
+  padding: 0 calc(100% - 12%)/2;
+  text-shadow: var(--shaT);
+  box-shadow: var(--shaB);
+}
+
+h1 {
+  padding: 5px;
+  border-left : var(--bor2);
+  border-bottom: var(--bor2);
+  box-shadow: var(--shaB);
+  color: var(--AG);
+  text-align: center;
+   text-shadow: var(--shaT);
+  text-shadow: var(--shaB);
+}
+
+p {
+  animation: 3s linear 1s pause-after alternate slidein;
+  text-shadow: var(--shaT);
+  font-family: verdana;
+  font-size: 20px;
+  text-weight: 900;
+  text-align: left;
+  display: inline-flex;
+  padding: 16px;
+}
+
+.btn {c
+  position: absolute;
+  left: 50px;
+  width: calc(100% - 70%)/2;
+  border: var(--bor2);
+  background-color: var(--C3);
+  padding: 5px;
+  text-align: center;
+}
+
+.box {
+	animation: 3s ease-in 1s 2 reverse both paused slidein;
+  width: calc(100% - 100px);
+}
+
+.button-box {
+	animation: 3s linear 1s slidein;
+  position: absolute;
+  padding-left: 50px;
+  width: calc(100% - 100px);
+  border: var(--bor2);
+  background-color: var(--AB);
+  padding: 0 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.wrap {
+  justify-items: center;
+  padding: 0 10px;
+  box-shadow: var(--shaT);
+  
+}
+
+.wrap-box {
+	padding: 2px;
+	border: var(--bor3);
+}
+
+.button-box {
+	padding: 10px;
+	background-color: var(--cBu);
+}
+
+.header-box {
+	color: var(--cT2);
+    background-color: var(--cHB);
+}
+
+div .main-box {
+	display: block;
+}
+
+i {
+	animation: 3s slidein;
+	color: var(--cT3);
+	font-size: 72%;
+    padding: 0 16px;
+}
+
+@keyframes slidein {
+  from { 
+    transform: scaleX(0); 
+  }
+  to   { 
+    transform: scaleX(1); 
+  }
+}
+
+</style>
+
+</head>
+<body>
+    <div class='wrap box wrap-box'>
+        <header class='box header-box'>
+            <p>
+              Go <a href='kingbill404.github.io'>Home</a>
+	        </p>
+		</header>
+
+		<div class='box main-box'>
+		    <h1>Drum Patterns</h1>
+		    <p>
+			
+			  <iframe width="305" height="237" src="https://www.youtube.com/embed/tm2BgO1VaRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			    <i>
+				Play With Your Music
+				6.31K subscribers
+				A tour through some classic beats in a variety of genres, with visualizations. Transcriptions of the drum patterns discussed in this video, along with many others, can be found here: https://docs.google.com/spreadsheet/c...
+
+				The radial visualization scheme comes from Ethan's NYU masters thesis: http://www.ethanhein.com/wp/my-nyu-ma...
+				Category
+				Education
+				License
+				Creative Commons Attribution license (reuse allowed)
+				Source videos
+				View attributions
+			    </i>
+			</p>
+		</div>
+		
+		<div class='box button-box'>
+			<button class='btn' onclick="myFunction()">Click Me!</button>
+
+			<script tyoe='text/javascript'>
+				function myFunction() {
+				   var x = document.getElementById("demo");
+				   x.style.fontSize = "25px";
+				   x.style.color = "red";
+				}
+			</script>
+	    </div>
+	</div>
+</body>
+</html>

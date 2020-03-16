@@ -1,0 +1,98 @@
+	    
+	
+	:root {
+	  --light: #eee;
+	  --dark: #333;
+	  --shab: inset 13px -10px 10px rgba(120, 120, 220, 0.8), 12px 8px 4px #375;
+	  --shad: 10px 8px 2px  3px rgba( 60, 120, 220, 0.8);
+	  --shat: 2px 3px 3px rgba(120,120,120, 0.8); 
+	  --shat2: 0 0 6px rgba(220, 220, 220, 0.4);
+	  --bg: #33f;
+	  --text: #0ef;
+	  --med: #777;
+	  --bdr: 6px solid #aaf; border-radius: 6px;
+	  --clr: #3d3ddd;
+	  --pic: url(../../images/bg.jpg);
+	  --pic2: url(../../images/bg2.jpg);
+	  --pic3: url(../../images/bg3.jpg);
+	}
+	
+	* {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box:
+	}
+	
+	html {
+	width: 100%;
+	height:100%;
+	background-color: var(--bg);
+	}
+	
+	body {
+	  background-color: var(--bg);
+	  color: var(--text);
+	  text-shadow: var(--shat);
+	  
+	}
+	
+	.wrapper {
+	  margin: 0 auto;
+	  padding: auto;
+	  background: var(--pic2);
+	  box-shadow: var(--shad);
+	}
+	
+	.jumbotron {
+	  background-color: var(--med);
+	  box-shadow: var(--shad);
+	}
+	
+	.row {
+       background-color: red;
+	   box-shadow: var(--shab);
+	}
+	
+	.container {
+	    background-color: red;
+		border: var(--bdr);
+		justify-content: left;
+		text-shadow: var(--shat2);
+		box-shadow: var(--shab);
+	}
+	
+	.bg {
+	  background: var(--pic3);
+	}
+	
+	.shab {
+	  box-shadow: var(--shab);
+	}
+	
+	.innertxt {
+      text-align: center;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+	  margin: 0 auto;
+	  text-transform: uppercase;
+	  text-decoration: underline;
+	  letter-spacing: 0.5em;
+	  color: var(--light);
+	}
+	header {
+	  background-color: var(--med);
+	  color: var(--dark);
+	}
+	
+	p {
+	  color: var(--text);
+	}
+	
+	section {
+	  grid: auto-rows(33.3%);
+	  }
+	
+	article {
+	 padding: 0 calc(100vh - 80%);
+	}

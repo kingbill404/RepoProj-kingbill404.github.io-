@@ -1,0 +1,28 @@
+﻿# Define a class
+                        class people
+                        {
+                           [ValidateSet("HairColor", "Heignt", "Gender", "Weight")]
+                           [string] $Atributes
+                        
+                           static [hashtable] $CommandList
+                        
+                           hidden [int] $FiscalWorth
+                        
+                           People ([string] $Charges)
+                           {
+                               $this.P1 = $Charges       
+                           }
+                        
+                           
+                           static [void] MemberMethod1([hashtable] $InBooking)
+                           {
+                               [People]::P2 = $InBooking
+                           }
+                        
+                           # Instance method
+                           [int] Memmbermethod2 ([int] $ReleaseDate)
+                           {
+                               $this.P3 = $REaleaseDate
+                               return $this.P3
+                           }
+                        }
