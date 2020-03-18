@@ -16,17 +16,14 @@
         @font-face {
             font-family: 'Markazi Text';
             font-style: normal;
-            font-weight: 400;
+            font-weight: 900;
             src: url(https://fonts.gstatic.com/s/markazitext/v5/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQf4QvAQ.ttf) format('truetype');
         }
-        @import "./button_styles.css";
-        @import "./_format.css";
-        @import "./_vars.css";
-        @import "./_textography.css";
-
-        
-       
-        
+        @import url(./button_styles.css);
+        @import url(./_format.css);
+        @import url(./_vars.css);
+        @import url(./_textography.css);
+		
         .free {
             border: 1px solid gray;
             transition: all 1s ease;
@@ -46,7 +43,7 @@
         }
         
         .rap-box {
-            color: #efe;
+            color: #e3f6e9;
             padding: 10px;
             text-shadow: var(--shat2);
         }
@@ -78,7 +75,7 @@
             background-color: #00f;
         }
         
-        .btn {
+        .btn0 {
             -moz-box-shadow: var(--btnshad);
             -webkit-box-shadow: var(--btnshad);
             box-shadow: var(--btnshad);
@@ -89,11 +86,12 @@
             background: -ms-linear-gradient(top, var(--btnclr0) 5%, var(--btnclr1) 100%);
             background: linear-gradient(to bottom, var(--btnclr0) 5%, var(--btnclr1) 100%);
             filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#555', endColorstr='var(--endclrstr)', GradientType=0);
-            background-color: #000;
-            -moz-border-radius: 18px;
+            background-color: transparent;
+			-moz-border-radius: 18px;
             -webkit-border-radius: 18px;
-            border-radius: 18px;
-            border: 2px solid #d6bcd6;
+            border-radius: 3px;
+			box-shadow: var(--greenbtn);
+			border: 2px solid #3ddd3d;
             display: inline-block;
             cursor: pointer;
             color: var(--btntext);
@@ -104,7 +102,7 @@
             text-decoration: none;
         }
         
-        .btn:hover {
+        .btn0:hover {
             color: #3d3ddd;
             background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, var(--btnclr2), color-stop(1, #d3d3d3));
             background: -moz-linear-gradient(top, var(--btnclr2) 5%, #d3d3d3 100%);
@@ -124,6 +122,7 @@
         }
         
         .nav-btn {
+			box-shadow: var(--greenbtn);
             color: var(--navbtnclr);
             height: 10px;
         }
@@ -136,10 +135,4 @@
             font-size: 10;
         }
 		
-		table {
-			display: block;
-		}
-        
-        .iframe-box {
-            
-        }
+		

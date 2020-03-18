@@ -5,11 +5,11 @@
 // Code for: https://kingbill404.github.io/snake
 
 let s;
-let scl = 20;
+let scl = 10;
 let food;
 
 function setup() {
-  createCanvas(1920, 1080);
+  createCanvas(800, 439);
   s = new Snake();
   frameRate(10);
   pickLocation();

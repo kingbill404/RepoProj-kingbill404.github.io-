@@ -1,5 +1,6 @@
 /* button_syles.css */
- 
+@import url(./_vars.css);
+@import url(./_main.css);
  .btn-style-2:visited {
             color: #e3e3e3
         }

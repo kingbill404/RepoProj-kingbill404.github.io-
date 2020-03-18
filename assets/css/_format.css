@@ -60,9 +60,17 @@ article {
 }
 
 section {
-	display: flexbox;
+	display: flex;
 }
 
 nav {
 	padding: auto;
+}
+
+table {
+	display: block;
+}
+        
+.iframe-box {        
+    display: inline-block;
 }
