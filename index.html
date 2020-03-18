@@ -71,12 +71,14 @@
 		
         /*!----------------------------------------------------------------------*/
     </style>
-    <link type='text.css' rel='stylesheet' href='./assets/vendor/font-awesome/all.min.css' />
     <link type='text/css' rel='stylesheet' href='./assets/css/main.css' />
     <link type='text/css' rel='stylesheet' href='./assets/css/style.css' />
     <link type='text/css' rel='stylesheet' href='.assets/vendor/fontawesome-all.min.css' />
-    <link type='text/css' rel='stylesheet' href='./AudioProject/web/assets/css/fa-fonts.css' />
-
+    <link type='text/css' rel='stylesheet' href='./assets/css/button_styles.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_fonts.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_vars.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_textography.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_format.css' />
 </head>
 
 <body>
@@ -87,18 +89,15 @@
             <nav>
                 <div style='text-align:center;'>
                     <h2>Site Navigation</h2>
-                </div>
+                </div>	
                 <ul class='grid'>
                     <li><a class='btn nav-btn' href='./assets/html/snake.html'><span class='fa fa-dragon'></span>Quetzi Game</a></li>
-                    <li><a class='btn nav-btn' href='./assets/AudioProject/Audioindex.html'><span class='fa fa-music'></span>Get Back In The Book LP</a></li>
-                    <li><a class='btn nav-btn' href='./assets/projects/AudioProject/rhymes.html'><span class='fa fa-microphone'></span>Rhymes</a></li>
-                    <li><a class='btn nav-btn' href='./assets/html/rhymes.html'><span class='fa fa-microphone'></span>Random Rhymes</a></li>
-                    <li><a class='btn nav-btn' href='./assets/html/rms4.html'><span class='fa fa-globe'></span>Rick &amp; Morty S4</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/audioindex.html'><span class='fa fa-music'></span>Music Index</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/rhymes.html'><span class='fa fa-microphone'></span>Rhyming Poetry</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/galleryindex.html'><span class='fa fa-brush'></span>Art Gallery</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/rms4.html'><span class='fa fa-ufo-alt'></span>Rick &amp; Morty S4</a></li>
                     <li><a class='btn nav-btn' href='./assets/html/philosophy.html'><span class='fa fa-user'></span>PhΦsophy</a></li>
-                    <li><a class='btn nav-btn' href='./assets/projects/AudioProject/Audioindex-2020.html'><span class='fa fa-diamond'></span>2020 Tracks</a></li>
                     <li><a class='btn nav-btn' href='./assets/html/ryansmind.html'><span class='fa fa-brain'></span>Ryans Mind</a></li>
-                    <li><a class='btn nav-btn' href='./assets/html/randomerrhymes.html'><span class='fa fa-microphone'></span>Randomer Rhymes</a></li>
-                    <li><a class='btn nav-btn' href='./assets/html/morerhymes.html'><span class='fa fa-microphone'></span>rhymes3</a></li>
                 </ul>
             </nav>
 			</header>
@@ -107,111 +106,30 @@
                 <table><div>Billion Beats &amp; Urban Chi</div>
                     <thead class='thead'>
                         <tr>
-                            <td>Track</td>
+                            <td>Playlist</td>
                             <td>Player</td>
                         </tr>
                     </thead>
                     <tbody>
-					   <tr class='audio-wrap'>
+					    <tr>
+					      <td>
+							<select>
+							 <option>-Off-</option> 
+							 <optgroup>Playlists</optgroup>
+							    <option value='./assets/audio/json/03-marJams.json'>March</option>
+							    <option value='./assets/audio/json/01-janJams.json'>January</option>
+							    <option value='./assets/audio/json/02-janJams.json'>February</option>
+							    <option value='./assets/audio/json/01-mySamples.json'>My Samples</option>
+							</select>
+						  </td>
+					      <td>
+						    <div class='audio-player'></div>
+						  </td>
+					    </tr>
+					    <tr class='audio-wrap'>
                             <td>beatzzz</td>
-                            <td>
-                              <audio controls>
-                                <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-05-beatzzz.mp3' type='audio/mpeg' />
-                              </audio>
-                            </td>
-                        </tr>
-					
-					<tr class='audio-wrap'>
-                            <td>TYB</td>
-                            <td class='audio-player'>
-                                <audio controls>
-                                   <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-05-tyb.mp3' type='audio/mpeg' />
-                                </audio>
-                            </td>
-                        </tr>
-                        <tr class='audio-wrap'>
-                            <td class='#'>Ambient As Fuck</td>
-                            <td class='Audio-Player'>
-                                <audio controls>
-                        <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-06-ambientasfuck.wav' type='audio/wav' />
-                      </audio>
-                            </td>
-                        </tr>
-
-                        <tr class='audio-wrap'>
-                            <td>Beaches and Islands</td>
-                            <td>
-                                <audio controls>
-                        <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-06-beachesanislands.mp3' type='audio/mpeg' />
-                      </audio>
-                            </td>
-                        </tr>
-                        <tr class='audio-wrap'>
-                            <td>Rap it Up (beaches and islands 2)</td>
-                            <td>
-                                <audio controls>
-                        <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-06-raptothis.mp3' type='audio/mpeg' />
-                    </audio>
-                            </td>
-                        </tr>
-                        <tr class='audio-wrap'>
-                            <td>Spooky</td>
-                            <td>
-                                <audio controls>
-                              <source src='./assets/projects/AudioProject/music/2020-jams/mar2020/03-06spooky.wav' type='audio/wav' />
-                            </audio>
-                            </td>
-                        </tr>
-                        <tr class='audio-wrap'>
-                            <td>Bass Guitar 01</td>
-                            <td>
-                                <audio controls>
-                              <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/03-09bassguitar01.mp3' type='audio/mpeg' />
-                            </audio>
-                            </td>
-                        </tr>
-                        </tr>
-                        <tr class='audio-wrap'>
-                            <td>Fuck Treble</td>
-                            <td>
-                                <audio controls>
-                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/03-09-highbasses.mp3' type='audio/mpeg' />
-            </audio>
-                            </td>
-                        </tr>
-						                        <tr class='audio-wrap'>
-                            <td>Nice Polys</td>
-                            <td>
-                                <audio controls>
-                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/03-10-nicepolys.mp3' type='audio/mpeg' />
-            </audio>
-                            </td>
-                        </tr>
-                        <tr class='audio-wrap'>
-                            <td>Knowpe</td>
-                            <td>
-                                <audio controls>
-                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/03-12.nope.wav' type='audio/wav' />
-            </audio>
-                            </td>
-                        </tr>
-						                        <tr class='audio-wrap'>
-                            <td>Fuck Treble</td>
-                            <td>
-                                <audio controls>
-                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/hiphopjam1(RapToThis).mp3' type='audio/mpeg' />
-            </audio>
-                            </td>
-                        </tr>
-						                        <tr class='audio-wrap'>
-                            <td>Fuck Treble</td>
-                            <td>
-                                <audio controls>
-                <source src='./assets/projects/AudioProject/Music/2020-jams/mar2020/mar-6-ry-22(RapToThis).mp3' type='audio/mpeg' />
-            </audio>
-                            </td>
-                        </tr>
-						
+                            <td><div class='audio-player'></div></td>
+                        </tr>					
                     </tbody>
                     <tfoot>
                         <tr>

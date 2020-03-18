@@ -57,15 +57,16 @@
         }
         
         header {
-            display: flexbox;
+            display: flex;
             padding: 0 20px;
             background-color: var(--headercolor);
             box-shadow: var(--shadin);
         }
         
         .header {
-            padding: 0 auto;
+            padding: 0;
             margin: 2px;
+            align-content: center;
             box-shadow: var(--shadin);
         }
         
