@@ -16,3 +16,6 @@
 .dev
 */web/*.dev/*
 *.txt
+.vs/*
+*/.vs/*
+.vs/
