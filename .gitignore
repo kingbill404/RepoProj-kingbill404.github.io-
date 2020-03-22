@@ -1,7 +1,7 @@
-<#
-
-    KingBill404 .Music  .Gitignore File
-#>
+#
+#
+#   KingBill404 .Gitignore File
+#
 
 *log.txt
 /*log.txt
@@ -10,7 +10,7 @@
 *.psc1
 /.dev/* 
 .dev/*
-.dev 
+.dev/
 */.SandBox/*
 *dev*
 .dev
