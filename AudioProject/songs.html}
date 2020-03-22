@@ -1,0 +1,22 @@
+At line:1 char:55
++ foreach ($item in dir -membername name ==*.mp3) {echo <audio><source  ...
++                                                       ~
+The '<' operator is reserved for future use.
+At line:1 char:49
++ foreach ($item in dir -membername name ==*.mp3) {echo <audio><source  ...
++                                                 ~
+Missing closing '}' in statement block or type definition.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+ 
+At line:1 char:55
++ foreach ($item in dir -membername name ==*.mp3) {echo <audio controls ...
++                                                       ~
+The '<' operator is reserved for future use.
+At line:1 char:49
++ foreach ($item in dir -membername name ==*.mp3) {echo <audio controls ...
++                                                 ~
+Missing closing '}' in statement block or type definition.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+ 
