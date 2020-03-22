@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 alert("hi");
 
 
@@ -68,3 +69,6 @@ function splashDamage(node, x, y, damage) {
     }
 });
 onClick(mouse.x, mouse.y) { spalshDamage(0, mouse.y, mouse.x, --damage); }
+=======
+console.log('app.js called');
+>>>>>>> dd44f9a9e4b54122a360c43238232f67f073e852

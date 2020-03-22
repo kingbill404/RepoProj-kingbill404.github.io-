@@ -1,0 +1,13 @@
+{
+    //for kingBill404 V4.0
+    "version": "0.4.1",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "ng serve",
+            "url": "http://localhost:4200/",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

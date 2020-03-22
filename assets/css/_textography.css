@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  h1,
         h2,
         h3,
@@ -73,3 +74,18 @@
             text-decoration: underline;
         }
         
+=======
+
+		h1, h2, h3, h4, h5, h6 {
+		  box-shadow: inset 10px 5px 10px var(--bluetransparent);
+		  text-shadow: var(--shat3);
+		  padding:10px;
+		  background-color: transparent;
+		  color: var(--light3);
+		}
+		
+		ul {
+			list-style: none;
+			display: flex;
+		}
+>>>>>>> dd44f9a9e4b54122a360c43238232f67f073e852
