@@ -2,7 +2,8 @@
 #
 #   KingBill404 .Gitignore File
 #
-
+*/.vs/*
+.vs/*
 *log.txt
 /*log.txt
 */dimmension/* 
