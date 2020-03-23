@@ -10,12 +10,9 @@
 	  --bg: #33f;
 	  --text: #0ef;
 	  --med: #777;
-	  --bdr: 6px solid #aaf; border-radius: 6px;
+	  --bdr: 6px solid #aaf, border-radius: 6px;
 	  --clr: #3d3ddd;
-	  --pic: url(../../images/bg.jpg);
-	  --pic2: url(../../images/bg2.jpg);
-	  --pic3: url(../../images/bg3.jpg);
-	}
+
 	
 	* {
 	  margin: 0;

@@ -1,5 +1,12 @@
-<<<<<<< HEAD
 /* main.css(from index.html) */
+        @import url(../vendor/Font-Awesome/all.min.css);
+        @import '_fonts.css';
+        @import '_layout.css';
+        @import 'button_styles.css';
+        @import '_format.css';
+        @import '_vars.css';
+        @import '_textography.css';
+
         @font-face {
             font-family: 'Abril Fatface';
             font-style: normal;
@@ -20,10 +27,7 @@
             font-weight: 900;
             src: url(https://fonts.gstatic.com/s/markazitext/v5/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQf4QvAQ.ttf) format('truetype');
         }
-        @import url(./button_styles.css);
-        @import url(./_format.css);
-        @import url(./_vars.css);
-        @import url(./_textography.css);
+    
 		
         .free {
             border: 1px solid gray;
@@ -136,14 +140,6 @@
         .btn2 {
             font-size: 10;
         }
-		
-		
-=======
-@import url(../vendor/all.min.css);
-@import "fonts.css";
-@import '_vars.css';
-@import '_layout.css';
-@import '_textography.css';
 
 
 		
