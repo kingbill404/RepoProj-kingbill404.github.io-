@@ -47,7 +47,8 @@
     --shadinout: inset 0 15px 2px rgba(220, 200, 200, 0.8), inset rgba(40, 40, 40, 0.4);
     --wrapbdr: 3px solid #3ddd3d;
     --dark-transp: rgba(20, 20, 20, 0.8);
-    --article-bdr: 2px dashed rgba(20, 220, 120, 0.8);
+    --sectionbdr: 2px dashed rgba(20, 220, 120, 0.8);
+    --tshathhover: 8px 13px 3px grba(20, 20, 20, 0, 8);
 }
 
 * {
@@ -88,7 +89,7 @@ ol {
 
 li {
     display: inline-flex;
-    min-width: 12%;
+    min-width: 22%;
 }
 
 nav li {
@@ -182,6 +183,10 @@ h6 {
 article {
     padding: 10px;
     border: var(--article-bdr);
+}
+
+section {
+    border: var(--sectionbdr);
 }
 
 a {
@@ -338,5 +343,5 @@ header {
     margin: calc(100% - 300px);
     width: 200px;
     height: 200px;
-    background-color: #378;
+    background-color: rgba(58, 119, 138, 0.8);
 }
