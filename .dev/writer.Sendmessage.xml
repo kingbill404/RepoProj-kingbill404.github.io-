@@ -1,0 +1,16 @@
+<!-- Writer.SendMessage -->
+<?xml version='1.0'?>
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/' SOAP:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+    <SOAP:Body>
+        <SendMessage>
+            <siteId></siteId>
+            <siteId></queueId>
+			<xmlMsg></xmlMsg>
+			<ackobjectId></ackobjectId>
+		    <immediateACK>True</immediateACK>
+		    <queueLabel></queueLabel>
+		    <msgId></msgId>
+		    <errorxml></errorxml>
+		</SendMessage>
+	</SOAP:Body>
+</SOAP:Envelope>

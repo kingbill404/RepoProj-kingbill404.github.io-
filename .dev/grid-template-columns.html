@@ -1,0 +1,115 @@
+<!doctype html>
+<html><head>
+<meta charset='utf-8' />
+<meta http-equiv='xmlns' content='ie=edge' />
+<meta name='viewport' content='width=device-width' />
+<style>
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+bACKGROUND-COLOR:#333;
+display: block;
+text-align: center;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 960px;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-areas:
+  'header header header header'
+  'aside   aside   main    main'
+  'nav     nav     main    main'
+  'section section section section'
+  'section section section section'
+  'footer  footer  footer  footer';
+}
+#content > * {
+  /*background: rgba(120, 120, 120, 0.8);*/
+  padding: 30px;
+  BOX-SHADOW: 3px 2px 3px #444,
+  inset 3px 2px 3px #222;
+}
+
+header {
+  grid-area: header; 
+}
+
+aside {
+  grid-area: aside;
+}
+main {
+  grid-area: main;
+}
+
+nav {
+  grid-area: nav;
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 75px;
+  align-items: center;
+}
+
+nav li {
+  flex:inline-block;
+  padding: 0 10px;
+  width: 100%;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+</style>
+</head>
+<body>
+  <article>
+    
+	  
+	  <div id='content'>
+	    <header>
+		   <h2>Header</h2>
+		</header>
+		<nav>
+		  <h2>Nav</h2>
+		  <ul>
+	        <li><a href='#'><i class='fa fa-envelope'></i>link</a></li> 
+	        <li><a href='#'><i class='fa fa-envelope'></i>link</a></li> 
+	        <li><a href='#'><i class='fa fa-envelope'></i>link</a></li> 
+	        <li><a href='#'><i class='fa fa-envelope'></i>link</a></li> 
+	        <li><a href='#'><i class='fa fa-envelope'></i>link</a></li> 
+	      </ul>
+		</nav>
+		
+		<aside>
+		  <h2>Aside</h2>
+		</aside>
+	    
+		<main>
+		  <h2>Main</h2>
+		</main>
+	    
+		<section>
+		  <h2>section 1</h2>
+		</section>
+		
+		<footer>
+		  <h2>Footer</h2>
+		</footer>
+	</div>
+  <article>
+</body>
+</html>

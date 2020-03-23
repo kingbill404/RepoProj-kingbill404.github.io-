@@ -19,16 +19,6 @@
   src: url(https://fonts.gstatic.com/s/markazitext/v5/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQf4QvAQ.ttf) format('truetype');
 }
 
-:root {
-  --shat: 2px 3px 1px #111, 0 0 6px rgba(120,120,220, 0.8);
-  --shat2: 0 0 6px rgba(220,220,220, 0.8);
-  --shadin: inset 0 0 6px rgba(255, 255, 255, 0.6);
-  --shad: 0 0 10px rgba(61, 227, 61, 0.8);
-  --hbdr: 6px solid rgba( 20, 220, 255, 0.6);
-  --article-bdr: 6px solid rgba(20, 120, 20, 0.4);
-  --headtext: #037323;
-}
-
 * {
   margin: 0; 
   padding: 1px;

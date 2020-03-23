@@ -1,0 +1,61 @@
+<!--
+/* playlist000.json */
+/*
+Powershell createaudioplayers.html
+
+new-item e:\billions\billionssites'(github)'\kingbill404.github.io\.dev\createaudioplayers.html -ItemType file
+set-content e:\billions\billionssites'(github)'\kingbill404.github.io\.dev\createaudioplayers.html '<!doctype html><html><head><meta charset='utf-8' /><meta name='viewport' content='width=device-width' /><style>*{margin:0;padding:0;}body{background-color:#333;color:#0ef;}</style></head><body>'
+
+*/
+-->
+<!doctype html><html>
+<head>
+  <title>My Music</title>
+  <script>
+    var songs = [
+	            {
+					title:"Finish Your Cake!(Chapters 1 &amp; 2)",
+					artist:"Two Headed Bryan",
+					album:"Get Back In The Book",
+					year:"2019",
+					length:"4:09",
+					path:"e:\mymusic\getbackinthebooklp\1.FinishYourCake!(Chapters1&amp;2).mp3",
+					type:"audio/mpeg",
+	                genre:"Lofi"
+			   },
+			   
+					title:"Boss Level Shit",
+					artist:"Two Headed Bryan",
+					album:"Get Back In The Book",
+					year:"2019",
+					length:"2:15",
+					path:"e:\musicproj\$album-getbackinthebooklp\2.BossLevelShit.mp3",
+					type:"audio/mpeg",
+	                genre:"Lofi"
+			   },
+			   
+					title:"Viejo Blvd.",
+					artist:"Two Headed Bryan",
+					album:"Get Back In The Book",
+					year:"2019",
+					length:"3:45",
+					path:"e:\musicproj\$album-getbackinthebooklp\11.ViejoBlvd.mp3",
+					type:"audio/mpeg",
+	                genre:"Lofi"
+			   },
+			   ];
+  </script>
+</head>
+<body>
+  <ul>
+    <!--script>
+      document.write(song.title);
+    </script-->
+    <script>
+      for(i =0;1 < songs.length;i++) {
+	    document.write('<h4>'+songs[i].title+'</h4>');
+	    document.write('<li>'+songs[i].path+'</li>');
+	  }
+    </script>
+  </ul>
+</body></html>

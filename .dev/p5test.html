@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+  <title>Billions p5 audio Test Page</title>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width initial-scale=1' />
+  
+  <script language="javascript" type="text/javascript" src="path/to/p5.dom.js"></script>
+  <link rel='stylesheet' href='../assets/css/main.css' />
+  </head>
+  <body>
+    <div class'wrapper'>
+	  <header>
+	    <h1>BIllions P5.js Audio Test</h1>
+
+	  </header>
+      <article>
+	  	    <p>p5 element "new p5.MediaElement(elt)"</p>
+		<p><pre>
+Parameters
+elt 	String:
+
+DOM node that is wrapped
+Fields
+
+src:
+
+Path to the media element source.</p></pre>
+
+        <section class='#'>
+</p></pre>
+		Methods
+
+play()	
+
+Play an HTML5 media element.
+stop()	
+
+Stops an HTML5 media element (sets current time to zero).
+pause()	
+
+Pauses an HTML5 media element.
+loop()	
+
+Set 'loop' to true for an HTML5 media element, and starts playing.
+noLoop()	
+
+Set 'loop' to false for an HTML5 media element. Element will stop when it reaches the end.
+autoplay()	
+
+Set HTML5 media element to autoplay or not.
+volume()	
+
+Sets volume for this HTML5 media element. If no argument is given, returns the current volume.
+speed()	
+
+If no arguments are given, returns the current playback speed of the element. The speed parameter sets the speed where 2.0 will play the element twice as fast, 0.5 will play at half the speed, and -1 will play the element in normal speed in reverse.(Note that not all browsers support backward playback and even if they do, playback might not be smooth.)
+time()	
+
+If no arguments are given, returns the current time of the element. If an argument is given the current time of the element is set to it.
+duration()	
+
+Returns the duration of the HTML5 media element.
+onended()	
+
+Schedule an event to be called when the audio or video element reaches the end. If the element is looping, this will not be called. The element is passed in as the argument to the onended callback.
+connect()	
+
+Send the audio output of this element to a specified audioNode or p5.sound object. If no element is provided, connects to p5's master output. That connection is established when this method is first called. All connections are removed by the .disconnect() method.
+
+This method is meant to be used with the p5.sound.js addon library.
+disconnect()	
+
+Disconnect all Web Audio routing, including to master output. This is useful if you want to re-route the output through audio effects, for example.
+showControls()	
+
+Show the default MediaElement controls, as determined by the web browser.
+hideControls()	
+
+Hide the default mediaElement controls.
+addCue()	
+
+Schedule events to trigger every time a MediaElement (audio/video) reaches a playback cue point.
+
+Accepts a callback function, a time (in seconds) at which to trigger the callback, and an optional parameter for the callback.
+
+Time will be passed as the first parameter to the callback function, and param will be the second parameter.
+removeCue()	
+
+Remove a callback based on its ID. The ID is returned by the addCue method.
+clearCues()	
+
+Remove all of the callbacks that had originally been scheduled via the addCue method.
+        </p></pre>
+		</section>
+		<br /><hr /><br />
+        <section class='#'>
+		  <h2>Canvas</h2>
+		  <p>Using p5</p>
+		  <canvas></canvas>
+        </section>
+        <br /><hr /><br />
+		<section class='#'>
+        </section>
+		
+	  </article>
+	</div>
+	<script>
+	  function draw() {
+	  
+	  }
+	
+	function 
+	
+	</script>
+  </body>
+  </html>
