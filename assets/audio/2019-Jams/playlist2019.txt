@@ -1,0 +1,238 @@
+[{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-12-20-HolyTrap.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-16-RiverRocks.mp3""
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/biilshotjams(raptothis).mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/Rybot-stumbling-backwards.wav"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/12-30-Strummyryne(Rapto).mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/12-28-EatCakeShit.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/12-28-19sampled beat.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/12-28-19 bingbong.mp3"
+"type": "audio/mpeg3"
+}{
+title": "Holy Trap"
+"src": "../audio/2019-Jams/12-20-sampldSong.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/12-15-1-9trainwreck.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/11-25-9Ryline3.wav"
+"type": "audio/wav"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/1-4 omnous.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/02-01BillzEpic!6barPianoPart.wav"
+"type": "audio/wav"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-20-BigShoesRemastered.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-18-AllSamples.wav"
+"type": "audio/wav"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-16-MistyCity.wav"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-15-poopOnYou.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-15-20song.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-14-CantHearYou.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-11-poop.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-11-20-bigShoes (Raptothis).mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-10-SchoolYardShit.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-10-Ryline.wav"
+"type": "audio/wav"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-10-2020 Petis Song2.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-09-RyVerseV.01.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-08-WalkingBackwards.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-08-TYdUpTheWoods.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-06-WolfDance.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-06-Simply smashinglad.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-06-AcrosstTheBridge.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-06-Simply smashinglad.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-06-Simply smashinglad.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-cloudRider.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-country.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-dreamworld2.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-killinit.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-02-HailToTheSwampQueen.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-03-WereGonnaNeedABiggerBoat.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\02-11.jam.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\02-21-20jam.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\02-18-pattern3.wav"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\02-04-Omnous.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-BillyOnTheStreet.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-MindMeld.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-GetTheCake.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-NoTightPants.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-OOber.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-Pelody(Slow).mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-PullYourWeight.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-05-SoftTop.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-RynsTipper.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/01-01-TheRobotRace.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\popop.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\Jazz.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\03-15-RYano.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\HowYuouOwnTheWorld.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\03-15(Remixed).mp3"
+"type": "audio/mpeg3"
+}{
+"title": "Holy Trap"
+"src": "../audio/2019-Jams/2020-jams\02-27-BillionzSamplwz.mp3"
+"type": "audio/mpeg3"
+}{
+"title": "02-22jam2"
+"src": "../audio/2019-Jams/2020-jams\02-22jam2.mp3"
+"type": "audio/mpeg3"
+)
+]
