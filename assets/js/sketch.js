@@ -5,11 +5,11 @@
 // Code for: https://kingbill404.github.io/snake
 
 let s;
-let scl = 9;
+let scl = 8;
 let food;
 
 function setup() {
-    createCanvas(700, 400);
+    createCanvas(720, 401);
     s = new Snake();
     frameRate(12);
     pickLocation();
@@ -26,10 +26,12 @@ function mousePressed() {
     s.total++;
 }
 
+
 // Draw The Game Loop On The Canvas
 function draw() {
     background(32);
     if (s.eat(food)) {
+        score.add++;
         pickLocation();
     }
     s.death();
