@@ -1,75 +1,81 @@
 /* https://kingbill404.github.io/assets/css/_format.css */
+
 @import "./main.css";
 @import "./_vars.css";
 @import "./_textography.css";
+:root {
+    --bodybg: #32353a;
+}
+
 * {
-	margin: 0;
-	padding: 1px;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
 }
 
 body {
-	text-shadow: var(--shat);
-	font-weight: 100;
-	background-color: var(--bodybg);
-	width: 100%;
-	color: #eee;
-	display: block;
-	max-width: 90%;
-	align-items: center;
+    text-shadow: var(--shat);
+    font-weight: 100;
+    background-color: var(--bodybg);
+    color: #eee;
+    display: block;
+    max-width: 90%;
+    align-items: center;
 }
 
 .wrap {
-	position: relative;
-	background-color: var(--wrapclr);
-	box-shadow: var(--shadin);
-	margin: 10px;
-	border: 3px solid var(--wrapborder);
-	border-radius: 6px;
+    position: absolute;
+    background-color: var(--wrapclr);
+    box-shadow: var(--shadinout), 3px, 8px, 3px rgba(220, 220, 220, 0.6);
+    margin: 0 3px;
+    border: 3px solid var(--wrapborder);
+    border-radius: 6px;
 }
 
 header {
-	width: 80%;
-	height: 600px;
-	background-color: var(--bg);
+    width: 80%;
+    max-height: 200px;
+    background-color: var(--bg);
 }
 
 ul {
-	display: flexbox;
-	list-style: none;
+    display: flexbox;
+    list-style: none;
 }
 
 ol {
-	list-style: none;
-	display: block;
+    list-style: none;
+    display: block;
 }
 
 li {
-	position: repeat-x;
-	display: inline-flex;
+    max-height: 40px;
+    position: repeat-x;
+    display: inline-flex;
 }
 
 nav li {
-	position: relative;
+    position: relative;
 }
 
 article {
-	padding: 10px;
-	border: var(--article-bdr);
+    display: block;
+    padding: 10px;
+    border: var(--article-bdr);
 }
 
 section {
-	display: flex;
+    display: flex;
 }
 
 nav {
-	padding: auto;
+    padding: auto;
 }
 
 table {
-	display: block;
+    display: block;
 }
-        
-.iframe-box {        
+
+.iframe-box {
     display: inline-block;
 }

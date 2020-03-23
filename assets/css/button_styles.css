@@ -1,6 +1,5 @@
 /* button_syles.css */
-@import url(./_vars.css);
-@import url(./_main.css);
+ 
  .btn-style-2:visited {
             color: #e3e3e3
         }
@@ -22,8 +21,8 @@
             font-family: Arial;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #08f8e8;
-            border-color: #eee;
+            color: #ffffff;
+            border-color: #000000;
             font-size: 20px;
             padding-top: 5px
         }
@@ -34,10 +33,10 @@
             text-align: center;
             padding-right: 15px;
             border-radius: 7px;
-            font-family: calibri, Helvetica, Times New Roman;
+            font-family: Times New Roman;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #2459f3;
+            color: #ffffff;
             border-color: #000000;
             font-size: 20px;
             padding-top: 5px
@@ -52,8 +51,8 @@
             font-family: Verdana;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #03e3f3;
-            border-color: #e37393;
+            color: #ffffff;
+            border-color: #000000;
             font-size: 20px;
             padding-top: 5px
         }
@@ -100,10 +99,10 @@
             text-align: center;
             padding-right: 15px;
             border-radius: 3px;
-            font-family: Georgia, calibri;
+            font-family: Georgia;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: var(--colT rgba:   );
+            color: #ffffff;
             border-color: #000000;
             font-size: 20px;
             padding-top: 5px
