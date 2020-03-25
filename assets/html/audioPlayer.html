@@ -1,274 +1,31 @@
-
-<!-- Created by Bill Billions -->
-
 <!DOCTYPE html>
-<html>                  <!-- Required tags -->
-	<head>
-	  <meta charset='UTF-8' />
-	  <meta name='viewport' content='width=device-width initial-scale=1 user-scalable=yes' />
-	  <meta http-equiv='xmlns' content='ie=edge' />	
-	  <meta http-equiv='content-type' content='text/html; charset=UTF-8' />
-	  <meta http-equiv='default-style' content='../css/style.css'>
-	  
-	                    <!-- Setting the Refresh Atribute will cause
- 						     a failure in content accessibility  -->
-	  <meta http-equiv="refresh" content="300">
-	  
-	  
-	  
-		<title>Audio SandBox</title>
-		
-		                <!-- Vendor CDN's -->
-		<script type='application/javascript' src="https://code.jquery.com/jquery-3.1.1.js"></script>
-		<script type='application/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
-		<script type='application/javascript' src="https://threejs.org/examples/js/controls/TrackballControls.js"></script> 
-		
-        <link type='text/css' href='../css/style.css' />
-	  
-	                     <!-- Rotate Cube -->
-	  <script>
-	    /* global THREE */
-
-console.log = () => {}
-
-window.onload = () => {
-
-const {
-	WebGLRenderer, PerspectiveCamera, Scene, BoxGeometry,
-	MeshPhongMaterial, Mesh, DirectionalLight,
-	TrackballControls
-} = THREE
-
-const canvas = document.getElementsByTagName('canvas')[0]
-const renderer = new WebGLRenderer({ canvas })
-
-// Camera setup
-
-const fov = 50, aspect = 2
-const near = 0.1, far = 5
-
-const camera = new PerspectiveCamera(fov, aspect, near, far)
-
-camera.position.z = 2
-
-// Scene setup
-
-const scene = new Scene()
-
-// The cube
-
-const geometry = new BoxGeometry(1, 1, 1)
-
-const material = new MeshPhongMaterial({ color: 'blue' })
-
-const cube = new Mesh(geometry, material)
-
-// The light
-
-const light = new DirectionalLight('white', 1)
-
-light.position.set(-1, 2, 2)
-
-// Add stuff to scene
-
-scene.add(light)
-scene.add(cube)
-renderer.render(scene, camera)
-
-// Controls
-
-const controls = new TrackballControls(camera, renderer.domElement)
-
-const render = time => {
-	time *= 0.001
-	cube.rotation.y = time
-	cube.rotation.x = 0.5
-	renderer.render(scene, camera)
-	requestAnimationFrame(render)
-	camera.updateProjectionMatrix()
-	controls.update()
-}
-
-requestAnimationFrame(render)
-
-}
-	  </script>
-	  <script>
-	  $(function() {
-    var val = $("p").html();
-    alert(val);
-});
-      </script>
-	  
-	  <style>
-	  	    body {
-		  	margin: 0;
-		  	overflow: hidden;
-		  	width: 100vw;
-		  	height: 100vh;
-		  	text-align: center;
-		  	background: black;
-		  	display: flex;
-		  	justify-content: center;
-		  	align-items: center;
-		    color: #eee;
-			background-color: #333;
-		}
-		
-		body div {
-		  color: #eee;
-		  border: 3px solid #ddd;
-		  box-shadow: 10px 8px 3px #111;
-		  text-shadow: 0 0 10px #eee;
-		}
-		
-		.canvas {
-			border: 3px solid #0af;
-			border-radius: 5px;
-			background-color: #3a9;
-			color: #eee;
-			overflow: hidden;
-		}
-		
-		.display-none {
-              display: none;
-            }
-		
-		canvas {
-		  background-color: #3f3;
-		}
-	    .wrapper {
-		  margin: 10px;
-		  padding:10px;
-		}
-	    .wrapper .box {
-		  position: relative;
-		  width: Calc(100vh - 20%)/2;
-		  height: 80vh;
-		  border: 10px dotted #3ddd3d;
-		  text-shadow 0 0 10px 0;
-		  border-radius: 10px;
-		}
-		
-		box {
-		  background-color: #4d4;
-		}
-		
-		h1 {
-		  margin: 10px;
-		  padding:10px;
-		  background-color: #0a4;
-		  color: #eee;
-		}
-		
-		btn {
-		  background-color: #ef0;
-		  width: 120px;
-		  text-align: center;
-		  font=family: helvetica;
-		  border: 2px solid #333;
-		  border-radius: 3px;
-		}
-		
-		a {
-		  text-decoration: none;
-		  color: inherit;
-		}
-	  </style>
-	</head>
-<body>
-
-  <div class='wrapper body-wrapper'>
-	<div class='wrapper canvas'>
-	  <canvas></canvas>
-	</div>
-	
-	<div class='wrapper div-wrapper audio-wrapper'>
-	     <p><dfn>Two Headed Bryan LP</dfn> - <u>Get Back In The Book</u></p> 
-		 <select><p>Autoplay</p>
-		      <option value='0'>-Off-</option>
-			  <optgroup label='Album'>
-				<option value="#">1. Finish Your Cake (Chapters 1 &amp; 2)</option>
-				<option value="#">2. Boss Level Shit</option>
-			  </optgroup>
-			  
-			  <optgroup label='Singles'>
-				<option value='../music/OOber/mp3'>OOber</option>
-				<option value='../music/Frogbeats.mp3'>Froggy Beats</option>
-				</optgroup>
-	    </select> 
-	</div>
-	
-	<div class='wrapper div-wrapper'>
-		<address>
-		<a href='http://kingbill404.github.io'>
-		   Written and produced by Bill Billions &amp; Urban Chi</a>.<br>
-		   Visit<br>
-		   <a href="http://kingbill404.github.io/audio.html">kingbill404.github.io</a>
-		   Box 427, Ritz<br>
-		   USA box52 LLC. &copy; 2020
-		</address> 
-    </div>    
-	
-	<div class='display-none'>
-	  <p><pre>
-	  HTML Audio/Video Events
-		Event 	||   Description
-		abort 	Fires when the loading of an audio/video is aborted
-		canplay 	Fires when the browser can start playing the audio/video
-		canplaythrough 	Fires when the browser can play through the audio/video without stopping for buffering
-		durationchange 	Fires when the duration of the audio/video is changed
-		emptied 	Fires when the current playlist is empty
-		ended 	Fires when the current playlist is ended
-		error 	Fires when an error occurred during the loading of an audio/video
-		loadeddata 	Fires when the browser has loaded the current frame of the audio/video
-		loadedmetadata 	Fires when the browser has loaded meta data for the audio/video
-		loadstart 	Fires when the browser starts looking for the audio/video
-		pause 	Fires when the audio/video has been paused
-		play 	Fires when the audio/video has been started or is no longer paused
-		playing 	Fires when the audio/video is playing after having been paused or stopped for buffering
-		progress 	Fires when the browser is downloading the audio/video
-		ratechange 	Fires when the playing speed of the audio/video is changed
-		seeked 	Fires when the user is finished moving/skipping to a new position in the audio/video
-		seeking 	Fires when the user starts moving/skipping to a new position in the audio/video
-		stalled 	Fires when the browser is trying to get media data, but data is not available
-		suspend 	Fires when the browser is intentionally not getting media data
-		timeupdate 	Fires when the current playback position has changed
-		volumechange 	Fires when the volume has been changed
-		waiting 	Fires when the video stops because it needs to buffer the next frame
-      </pre></p>
-	  
-	  <u><j>Autoplay Feature disabled</j></u>
-	  <m>JQuery Active</m>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Audio player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="audioplayer.css" />
+  </head>
+  <body>
+    <div class="audio-player">
+      [
+        {
+          "title": "River Rocks",
+          "src": "sounds/01-16-RiverRocks.mp3",
+          "type": "audio/mpeg3"
+        },
+        {
+          "title": "Bills Hot Jams",
+          "src": "sounds/biilshotjams(raptothis).mp3",
+          "type": "audio/mpeg3"
+        },
+        {
+          "title": "Holy Trap",
+          "src": "sounds/01-12-20-HolyTrap.mp3",
+          "type": "audio/mpeg3"
+        }
+      ]
     </div>
-  
-    <div class='wrapper'>
-      <a class= 'btn wrapper' href="http://kingbill404.github.io">kingBill</a>
-      
-	</div>
-	                      <!-- Script Section -->
-      <script type='application/javascript'>	  
-		  $(function() {
-		    var val = $("j").html();
-			alert(val);
-		  });
-
-	  </script>
-	  
-	  <div class='wrapper script'>
-	  
-	    <script type='application/javascript'>
-	      $(function() {
-		    var q = $('m').html();
-			alert(q);
-			
-		  });
-	    </script>
-	  
-	          <!-- Script links -->
-        
-		
-        <script type='application/javascript' src='./script.js'></script>		
-	</body>
+    <script src="audioplayer.js" charset="utf-8"></script>
+  </body>
 </html>
-
