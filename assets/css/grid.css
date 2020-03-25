@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    margin: 1rem;
+    font: 12px system-ui;
+}
+
+.wrapper {
+	margin:25%;
+}
+
+body>div {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #3dd3ed;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.grid>div {
+    background: #3DE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}

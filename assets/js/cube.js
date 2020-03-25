@@ -63,12 +63,12 @@ const render = time => {
 requestAnimationFrame(render)
 
 }
-/*
+
 	  $(function() {
     var val = $("p").html();
     alert(val);
 });
-*/
+
 		  $(function() {
 		    var val = $("j").html();
 			alert(val);
