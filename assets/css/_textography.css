@@ -1,91 +1,92 @@
-<<<<<<< HEAD
  h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Markazi Text';
-            margin: 5%;
-            padding: 0 auto;
-            font-weight: 900;
-            text-decoration: underline;
-            text-transform: uppercase;
-            color: #0ef;
-        }
-        
-        h1 {
-			
-            letter-spacing: 1em;
-            font-size: 2em;
-            width: calc(100% - 80px);
-            text-shadow: var(--shat2);
-        }
-        
-        h2 {
-            justify-items: center;
-            text-align: center;
-            font-family: 'Abril Fatface';
-            letter-spacing: 0.5em;
-            font-size: 1em;
-        }
-        
-        .fugaz {
-            font-family: Fugaz;
-        }
-        
-        .abrilone {
-            font-family: Abril One;
-        }
-        
-        .abril {
-            font-family: Abril Fatface;
-        }
-        
-        .Markazi {
-            font-family: 'Markazi Text';
-        }
-		
-		a {
-            color: inherit;
-            text-decoration: none;
-            text-shadow: var(--shat2);
-        }
-		
-		 a:hover {
-            color: var(--hoverclr);
-            transform-translate: rotate3d(0.3, 8.0, 3.3, -45);
-            text-decoration: underline;
-            text-shadow: var(--shat3);
-        }
-
-        b {
-            font-weight: 900;
-        }
-        
-        ul {
-            list-style: none;
-        }
-        
-        h1 {
-            text-transform: uppercase;
-            letter-spacing: 1em;
-            font-size: 2em;
-            text-decoration: underline;
-        }
-        
-=======
-
-		h1, h2, h3, h4, h5, h6 {
-		  box-shadow: inset 10px 5px 10px var(--bluetransparent);
-		  text-shadow: var(--shat3);
-		  padding:10px;
-		  background-color: transparent;
-		  color: var(--light3);
-		}
-		
-		ul {
-			list-style: none;
-			display: flex;
-		}
->>>>>>> dd44f9a9e4b54122a360c43238232f67f073e852
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Markazi Text';
+     margin: 5%;
+     padding: 0 auto;
+     font-weight: 900;
+     text-decoration: underline;
+     text-transform: uppercase;
+     color: #0ef;
+ }
+ 
+ h1 {
+     letter-spacing: 1em;
+     font-size: 2em;
+     width: calc(100% - 80px);
+     text-shadow: var(--shat2);
+ }
+ 
+ h2 {
+     justify-items: center;
+     text-align: center;
+     font-family: 'Abril Fatface';
+     letter-spacing: 0.5em;
+     font-size: 1em;
+ }
+ 
+ .fugaz {
+     font-family: Fugaz;
+ }
+ 
+ .abrilone {
+     font-family: Abril One;
+ }
+ 
+ .abril {
+     font-family: Abril Fatface;
+ }
+ 
+ .Markazi {
+     font-family: 'Markazi Text';
+ }
+ 
+ a {
+     color: inherit;
+     text-decoration: none;
+     text-shadow: var(--shat2);
+ }
+ 
+ a:hover {
+     color: var(--hoverclr);
+     transform: rotate3d(0.3, 8.0, 3.3, -45);
+     text-decoration: underline;
+     text-shadow: var(--shat3);
+ }
+ 
+ b {
+     font-weight: 900;
+ }
+ 
+ ul {
+     list-style: none;
+ }
+ 
+ h1 {
+     text-transform: uppercase;
+     letter-spacing: 1em;
+     font-size: 2em;
+     text-decoration: underline;
+     font-weight: 800;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     box-shadow: inset 10px 5px 10px var(--bluetransparent);
+     text-shadow: var(--shat3);
+     padding: 10px;
+     background-color: transparent;
+     color: var(--light3);
+ }
+ 
+ ul {
+     list-style: none;
+     display: flex;
+ }

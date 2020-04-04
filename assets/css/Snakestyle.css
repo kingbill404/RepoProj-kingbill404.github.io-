@@ -21,7 +21,7 @@
 body {
     background-color: var(--dark);
     padding: 0;
-    width: 100vw;
+    width: 100%;
     max-height: 100vh;
 }
 
@@ -31,7 +31,7 @@ body div {
 
 header {
     display: flex;
-    max-height: 100px;
+    max-height: 60px;
     margin: 0;
 }
 

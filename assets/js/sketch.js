@@ -31,7 +31,6 @@ function mousePressed() {
 function draw() {
     background(32);
     if (s.eat(food)) {
-        score.add++;
         pickLocation();
     }
     s.death();

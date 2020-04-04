@@ -1,0 +1,1014 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Dimension by Billbillions & HTML5 UP
+	kingbill404.github.io
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Audio Project by Bill Billions</title>
+		<meta charset='utf-8' />
+		<meta name='viewport' content='width=device-width' />
+		<link rel='stylesheet' href='./assets/css/main.css' />
+		<noscript><link rel='stylesheet' href='./assets/css/noscript.css' /></noscript>
+	<style>
+	body {
+		  	margin: 0;
+		  	overflow: hidden;
+		  	text-align: center;
+		  	background: black;
+		  	display: block;
+		  	justify-content: center;
+		  	align-items: center;
+		    color: #eee;
+			background-color: #333;
+		}
+		
+		body div {
+		  color: #eee;
+		  border: 3px solid #ddd;
+		  box-shadow: 10px 8px 3px #111;
+		  text-shadow: 0 0 10px #eee;
+		}
+		
+		.canvas {
+			border: 3px solid #0af;
+			border-radius: 5px;
+			background-color: #3a9;
+			color: #eee;
+			overflow: hidden;
+		}
+		
+		.display-none {
+              display: none;
+            }
+		
+		canvas {
+		  background-color: #3f3;
+		}
+	    .wrapper {
+		  margin: 10px;
+		  padding:10px;
+		}
+	    .wrapper .box {
+		  position: relative;
+		  width: Calc(100vh - 20%)/2;
+		  height: 40vh;
+		  border: 10px dotted #3ddd3d;
+		  text-shadow 0 0 10px 0;
+		  border-radius: 10px;
+		}
+		
+		box {
+		  background-color: #4d4;
+		}
+		
+		h1 {
+		  margin: 10px;
+		  padding:10px;
+		  
+		  color: #eee;
+		}
+		
+		.btn2 {
+		 
+		  width: 120px;
+		  text-align: center;
+		  font-family: helvetica;
+		  border: 2px solid #333;
+		  border-radius: 3px;
+		}
+		
+		a {
+		  text-decoration: none;
+		  color: inherit;
+		}
+		
+		.btn2 {
+  background-color: #00f;
+}
+
+
+
+.btn2 {
+		
+  -moz-box-shadow: 3px 4px 0px 0px #899599;
+  -webkit-box-shadow: 3px 4px 0px 0px #899599;
+  box-shadow: 3px 4px 0px 0px #899599, inset 0 0 6px rgba(120, 120, 120, 0.8);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+  background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background: linear-gradient(to bottom, #757575 5%, #707f70 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#555', endColorstr='#333',GradientType=0);
+  background-color:#000;
+  -moz-border-radius:18px;
+  -webkit-border-radius:18px;
+  border-radius:18px;
+  border: 2px solid #d6bcd6;
+  display:inline-block;
+  cursor:pointer;
+  color: rgba(61, 227, 61, 0.8);
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:7px 25px;
+  text-decoration:none;
+  text-shadow:0px 1px 13px rgba;
+}
+
+.btn2:hover {
+  color: #3d3ddd;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d3d3d3), color-stop(1, #d3d3d3));
+  background: -moz-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+  background: -webkit-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+  background: -o-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+  background: -ms-linear-gradient(top, #3d3d3d 5%, #d3d3d3 100%);
+  background: linear-gradient(to bottom, #3d3d3d 5%, #d3d3d3 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d, endColorstr='#d3d3d3',GradientType=0);
+  background-color: transparent;
+}
+
+.btn:active {
+	position: relative;
+	top: 1px; 
+}
+		</style>
+	
+	
+	</head>
+	<body class='is-preload'>
+
+									<!-- .wrapper -->
+			<div id='wrapper'>
+
+									<!-- .header -->
+					<header id='header'>
+						
+				<!-- ########## LOGO #########-->
+	<div class='logo'>
+		<span class='icon fa-gem'></span>
+	</div>
+	
+				<!-- .Content -->
+	<div class='content'>
+		
+				<!-- .inner -->
+		<div class='inner'>
+			<h1>Audio Project</h1>
+			<p> Music Content by <a href='#about'>Bill Billions</a> &amp; <a href='https://ryansmind.bravesites.com'>Urban Chi</a> Co-Producers..</p>
+		</div>
+	</div>
+	
+				<!--   nav   -->
+	<nav>
+	
+		<ul>
+			<li class='btn'><a href='#MusicProj'><span class='fa-icon icon fa fa-music'></span>Music</a></li>
+			<li class='btn'><a href='#bookmarks'><span class='fa-icon icon fa fa-diamond'></span>Featured</a></li>
+			<li class='btn'><a href='#VideoLib'><span class='fa-icon icon fa fa-play'></span>VIdeos</a></li>
+		    <li class='btn'><a href='#VideoLib'><span class='fa-icon icon fa fa-icrophone'></span>Rhymes</a></li>
+			<li class='btn'><a href='#Portfolio'><span class='fa-icon icon fa fa-portrait'></span>Portfolio</a></li>
+			<li class='btn'><a href='#elements'><span class='fa-icon icon fa fa-cog'></span>Elements</a></li>
+		</ul>
+	</nav>
+</header>       <!--########## End Header ############-->
+
+
+
+<body class='is-preload'>
+
+				<!--  Main  -->
+<div id='main'>
+
+				<!-- bookmarks -->
+		<article id='bookmarks'>
+		  <header>
+			<h2 class='major'>Featured</h2>
+			<span class='image main'><img src='images/pic01.jpg' alt='image-bookmarks' /></span>
+			<p>Bill Billions &amp; Urban chi come togeather to colaberate on their newest album <a href='#'>"Get Back In The Book"</a> featuring 15+ of the most unique, chill and scary vibes out today. featuring Singles: 'Finish YOur Cake (chapters 1 &amp;  2)" and Kong Punch"You CanCheck Out The LP <a href='#MusicProj'>Here</a> in our musicproj section.</p>
+			<p>Carving The Underground Pathways, 'Get Back in The Book' Co-Produced by Bill Billons &amp; Urban Chi will take you on a jouney into the mind awakening new pathways of sound for anyone to enjoy. Available for free, download Now. &copy; Box52 Entertainment 2020 sandy, UT 84093 </p>
+		
+		  </header>
+		
+			<section>
+			  <h2>Button Array</h2> 
+			  <p>(Coming Soon)</p>
+			  <div><p>Button-wrapper</p>
+				  <!--Grid array Gows here-->
+                   <ul>
+                       <li><a class='btn' href-='#'>Button</a></li>
+                       <li><a class='btn' href-='#'>Button</a></li>
+                       <li><a class='btn' href-='#'>Button</a></li>
+                       <li><a class='btn' href-='#'>Button</a></li>
+                       <li><a class='btn' href-='#'>Button</a></li>
+                   </ul>
+			  </div>
+			</section>
+		</article>
+
+				<!-- musicproj -->
+		<article id='MusicProj'>
+		
+			<h2 class='major'>Music Project</h2>
+			<span class='image main'><img src='./images/pic02.jpg' alt='musicproj' /></span>
+			<p>Music Project includes: , Beats and samples as well as new art / develpment musicproj dropping all the time. To listen, Select The <a href='#'>Track</a> you wish to play. <a href='#'>"Get Back In The Book LP"</a> CO-produced by Bill Billions &amp; Urban Chi &copy; 2020. box52 Recordings, <!--and use the 3D Boombox rotation ability to controll the Volume along with the Drop-Down menu to select the current background Track.--></p>
+			<p>for more Content visit our <a href='./rhymes.html'>Random Rhymes</a><p> Pick a beat and see the different ways to arrange the rhymes, Going off script is encouraged also! audio display trys to define what scollars have been riddled with since ancient times, the duality of body and mind can come togeather in unique ways to further elaborate on what it means to be cononsious and the possibilites of life describing nature in all its forms.</p>
+		
+			
+				<h3>Singles Array</h3>
+				<h4>Singles</h4>
+				<div class='table-wrapper'>
+					<table>
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Track Player</th>
+								<th>Release Date</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>$KillInit</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/killinit.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-13-2020</td>
+							</tr>
+							<tr>
+								<td>Cloud Rider</td>
+								<td>
+									<audio controls>
+										<source src='./BillionBeats/01-01cloudRider.mp3' type='audio/mpeg'>
+									  </audio>
+								</td>
+								<td>01-01-2020</td>
+							</tr>
+							<tr>
+								<td>Straw Hat</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01country.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-01-2020</td>
+							</tr>
+							<tr>
+								<td>Dream World 2</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01-dreamworld2.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-02-2020</td>
+							</tr>
+							<tr>
+								<td>Dont Forget The Cake!</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01-GetTheCake.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-02-2020</td>
+							</tr>
+							<tr>
+								<td>Lofi Beat 2</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01-LofiBeat2.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-02-2020</td>
+							</tr>
+							<tr>
+								<td>Mind-Meld</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01-MindMeld.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-02-2020</td>
+							</tr>
+							<tr>
+								<td>Pull Your Weight</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01PullYourWeight.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-03-2020</td>
+							</tr>
+							<tr>
+								<td>R-ipper</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01RynsTipper.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-03-2020</td>
+							</tr>
+							<tr>
+								<td>The Robot Race</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01TheRobotRace.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-03-2020</td>
+							</tr>
+							<tr>
+								<td>Wind-Up Doll</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-01-Wind-Up-Doll.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-03-2020</td>
+							</tr>
+							<tr>
+								<td>All Hail The Swamp Queen!</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-02-HailToTheSwampQueen.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-04-2020</td>
+							</tr>
+							<tr>
+								<td>We're Gonna Need A Bigger Boat</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-03-WereGonnaNeedABiggerBoat.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-04-2020</td>
+							</tr>
+							<tr>
+								<td>Soft Top</td>
+								<td>
+								  <audio controls>
+									<source src='./BillionBeats/01-05-SoftTop.mp3' type='audio/mpeg'>
+								  </audio>
+								</td>
+								<td>01-05-2020</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan='2'></td>
+								<td>Copyright &copy; Bill Billions &amp; Urban Chi, Co-Producers</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+	
+		
+		</article>
+
+				<!-- VideoLib -->
+		<article id='VideoLib'>
+			
+			<h2 class='major'>VideoLib</h2>
+			<span class='image main'><img src='images/pic02.jpg' alt='pic02.jpg' /></span>
+			<p>Get Back In The Book' is a music piece on the capabilities of artists and technology to create Works like never before. Co-Produced by Bill Billions &amp; urban chi &copy;  2020. Sounds Coming from Deep within the rocky mountains, Music and Tenacity is briliantly showcased within the work available here. Our fans Keep Coming Back For New Content Released Exclusively on KingBill404</p>
+			 <article>
+			   <section class='audio-section'>
+
+				 <h3>Music Player Array</h3>
+				 <h4><div class='underline'>Singles</div></h4>
+
+				   <table>
+					 <thead>
+					 <tr>
+					 <th><div class='underline'>Track #</div></th>
+					 <th><div class='underline'>Song Title</div></th>
+					 <th><div class='underline'>player</div></th>
+					 </tr>
+					 </thead>
+	  
+					  <tbody>
+						  <tr>
+							<td>1.</td>
+							<td>OOber</td>
+							<td>
+							  <audio controls>
+								<source src='./OOber.mp3' type='audio/mpeg' />
+							  </audio>
+							</td>
+						  </tr>
+						  <tr>
+							<td>2.</td>
+							<td>Bumpy Feet</td>
+							<td>
+							  <audio controls>
+								<source src='./bumpyfeet.mp3' type='audio/mpeg' />
+							  </audio>
+							</td>
+						  </tr>
+						  <tr>
+							<td>3.</td>
+							<td>What The Chunk</td>
+							<td>
+							  <audio controls>
+								<source src='./LofiBeat2.mp3' type='audio/mpeg' />
+							  </audio>
+							</td>
+						  </tr>
+						  <tr>
+							<td>4.</td>
+							<td>Pull Your Weight</td>
+							<td>
+							  <audio controls>
+								<source src='./PullYourWeight.mp3' type='audio/mpeg' />
+							  </audio>
+							</td>
+						  </tr>
+						  <tr>
+							<td>5.</td>
+							<td>Saskatchewan</td>
+							<td>
+							  <audio controls>
+								<source src='./saskatchewan.mp3' type='audio/mpeg' />
+							  </audio>
+							</td>
+						  </tr>
+											  <tr>
+							<td>6.</td>
+							<td>Eat Cake Shit</td>
+							<td>
+							  <audio controls>
+								<source src='./EatCakeShit.mp3' type='audio/mpeg' />
+							  </audio>
+							</td>
+						  </tr>
+						</tbody>
+
+						<tfoot>
+						  <tr>
+							<td colspan='2'></td>
+							<td>&copy;  bill billions &amp; Urban Chi</td>
+						  </tr>
+						</tfoot>
+			  </table>
+</section>
+
+<section id='rhymes'>
+<h2>###### random ryan rhymes #######</h2>
+<pre class='font-large rap-box'>
+youre rhymes poorly chosen,
+while mine was like, 
+they was composed by 
+a great god in the skys 
+that i just opened.
+# Ryline: #
+we reach the apex and kept going 
+while yall stumble,
+we reproduce unlike same sex couples.
+tooned in on the mike ya boy its ryan,
+always crisp, but im fried.
+
+stumbling backwards, 
+with a bottle of jack in my hand. 
+roaming around just 
+trying to stand being stuck in this strange land.
+...	pummeling rappers.
+i crack skulls in this rap game 
+im humbling ametures and handing their asses 
+back to em wraped in celephane.
+i made that track.
+now the mask is off,
+now im being candid.
+i'm taking acid, by the sheet. 
+blasted off and never landed.
+i keep it moving while you asleep 
+steady camping.
+keep the masses in awe
+with my lyrical genius repatoir
+dropping bombs on you sheeple
+and i dont need no reason 
+i tie my dreams into the sky 
+and the morning breeze, best believe
+ you have yet to see a god,
+
+	i'm a warrior, 
+amped up and going deep. [#ee]
+my minds a little clever compared 
+to your anaverage diety 
+im a puppet but im pullling strings,
+im seeing through a new eyes.
+im VideoLib to be crowned your king.
+but what youre seeing is (actually) 
+the seed of the demon 
+embedded inside of me.
+..contractually.
+its urban chi
+cramin rhymes up in your head 
+smokin these potent trees. 
+
+freestyle shit top of the dome 
+meanwhile these  
+sheep sleepin back at home
+crackin skulls 
+packin bowls, in actuality
+ im the master of reality
+ attackin flows
+ go like a speed boat, defeat the hopeleass
+ i leave a wake of woke folks trippin alone on they matress.
+i thought i told you im bat shit
+crazy when im fillin in my mad libs 
+strait blowing the lid off the cabinet 
+im making all matter animate and 
+im adamate VideoLib being above average at least
+
+we taking far from calculated dosages,
+we faded and most 'these kids couldn't cope wit this
+when i take my stash out 
+on the weekend i take most of it
+
+</pre>
+<h3>################################</h3>
+<br /><br />
+</section>
+
+<section>
+<h2>
+###  asking for Billions? ### <br/>
+</h2>
+<pre class='font-large rap-box'>
+everyone knows billy billions 
+alive with the science 
+a thousand years old i update myself when i climax 
+you cant imagine the lives spent trying to understand 
+what it means to be human using eveything i can the plan seems to be all VideoLib 
+supply and demand but it also involves paramount timing 
+these people love those free shots for the audience 
+loose shots from under the riots caused a damn calamity its all been planned 
+social engineering is the prophesy so end the violence theyre trying to silence me
+but his is our land and hand in hand more like pound for 
+pound im the opposite of anyone thats down for the count
+ 
+it dont astonish me theres no room for honesty when you cant
+remeber the person you originally wanted to be 
+you forgot that honesty controls your destiny its meant to be but time wasted on the couch made
+loud complaints falling on ears silently
+id say its not too late but youre older now and you couldnt even do it in your youth when you had the energy, 
+so rest in peace and dont say shit to me 
+##Science##
+-timing
+-riots
+
+you know where i be, but you not sure i'm living at 
+im at the ritz violating the rules, in fact 
+they say he's so slick and that boys amazing, 
+the more i moraly 
+option to break the more they want me back,
+i told them only if they pay me
+ 
+after the ashes burn down to the floor, 
+find me leaving you bastards ass kissing for more
+core to the center, of the human advnture i realised
+that whores were the first thing my species  
+invented cuz ive been pimping since
+the devil got fell to the earth from his place heaven
+just end it theres no pleasure even from a hollywood actress
+see how fast two can take up the room
+especially if they aint even using the mattress 
+her eyes belie her fashion sense and tell when shes cumming soon
+an all Public display of love an the pain 
+will melt in the skies' till the end of my days  
+these mentions of fame and how rare it is 
+are compacted by the fact they were made by corporations 
+to see its own face in desparagement like two panes
+reflecting its carelessness 
+Keep me loving the way the disparagement keeps you insane 
+ love and the pain in an endless display  
+And this will be the end of my weakness today
+</pre></section>
+
+<section>
+<h3 class='major'>
+........
+</h3>
+<pre class='font-large rap-box'>
+.....RAP BOX....
+</pre>
+</section>
+								</article>
+
+
+									<!-- Portfolio -->
+							<article id='Portfolio'>
+								<h2 class='major'>Portfolio</h2>
+								<span class='image main'><img src='images/pic04.jpg' alt='pic04.jpg'></span>
+								<p>Leave us a Message with your name, Email and a brief question or comment and we'll be sure to get back to you.</p>
+								
+								    <!--  Form  -->
+								<form method='post' action='#'>
+									<div class='fields'>
+										
+									<!-- Name -->
+										<div class='field half'>
+											<label for='name'>Name</label>
+											<input type='text' name='name' id='name' />
+										</div>
+										
+									<!-- Email -->
+										<div class='field half'>
+											<label for='email'>Email</label>
+											<input type='text' name='email' id='email' />
+										</div>
+										
+									<!-- Message -->
+										<div class='field'>
+											<label for='message'>Message</label>
+											<textarea name='message' id='message' rows='4'></textarea>
+										</div>
+									</div>
+									
+								    <!-- Actions -->
+									<ul class='actions'>
+										<li><input type='submit' value='Send Message' class='primary' /></li>
+										<li><input type='reset' value='Reset' /></li>
+									</ul>
+								</form>
+								
+								<!-- .icons -->
+								<ul class='icons'><div class='major'>Icons</div>
+									<li><a href='https://twitter.com' class='icon brands fa fa-twitter"><span class='label'>Twitter</span></a></li>
+									<li><a href='https://facebook.com' class='icon brands fa fa-facebook-f"><span class='label'>Facebook</span></a></li>
+									<li><a href='https://instagram.com' class='icon brands fa fa-instagram"><span class='label'>Instagram</span></a></li>
+									<li><a href='https://github.com' class='icon brands fa fa-github"><span class='label'>GitHub</span></a></li>
+								</ul>
+							</article>
+
+								<!-- Elements -->
+							<article id='elements'>
+								<h2 class='major'>Elements</h2>
+
+								<section>
+									<h3 class='major'>Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href='#'>this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class='major'>Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class='alt'>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class='icons'>
+										<li><a href='#' class='icon brands fa-twitter'><span class='label'>Twitter</span></a></li>
+										<li><a href='#' class='icon brands fa-facebook-f'><span class='label'>Facebook</span></a></li>
+										<li><a href='#' class='icon brands fa-instagram'><span class='label'>Instagram</span></a></li>
+										<li><a href='#' class='icon brands fa-github'><span class='label'>Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class='actions'>
+										<li><a href='#' class='button primary'>Default</a></li>
+										<li><a href='#' class='button'>Default</a></li>
+									</ul>
+									<ul class='actions stacked'>
+										<li><a href='#' class='button primary'>Default</a></li>
+										<li><a href='#' class='button'>Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class='major'>Singles Array</h3>
+									<h4>Singles</h4>
+									<div class='table-wrapper'>
+										<table>
+											<thead>
+												<tr>
+													<th>Title</th>
+													<th>Track Player</th>
+													<th>Release Date</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>$KillInit</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/killinit.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-13-2020</td>
+												</tr>
+												<tr>
+													<td>Cloud Rider</td>
+													<td>
+														<audio controls>
+															<source src='./BillionBeats/01-01cloudRider.mp3' type='audio/mpeg'>
+														  </audio>
+													</td>
+													<td>01-01-2020</td>
+												</tr>
+												<tr>
+													<td>Straw Hat</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01country.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-01-2020</td>
+												</tr>
+												<tr>
+													<td>Dream World 2</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01-dreamworld2.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-02-2020</td>
+												</tr>
+												<tr>
+													<td>Dont Forget The Cake!</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01-GetTheCake.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-02-2020</td>
+												</tr>
+												<tr>
+													<td>Lofi Beat 2</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01-LofiBeat2.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-02-2020</td>
+												</tr>
+												<tr>
+													<td>Mind-Meld</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01-MindMeld.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-02-2020</td>
+												</tr>
+												<tr>
+													<td>Pull Your Weight</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01PullYourWeight.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-03-2020</td>
+												</tr>
+												<tr>
+													<td>R-ipper</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01RynsTipper.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-03-2020</td>
+												</tr>
+												<tr>
+													<td>The Robot Race</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01TheRobotRace.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-03-2020</td>
+												</tr>
+												<tr>
+													<td>Wind-Up Doll</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-01-Wind-Up-Doll.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-03-2020</td>
+												</tr>
+												<tr>
+													<td>All Hail The Swamp Queen!</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-02-HailToTheSwampQueen.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-04-2020</td>
+												</tr>
+												<tr>
+													<td>We're Gonna Need A Bigger Boat</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-03-WereGonnaNeedABiggerBoat.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-04-2020</td>
+												</tr>
+												<tr>
+													<td>Soft Top</td>
+													<td>
+													  <audio controls>
+													    <source src='./BillionBeats/01-05-SoftTop.mp3' type='audio/mpeg'>
+													  </audio>
+													</td>
+													<td>01-05-2020</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan='2'></td>
+													<td>Copyright &copy; Bill Billions &amp; Urban Chi, Co-Producers</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class='table-wrapper'>
+										<table class='alt'>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan='2'></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class='major'>Buttons</h3>
+									<ul class='actions'>
+										<li><a href='#' class='button primary'>Primary</a></li>
+										<li><a href='#' class='button'>Default</a></li>
+									</ul>
+									<ul class='actions'>
+										<li><a href='#' class='button'>Default</a></li>
+										<li><a href='#' class='button small'>Small</a></li>
+									</ul>
+									<ul class='actions'>
+										<li><a href='#' class='button primary icon solid fa-download'>Icon</a></li>
+										<li><a href='#' class='button icon solid fa-download'>Icon</a></li>
+									</ul>
+									<ul class='actions'>
+										<li><span class='button primary disabled'>Disabled</span></li>
+										<li><span class='button disabled'>Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class='major'>Form</h3>
+									<form method='post' action='#'>
+										<div class='fields'>
+											<div class='field half'>
+												<label for='demo-name'>Name</label>
+												<input type='text' name='demo-name' id='demo-name' value="" placeholder='Jane Doe' />
+											</div>
+											<div class='field half'>
+												<label for='demo-email'>Email</label>
+												<input type='email' name='demo-email' id='demo-email' value="" placeholder='jane@untitled.tld' />
+											</div>
+											<div class='field'>
+												<label for='demo-category'>Category</label>
+												<select name='demo-category' id='demo-category'>
+													<option value="">-</option>
+													<option value='1'>Manufacturing</option>
+													<option value='1'>Shipping</option>
+													<option value='1'>Administration</option>
+													<option value='1'>Human Resources</option>
+												</select>
+											</div>
+											<div class='field half'>
+												<input type='radio' id='demo-priority-low' name='demo-priority' checked>
+												<label for='demo-priority-low'>Low</label>
+											</div>
+											<div class='field half'>
+												<input type='radio' id='demo-priority-high' name='demo-priority'>
+												<label for='demo-priority-high'>High</label>
+											</div>
+											<div class='field half'>
+												<input type='checkbox' id='demo-copy' name='demo-copy'>
+												<label for='demo-copy'>Email me a copy</label>
+											</div>
+											<div class='field half'>
+												<input type='checkbox' id='demo-human' name='demo-human' checked>
+												<label for='demo-human'>Not a robot</label>
+											</div>
+											<div class='field'>
+												<label for='demo-message'>Message</label>
+												<textarea name='demo-message' id='demo-message' placeholder='Enter your message' rows='6'></textarea>
+											</div>
+										</div>
+										<ul class='actions'>
+											<li><input type='submit' value='Send Message' class='primary' /></li>
+											<li><input type='reset' value='Reset' /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					
+
+				<!-- Footer -->
+					<footer id='footer'>
+						<p class='copyright'>&copy; Audio Project 01. Design: <a href='http://kingbill404.github.io'>Bill Billions</a>.</p>
+					</footer>
+
+			
+
+		<!-- BG -->
+			<div id='bg'></div>
+
+		<!-- Scripts -->
+		    
+			<script src='http://www.networkoptix.com/wp-content/plugins/LayerSlider,_static,_layerslider,_js,_layerslider.transitions.js,qver==6.7.6+add-to-any,_addtoany.min.js,qver==1.0.pagespeed.jc.4WuS83g0bt.js'></script>
+			<script src='..assets/js/jquery.min.js'></script>
+			<script src='./assets/js/browser.min.js'></script>
+			<script src='./assets/js/breakpoints.min.js'></script>
+			<script src='./assets/js/util.js'></script>
+			<script src='./assets/js/main.js'></script>
+			<script src='./assets/js/app.js'></script>
+
+	</body>
+</html>
