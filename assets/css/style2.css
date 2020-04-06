@@ -1,10 +1,10 @@
 	    
 	
 	:root {
-	  --light: #eee;
-	  --dark: #333;
+	  --light: #e1e7ef;
+	  --dark: #31373f;
 	  --shab: inset 13px -10px 10px rgba(120, 120, 220, 0.8), 12px 8px 4px #375;
-	  --shad: 10px 8px 2px  3px rgba( 60, 120, 220, 0.8);
+	  --shad: inset 3px -8px 2px  3px rgba( 60, 220, 120, 0.6);
 	  --shat: 2px 3px 3px rgba(120,120,120, 0.8); 
 	  --shat2: 0 0 6px rgba(220, 220, 220, 0.4);
 	  --bg: #33f;
@@ -13,7 +13,7 @@
 	  --bdr: 6px solid #aaf, border-radius: 6px;
 	  --clr: #3d3ddd;
 
-	
+	}
 	* {
 	  margin: 0;
 	  padding: 0;
