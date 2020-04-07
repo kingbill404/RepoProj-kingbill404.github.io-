@@ -1,4 +1,11 @@
+@import url("./_vars.css");
+@import url("./main.css");
 /* button_syles.css */
+ 
+ .btn {
+	display: inline-block;
+    text-align: center; 
+ }
  
  .btn-style-2:visited {
             color: #e3e3e3
@@ -11,20 +18,20 @@
         .btn-style-1:visited {
             color: #e3e3e3
         }
-        
+		
         .btn-style-1 {
             background-color: #3ddd3d;
-            display: inline-block;
-            text-align: center;
             padding-right: 15px;
             border-radius: 8px;
             font-family: Arial;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #ffffff;
-            border-color: #000000;
+            color: #e1e7ef;
+            border-color: rgba(0,0,0,0.8);
             font-size: 20px;
-            padding-top: 5px
+            padding-top: 5px;
+			text-shadow:var(--shat);
+			box-shadow: var(--shab), var(--shaddio);
         }
         
         .btn-style-2 {
@@ -36,10 +43,12 @@
             font-family: Times New Roman;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #ffffff;
+            color: #f107ee;
             border-color: #000000;
             font-size: 20px;
-            padding-top: 5px
+            padding-top: 5px;
+			text-shadow:var(--shat);
+			box-shadow: var(--shab), var(--shaddio);
         }
         
         .btn-style-3 {
@@ -51,10 +60,11 @@
             font-family: Verdana;
             padding-left: 15px;
             padding-bottom: 5px;
-            color: #ffffff;
+            color: rgba(60,88,220);
             border-color: #000000;
             font-size: 20px;
-            padding-top: 5px
+            padding-top: 5px;
+			text-shadow: var(--shat2);
         }
         
         .btn-style-4 {
@@ -74,6 +84,7 @@
         
         .btn-style-5 {
             background-color: #3ddd3d;
+			border-radius: 3px 30%;
             display: inline-block;
             text-align: center;
             padding-right: 15px;

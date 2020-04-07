@@ -1,23 +1,4 @@
-@import url('./buttons.css');
-
-@font-face {
-  font-family: 'Abril Fatface';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v10/zOL64pLDlL1D99S8g8PtiKchq-dmiA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Fugaz One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Fugaz One'), local('FugazOne-Regular'), url(https://fonts.gstatic.com/s/fugazone/v8/rax_HiWKp9EAITukFsl8Axha.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Markazi Text';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/markazitext/v5/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQf4QvAQ.ttf) format('truetype');
-}
+@import url('./button_styles.css');
 
 * {
   margin: 0; 
