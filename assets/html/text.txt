@@ -1,10 +1,4 @@
-Windows PowerShell borrows much from the Linux environment including many Linux commands. It also includes the ability to pipe commands and link commands into a script.
 
- 
-
-With PowerShell capability, Windows becomes a more powerful hacking platform, but until Microsoft makes its source code open source (don't hold your breath), Linux will still be the operating system of choice for hackers.
-
- 
 
 On the other hand, PowerShell on the target Windows system can be used to exploit or compromise it. For instance, check out my tutorial on using PowerSploit or Metasploit's Web Delivery against Windows systems. Both of make use of the power of PowerShell on the victim's system. For instance, these PowerShell commands were used in the PowerSploit exploit;
 
