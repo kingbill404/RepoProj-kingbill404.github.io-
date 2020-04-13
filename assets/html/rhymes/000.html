@@ -7,53 +7,68 @@ Hi, this is the rhymes000
      000.html
     !< - - -->
 
-    <head>
         <!-- meta1 -->
         <meta charset='utf-8' />
-        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <meta http-equiv='X-US-Compatable' content='xml:lang' />
+        <meta name='viewport' content='width=device-width initial-scale=1.0' />
+        <meta http-equiv='X-UA-Compatable' content='IE=Edge;Chrome=1' />
 
         <!-- Meta2 -->
         <title>KingBill404's Rhyming Poetry 000</title>
         <meta name='description' content='Rhyming Potery, Dope Lines and It Wont Be available on time  For Free' />
 
         <!-- links -->
-        <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' crossorigin='anonymous'>
+       <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' crossorigin='anonymous' />
+        <link rel='stylesheet' href='../../vendor/bootstrap/bootstrap.css' />
         <link rel='stylesheet' href='../../css/main.css' />
         <link rel='stylesheet' href='../../css/style.css' />
 
         <!-- Embedded js -->
-        <script type='text/css'>
-            $(function onLoad() { const q = 0; alert('Welcome to my Repository, take a minute to sign my guestBook and while you\'re there' +
-            < br /> + 'Leave me a message.' + q); }); q++; var elements = []; for (i = 0, $element in elements) { document.getElementByClass('.array'); inner.html = document.Write(elements[i] + ' status: Indexed'); } return $element; /* else { alert('there is
-            an issue indexing the' + elements[i] + 'element.') } else { alert('its broken :((') } return; }*/
+        <script type='application/jacascript'>
+            $(function onLoad() { 
+			const  q = 0; 
+			alert("Welcome to my Rhyming Poetry Section, Play a Beat From the List and Use The Navigation Links to Jump To A Specific Verse." +< br /> + "Leave me a message." + q);
+			}); 
+			q++; 
+			var  elements = []; 
+			for (i = 0, $element in  elements) {
+  			     document.getElementByClass('.array'); 
+				 inner.html = document.Write(elements[i] + " status: Indexed");  
+		    return  $element; 
+		    }else  { 
+			    alert('there is an issue indexing the' + elements[i] + 'element.');
+			} else  {
+				alert('its broken :("[i]")');
+			} return;
+			
         </script>
 
         <!-- Embedded css -->
         <style type='text/css'>
             /* reset */
-            /* base */
+            /* base */ 
             
              :root {
                 /* colors */
                 --light: #eee;
                 --medium: #555;
                 --dark: #333;
-                --clr1: #3ddd3d;
-                --clr2: #d33ddd;
-                --clr2: #d33d3d;
-                --clr3: #3d3dd3;
+                --grn: #3ddd3d;
+                --yel: #d33ddd;
+                --red: #d33d3d;
+                --blu: #3d3dd3;
                 --sha2: 2px 3px 2px #111;
-                --sha: 0px 0x 10px 2px;
+                --sha: 0px 0x 10px rgba(220,220,220,0.6);
                 --sha1: inset 2px -11px 2px rgba(220,220,220,0.6);
                 --bdr: 3px solid #777;
                 --border2: 3px solid #0ef;
+                --bdr2: 13px solid #5f5f5f;
+                --shab3: 3px 4px 6px #1f1f1f;
             }
             /* default */
             
             * {
-                margin: 0;
-                padding: 0;
+                margin: 0 auto;
+                padding: 0 auto;
                 box-sizing: border-box;
             }
             /* sectioning */
@@ -61,7 +76,8 @@ Hi, this is the rhymes000
             html {
                 background: var(--dark);
                 color: var(--light);
-                display: flex;
+                display: block;
+				width: 100%;
             }
             
             body {
@@ -75,29 +91,28 @@ Hi, this is the rhymes000
             }
             
             .wrapper {
-                margin: 6px;
+                margin: 0 auto;
                 padding: 0 10px;
-                border: #5f5f5f solid 13px;
+                border: var(--bdr2);
                 border-radius: 10px;
-                box-shadow: 3px 4px 6px #1f1f1f;
+                box-shadow: var(--shab3);
             }
             
             header {
-                border: var(--clr3);
+                border: var(--blu);
                 box-shadow: var(--bshad);
                 border-radius: var(--bshad);
-                display: inline-block;
             }
             
             section {
-                background: var(--clr3);
-			    box-shadow: var(--sha1);
-				color: e1e7ef;
-				text-shadow: var(--sha2);
+                background: var(--blu);
+                box-shadow: var(--sha1);
+                color: var(--light);
+                text-shadow: var(--sha2);
             }
             
             header .logo {
-                background-image: ;
+                background: url("../../images/bg2.jpg");
             }
             
             header nav {
@@ -105,14 +120,14 @@ Hi, this is the rhymes000
             }
             
             header section {
-				background-color: rgba(220, 220, 220, 0.6);
-			}
+                background-color: rgba(220, 220, 220, 0.6);
+            }
             
             nav ul {
                 background-color: var(--dark);
-                margin: 10px;
-                padding: 10px;
-                border: #5a5 solid 8px;
+                margin: 10px 3px;
+                padding: 0 auto;
+                border: 8px solid #5a5;
                 border-radius: 10px;
                 box-shadow: 3px 4px 6px #1f1f1f;
                 display: inline-block;
@@ -121,6 +136,7 @@ Hi, this is the rhymes000
             
             nav ul h3 {
                 /* nav title */
+                color: var(--light);
             }
             
             nav.menu ul li {
@@ -129,13 +145,12 @@ Hi, this is the rhymes000
             
             a {
                 text-decoration: none;
-                color: var(--clr1);
+                color: inherit;
             }
             
             .menu li a {
-                position: relative;
-                width: 12px;
-                height: 60px;
+                width: 60px;
+                height: 12px;
             }
             
             nav a {
@@ -145,38 +160,46 @@ Hi, this is the rhymes000
             a:hover {
                 border: 1px solid #888;
                 text-decoration: underline;
+                color: var(--grn);
             }
 			
-			h1, h2, h3, h4, h5, h6 {
-				color: #09f2ef;
-				text-decoration: underline;
-				text-transform: uppercase;
-				letter-spacing: 0.2em;
-			}
-			 h1 {font-size: 30px;}
-			 h2 {font-size: 25px;}
-			 h3 {
-				 margin: 0;
-				 padding: 0;
-				 background-color: rgba(20,20,20,0.6);
-				 font-size: 20px;}
-            /* headline * /
+            h1, h2, h3, h4, h5, h6 {
+                color: #09f2ef;
+                text-decoration: underline;
+                text-transform: uppercase;
+				         font-weight: 900;
+            }				
             
-            .logo h2 {color:;}
+            h1 {
+                font-size: 1em;
+                letter-spacing: 0.2em;
+            }
+
+            h2 {font-size: 0.8em;}
+
+            h3 {
+                margin: 0 auto;
+                padding: 0 auto;
+                color: var(--blu);
+                background-color: rgba(20,20,20,0.4);
+            }
+            /* headline */
             
-			/ * tagline * /
+            .logo h2 {color:#21e7ff;}
+            
+			/* tagline */
             
             .logo p {
-				margin: 0 auto;
-				padding: 0 auto;
-			}
+                margin: 0 auto;
+                padding: 0 auto;
+            }
             
             .main {
-				background-color: rgba(20,20,20,0.4);
-			    border: 2px dashed rgba(120,255,120, 0.8);
-				border-radius: 12px 25%;
-			    box-shadow: var(--bshad);
-			}
+                background-color: rgba(20,20,20,0.4);
+                border: 2px dashed rgba(120,255,120, 0.8);
+                border-radius: 12px 25%;
+                box-shadow: var(--bshad);
+            }
             /*
             section {}
             
@@ -208,63 +231,140 @@ Hi, this is the rhymes000
 			*/
         </style>
         <script>
-            var q = 100;
-            const w = 'hello';
+            var  q = 100;
+            const  w = 'hello';
+			alert(w);
         </script>
     </head>
 
     <body class='index'>
         <div class='wrapper'>
-
+            <nav class='menu'>
+              <ul><h3>Site Nav</h3>
+                <li><a href='../../../index.html'><span class='logo fa fa-diamond'></span>Home</a></li>
+                <li><a href='../music.html'><span class='logo fa fa-star'></span>Music</a></li>
+                <li><a href='./rhymes.html'><span class='logo fa fa-user'></span>Rhymes</a></li>
+                <li><a href='./randomerrhymes.html'><span class='logo fa fa-envelope'></span>Randomer Rhymes</a></li>
+              </ul>
+            </nav>
             <header>
                 <div class='logo'>
                     <h2>KingBill404's Rhyming Poetry Library</h2>
-                    <p>Welcome to the Rhyming Poetery Page use the Verse Navigation to Seek to a specific verse</p>
+                    <p>Welcome to the Rhyming Poetery Page use the Verse Navigation to Seek a specific verse</p>
                 </div>
 
-                <nav class='menu'>
-                    <ul>
-                        <h3>Nav Menu</h3>
-                        <li><a href='../../index.html'><span class='logo fa-diamond'></span>Home</a></li>
-                        <li><a href='#music'><span class='logo fa-star'></span>Music</a></li>
-                        <li><a href='#rhymes'><span class='logo fa-user'></span>Rhymes</a></li>
-                        <li><a href='#work'><span class='logo fa-envelope'></span>Work</a></li>
-                    </ul>
-                </nav>
+               
                 <section>
                     <h1>kingBill404's Repository Index.html</h1>
-                    <p>Heresd where i try and make sense of all the disorganized, half-thought-out projects ive been haphazardly throwing here.</p>
+                    <p>Rhymes Index</p>
                 </section>
             </header>
             <!-- end header -->
 
             <!-- Begin Main-->
             <article class='main'>
-                <!-- Section youtube -->
+                <!-- Section  Music-->
                 <section class='feat' id='music'>
-                    <a href=''>
-                        <h4>Audio</h4>
-                    </a>
-                    <div class='items'>
-                        <span><strong>Singles</strong></span>
-                    <div>
-                      <audio>
-                        <source  src='./assets/audio/03-marJams/0305-TYB(RapToThis).mp3' type='audio/mpeg' />
-                      </audio>
-                    </div>      
-                    <div>		
-                      <p>				
-                        <ul><h4>Verse Navigation</h4>
-                          <li><a href='#pushing'>I'm Pushing Through Thicker Scenes,</a></li>
-                          <li><a href='#costume'>You aint no cop you just wearing a costume</a></li>
-                          <li><a href='#rivals'>Rivals Contested, My Rhymes are Evil.</a></li>
-                          <li><a href='#'>Insert A URL</a></li>
-                          <li><a href='#'>Insert A URL</a></li>
-                          <li><a href='#'>Insert A URL</a></li>
-                        </ul>
-                      </p>
-                    </div>
-                  </section>
+                   <div class="table-wrapper">
+			    <table>
+			      <thead>
+			  	    <tr>
+				      <th><div class='underline'>Track #</div></th>
+				      <th><div class='underline'>Song Title</div></th>
+				      <th><div class='underline'>player</div></th>
+				    </tr>
+			      </thead>
+			      
+				  <tbody>
+				      <tr>
+				        <td>1.</td>
+				        <td>OOber</td>
+				        <td>
+						  <audio controls>
+		                    <source src='../../Audio/01-janJams/01-01-OOber.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>2.</td>
+				        <td>BIrth of the Lotus</td>
+				        <td>
+						  <audio controls>
+		                    <source src='../../Audio/01-janjams/01-01-birthofthelotus.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>3.</td>
+				        <td>River Rocks</td>
+				        <td>
+						  <audio controls>
+		                    <source src='../../Audio/01-janjams/01-16-riverrocks(raptthis).mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+				      </tr>
+				      <tr>
+				        <td>4.</td>
+				        <td>Pull Your Weight</td>
+				        <td>
+						
+						  <audio controls>
+		                    <source src='../../audio/01-janJams/01-01-PullYourWeight.mp3' type='audio/mpeg' />
+						  </audio>
+						   </td>
+				      </tr>
+					    <tr>
+				        <td>4.</td>
+				        <td>Baked on Mayberry Street</td>
+				        <td>
+						
+						  <audio controls>
+		                    <source src='../../audio/01-janJams/01-10-BakedOnMayberryStreet.mp3' type='audio/mpeg' />
+						  </audio>
+						   </td>
+				      </tr>
+				      <tr>
+					  .
+				        <td>5.</td>
+				        <td>All Hail The Swamp Queen</td>
+				        <td>
+						  <audio controls>
+		                    <source src='../../Audio/01-janjams/01-02-HailToTheSwampQueen.mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+			  	      </tr>
+					  				      <tr>
+				        <td>6.</td>
+				        <td>Soft Top</td>
+				        <td>
+						  <audio controls>
+		                    <source src='../../Audio/01-janjams/01-05-softtop(raptothis).mp3' type='audio/mpeg' />
+						  </audio>
+						</td>
+			  	      </tr>
+			        </tbody>
+
+			        <tfoot>
+				      <tr>
+				        <td colspan="2"></td>
+			   	        <td>Copyright &copy; Bill Billions &amp; Urban Chi, Co-producers</td>
+				      </tr>
+			        </tfoot>
+			      </table>
+		        </div>	<!-- End Table-Wrap -->						 
+					             <div>		
+					               <p>				
+					                 <ul><h4>Verse Navigation</h4>
+					                   <li><a href='#pushing'>I'm Pushing Through Thicker Scenes,</a></li>
+					                   <li><a href='#costume'>You aint no cop you just wearing a costume</a></li>
+					                   <li><a href='#rivals'>Rivals Contested, My Rhymes are Evil.</a></li>
+					                   <li><a href='#'>Insert A URL</a></li>
+					                   <li><a href='#'>Insert A URL</a></li>
+					                   <li><a href='#'>Insert A URL</a></li>
+					                 </ul>
+					               </p>
+					             </div>
+					           </section>
 
                 <!-- section .feat #secTwo -->
                   <section class='feat' id='rhymes'>
@@ -289,863 +389,611 @@ Hi, this is the rhymes000
                 <!-- section .feat #forgot -->
                 <section class='feat' id=''forgot'>
                   <hr  width='75%'/>
-                    <h4>i forgot the line i was gonna rhyme </h4><p><p>
+                    <h4>i forgot the line i was gonna rhyme </h4><p>
 oh-well fuck it i hype up the memories in my skull when im reminded of bullshit, but i write about the insane times like a nuescence im tyrin the proove it and similtainiously tie up some loose ends stop trying to chain me to the grave and acting like you got a noose round my neck like it gets shorter if i dont behave stave off the opression and rage, goota get back in the book take a look at the fake age of nothin sinking its hooks. pay attention, take alook, but dont mention the foward motion that is tied to the back of the coast of a never ending ocean. your the code and im the host most cant see the cracks yo mommas back is in pain, so aimless like you a staine on my underware, your like a pair of nothing, you equal too a blank stair and i ma push you down a thousand stairs worst case scenario , there it goes;we bury those, whos stereos, dont bmp the flows of billy and ryne, g, we the chosen ones, here it it goes, turn up ya nose at me, cheap shot in the throat for free. its 333, and 22 times 27 and we just blew the hive mind open and severed ties with the devil, tryna cope with truth, too many lies but the numbers are all in perfect harmony and rhyme like the words do. fuck your immortal technique, im the more than mortal ethical version of the tempting illusive retorhic, its your uselssness that sent me to the diversion , pluscked the hairs out the excertion im fed up with this, I christened, the coillition of ambition between the soul that an exorcist will flick a flame keep the darkness lit condademn with the heart that kept beating between the measures that split these seems the light gleams so hot, it burnt these fragile wings like tey wre bitten by frost. tossin my mind around this dome , and the cold it sings, frequencies ringing in my head, like im bringin the dead to life it seems. serpants eating me alive, destroy my being and crown me a king. 
-</p></p><br />Section three<br /><br /><br /><br />
+</p><br />Section three<br /><br /><br /><br />
                 </section>
 
                 <!-- section .feat #Rivals -->
                 <section class='feat' id='rivals'>
-
-S 63IU                </section>
+<p>
+Rivals Contested, My Rhymes are evil, <br />
+Fuck With my Brethren, Youll find we Lethal,<br />
+Storming The Entrances, Sleeping the people.<br />
+Guess Where we came from, it made yall Believers,<br />
+Sight Unconventional Rhyming With Vision<br />
+MIles of History Thats my condition,<br />
+Its in my heritage gifted From Women<br />
+Getting yor mom moist, Best thing wings could have given<br />
+</p><h3 id='fast'>I take it way on back,</h3>
+<p>88' Rocky Mountain Racing Track<br />
+IM flying fast enough that time may last for moment<br /> 
+longer than my patients can<br />
+Just like my writing i use that inertia to launch me out my seat<br />
+im trying to exit earths gravitational pull. <br />
+<br />
+These times are new we made it<br />
+for you my mind trys to rejuvinate patience<br />
+Eight ways this lame stationary relationships failing<br />
+Its the same shit except I Finished six fifths in an instant<br />
+and went and killed this mission in less than a millisecond<br />
+Spike the brew i can rival your fake news i lived through<br />
+<br />
+IM on to these haters, i know why theyre mad<br />
+they cant listen to my tapes anymore, Theyre comparitavely whack<br />
+prepair for impact as i attack these passionless rappers, <br />
+its obvious i mastered the syntax by now<br />
+Ask where i am its the ritz matter of fact<br />
+theres layers of shit before you get in picture that,<br />
+me litterally higher shitting on you clowns,<br />
+The fourteenth floor bar rooftop drawing crowds,<br />
+looks more like a hoard with these whores getting down<br /> 
+i ordered enough booze to glug glug glug Drown!<br />
+Its written in the rules not to start fucking around,<br />
+ut im alreadt bout there with these bottles of crown,<br />
+not to mention the jack, <br />
+hammered up, might get jacked if you wearing my crown, so get out of my town<br />
+<br /></p>
+           </section>
 
                 <!-- section .feat #secFive -->
                 <section class='feat' id='secFive'>
-                    <h4>Section</h4>
-                    <p>TOPPED OFF MY CUP AND SPILLED IT
+                    <h4>TOPPED OFF MY CUP AND SPILLED IT</h4>
+                    <p>
+TOSSED AWAY MY FATE AND REFUSED TO LET THE RUMORS FUSE TIPS<br />
+JIMMINY CRICKET BOUGHT ME A TICKET THE THE REAL WORLD, LOST MY MIND SO I Could<br />
+TUNE IN. SHOOTIN AT THE STARS, PROFF ISNT VERY FAR, VARIATIONS ON COOPS AND CARS<br /><br /><br /><br />
+SUIT ONLY THE ROOF THAT LIES ABOVE MARS. SARS EBOLA AND COVID 19 LIKELY TO BE A FALW<br />
+CAUSE YOUR FEARS ATTACHED TO THE NEAREST PAST THAT YOU LOOK AT FROM AFAR.<br />
+FROM A FUTURE THAT IS OURS, FORM A RULER YOU MEASURE YARDS.<br />
+COME THIS NOVEMBER 22'S GONNA LEAVE YOU SCARRED.<br />
+URBAN CHI COMIN AT YOUR CEREBELUM<br />
+HELLS INVESTMENTS BLEW THE CARDS AWAY AND THE WIND WAS THE ESSENCE OF THE VALUE THAT DEALT EM.<br />
+AND RENDERS US ALL RETARDs.<br />
+THIS IS A MEMBRAINE TO LASSERATE<br />
+THIS IS ME TRYNA TAME THE PAVEMENT DURING AN IN THIS EARTHQUAKE<br />
+ITS YOUR FAULT YOU ACT ON YOUR FATE<br />
 
-TOSSED AWAY MY FATE AND REFUSED TO LET THE RUMORS FUSE TIPS
-JIMMINY CRICKET BOUGHT ME A TICKET THE THE REAL WORLD, LOST MY MIND SO I Could
-TUNE IN. SHOOTIN AT THE STARS, PROFF ISNT VERY FAR, VARIATIONS ON COOPS AND CARS
-SUIT ONLY THE ROOF THAT LIES ABOVE MARS. SARS EBOLA AND COVID 19 LIKELY TO BE A FALW
-CAUSE YOUR FEARS ATTACHED TO THE NEAREST PAST THAT YOU LOOK AT FROM AFAR.
-FROM A FUTURE THAT IS OURS, FORM A RULER YOU MEASURE YARDS.
-COME THIS NOVEMBER 22'S GONNA LEAVE YOU SCARRED.
-URBAN CHI COMIN AT YOUR CEREBELUM
-HELLS INVESTMENTS BLEW THE CARDS AWAY AND THE WIND WAS THE ESSENCE OF THE VALUE THAT DEALT EM.
-AND RENDERS US ALL RETARDs.
-THIS IS A MEMBRAINE TO LASSERATE
-THIS IS ME TRYNA TAME THE PAVEMENT DURING AN IN THIS EARTHQUAKE
-ITS YOUR FAULT YOU ACT ON YOUR FATE
+<p></p>
+WHILE REDIFINING EUQALITY<br />
+AS EVERLASTING EVIL SEEDS PLANTED IN THE MINDS BENEATH<br />
+THIS STEEPLE RESIDING IN A SURPLOUS OF PEOPLE<br />
+ON THE FEEBLE TIDES<br />
+DEMONS CLIMBING INTO SEQUALS OF YOUR TIMING, LEAVING TREE PULP<br />
+AND SIAMESE WEEBLE WOBBLES AMOUNGTST THESE PEOPLE,<br />
+CREEPIN WITH THE SHEEPLE<br />
+USING EACH AND EVERY MEMORY<br />
+AS AN ENEMY TO FORGIVE AND MEET AS FULL<br />
+HALF ASS RECIEPT PRINTED FOR YOUR CLONE<br />
+THEY STOWED AWAY THE UNDERTTOW<br />
+OH SO DECIEPTFUL<br /><br />
 
 
-WHILE REDIFINING EUQALITY
-AS EVERLASTING EVIL SEEDS PLANTED IN THE MINDS BENEATH
-THIS STEEPLE RESIDING IN A SURPLOUS OF PEOPLE
-ON THE FEEBLE TIDES
-DEMONS CLIMBING INTO SEQUALS OF YOUR TIMING, LEAVING TREE PULP
-AND SIAMESE WEEBLE WOBBLES AMOUNGTST THESE PEOPLE,
-CREEPIN WITH THE SHEEPLE
-USING EACH AND EVERY MEMORY
-AS AN ENEMY TO FORGIVE AND MEET AS FULL
-HALF ASS RECIEPT PRINTED FOR YOUR CLONE
-THEY STOWED AWAY THE UNDERTTOW
-OH SO DECIEPTFUL
-
-
-PONDERING THESE SPIRITS, TRANSORMING THE VOICES IN MY HEAD.
-
-SOME CALL IT FEAR
-NUMB TO THIS CALLING
-I CRY TEARS OF BLOOD AND PEER THE THE SEVERED TRENDS
-IGIVE CREDIT TO THE REMNANT BONES THAT RESIDE BEANEATH MY SKiN.I TRY TO REAP THE KNOWLEDGE THAT LURK DEEP INSIUDE MY LIMBS.
-INTUITIVE
+<h4>PONDERING THESE SPIRITS, TRANSORMING THE VOICES IN MY HEAD.</h4>
+<p></p>
+SOME CALL IT FEAR<br />
+NUMB TO THIS CALLING<br />
+I CRY TEARS OF BLOOD AND PEER THE THE SEVERED TRENDS<br />
+IGIVE CREDIT TO THE REMNANT BONES THAT RESIDE BEANEATH MY SKiN.I TRY TO REAP THE KNOWLEDGE THAT LURK DEEP INSIUDE MY LIMBS.<br />
+INTUITIVE<br />
 I LEND A HAND TO SIMS, GATEWAY TO THE MATRIX
-SMILE THROUGH THE FAKE SHIT AND PAINT THE GRAVES GREY
+SMILE THROUGH THE FAKE SHIT AND PAINT THE GRAVES GREY<br /><br />
 ASS THE DEAD WILL SOON DWELL INBETWEEN
-RED, YELLOW AND BLUE SHAKES YOU BACK INTO YOUR MOLD
-I FIND SIGHT AS A SPACE INS(Pilot?)
-THAT [TRIES]THAT [TO] REDEFINES
-THE LEECHES LATCHING TO MY ACID GRIN
-I HACK OFF THE HEADS THAN STAND ATOP MY SINS.
-
-I CRINGE WHEN I GO TO FORGIVE
-I SIFT THE THE CARNAGE AND CORE INTO THE GIFTS.
-ITCH THE SCTRASH AND BACK UP A[T] THE FIT YOU THREW WITH ACTUAL FACTS
-AND ACT OUT SOMEWHERE OUTBACK PATCH UP YOU FRANTIC ACTIONS,
-PEEL THE HATCH OPEN, STACK FOCUS ON A NOTION OF THE ACCIDENTAL PRACTICES OF
-OH SO SIMPLE PASSIONLESS SAMPLES DIPLAYED IN SEETHROUGH PATTERNS
-
-SURELY TO BE AN APE IN A CAGE WITH A TECHNOLOGICAL COSMIC SUIT
-CREWS LIGHT FUSES WHILE INTUNE WITH THE LOOSE ENDS
-TOO INTRUSIVE AS A FRIEND GET OUT WHILE YOU CAN
-
-AND LET THE FUMES MEND
-THE EMPTY SPACE, MAKE ROOM TO MAKE AMENDS
-FORSAKEN RIDDLES,
+RED, YELLOW AND yelE SHAKES YOU BACK INTO YOUR MOLD<br />
+I FIND SIGHT AS A SPACE INS(Pilot?)<br />
+THAT [TRIES]THAT [TO] REDEFINES<br />
+THE LEECHES LATCHING TO MY ACID GRIN<br /><br />
+I HACK OFF THE HEADS THAN STAND ATOP MY SINS.<br />
+<p></p><br />
+I CRINGE WHEN I GO TO FORGIVE<br />
+I SIFT THE THE CARNAGE AND CORE INTO THE GIFTS.<br />
+ITCH THE SCTRASH AND BACK UP A[T] THE FIT YOU THREW WITH ACTUAL FACTS<br />
+AND ACT OUT SOMEWHERE OUTBACK PATCH UP YOU FRANTIC ACTIONS,<br />
+PEEL THE HATCH OPEN, STACK FOCUS ON A NOTION OF THE ACCIDENTAL PRACTICES OF<br />
+OH SO SIMPLE PASSIONLESS SAMPLES DIPLAYED IN SEETHROUGH PATTERNS<br />
+<p></p>
+<h4>SURELY TO BE AN APE IN A CAGE WITH A TECHNOLOGICAL COSMIC SUIT</h4><br /><br />
+CREWS LIGHT FUSES WHILE INTUNE WITH THE LOOSE ENDS<br />
+TOO INTRUSIVE AS A FRIEND GET OUT WHILE YOU CAN<br />
+<p></p><br />
+AND LET THE FUMES MEND<br />
+THE EMPTY SPACE, MAKE ROOM TO MAKE AMENDS<br />
+FORSAKEN RIDDLES,<br />
 TWO CAKES DRESSEED UP IN A TEMPLATE OF SKITTLES
-TEN PLATES SPUN UP IN A SPINDLE.
-
-TIN HATS AND CAMEL BACK, SPICK AND SPAN, STEADY CLINGING TO THE MARKET,LIVIN A LIFE SPAN CRAMMED INTO A BROKEN RAM.
-HOPIN LAND WILL APPEAR OUT OF THE HOPELESS HAND
-THAT REACHES OUT TO FEED YOUR SOUL THATS DAMNED
-This is a pre-emptive strike
-
-on the iminate heast,
-In the irrelevant poletrgeists tryna pull me inside.
-he evident spine energy body defined in a godly design
-his seemed to give birth to everything this is oddly divine.
-often defile what was gifted to me.
-in the present.
-feels like i am exitin time, the specimens climb,
-mount everest and let the ego fester inside the base of the mind
-1 base kept you where you belong. but where you reside,
-is truly up to the tides.
-look up to the skies and ask why oh why did the creator decide,
-that you were of calue enough to come dine at theinfinite infamous
-christened, intillectual system of wisom way up in its prime.
-opt out, i feel im optimous prime.
-occipital lobe soaked in a pitcher of wine.
-
-taken me to the hospital or at leat the medicine cabinet.
-my entire life is just my dumb ass tryna take a stab at it...
-too much oscillation and staples cramed up in the attick.
+TEN PLATES SPUN UP IN A SPINDLE.<br /><br />
+<p></p><br />
+TIN HATS AND CAMEL BACK, SPICK AND SPAN, <br />
+STEADY CLINGING TO THE MARKET,<br />
+LIVIN A LIFE SPAN CRAMMED INTO A BROKEN RAM.<br /><br />
+HOPIN LAND WILL APPEAR OUT OF THE HOPELESS HAND<br />
+THAT REACHES OUT TO FEED YOUR SOUL THATS DAMNED<br />
+<h4>This is a pre-emptive strike</h4><br />
+<p></p>
+on the iminate heist,<br />
+In the irrelevant poletrgeists tryna pull me inside.<br />
+he evident spine energy body defined in a godly design<br />
+his seemed to give birth to everything this is oddly divine.<br />
+often defile what was gifted to me.<br />
+in the present.<br />
+feels like i am exitin time, the specimens climb,<br />
+mount everest and let the ego fester inside the base of the mind<br />
+1 base kept you where you belong. but where you reside,<br />
+is truly up to the tides.<br />
+look up to the skies and ask why oh why did the creator decide,<br />
+that you were of calue enough to come dine at theinfinite infamous<br />
+christened, intillectual system of wisom way up in its prime.<br />
+opt out, i feel im optimous prime.<br />
+occipital lobe soaked in a pitcher of wine.<br />
+</p><p><br />
+taken me to the hospital or at leat the medicine cabinet.<br />
+my entire life is just my dumb ass tryna take a stab at it...<br />
+too much oscillation and staples cramed up in the attick.<br />
 my addict brain defines my sanity.
-famished beings holding on to a mindless dreams the
-finest stream of nothing washes through the kindest tragedy[ever seen].
-go FUCK yourself daily the reason your girl's misshapen ass left so angry was the mitch bade emo version you showed her of your mixtape NObody underSTANDS is constantly mentioned in in your hooks it's a common theme you have and it sucks, use caution. I've got a mob of Tall blonds at the promenade they'll easily GO bra less the REAsoning of asking Why Men LOVE HIRE ing OBjects is obvious the pro meat grading of yourself U S D A choice rawdoggin for verification but only According to strangers and people you've known soley on facebook see my people easily own anyone in a battle like were collecting war prisoners after i sprayed them down congradulations i ran out of ammo how about a round of applause for the ones in my basement its full of rappers too basic to make a come up and take the stares from the ones that constantly judge and charge us yeah, patience but Will you ever be satisfied with loosing like this and being inveloped verbally, its rhetoricle, see you've been forced follow the ordinances wheather or not you know of them is trivial take a stab in the dark like a game show, take away my ankle weights when i get baked i fly right up into space illusive in the booth the truth used to be imovable but now its about as fluid and confused as your half the schools about gender pronouns just as old used up as you grandmother was. the grand unseen cultural masters couched up a hachet of a plan or more like a multigenerational project they've been commanded to serve your carnal wants and desires to foster 'cause what better way than to literally lull you to Sheep with a cost and you buy it
-
-this time its ryan whos takin his time to kill all nine lives 
-of the pussy cat tonight.hos old soululs want 
-no more to do with the kid it over like you and your 
-girlfrientd then get her toes curling that shit jus as 
-devive like i said tin the first time.
-now ill pass it to ryaann
-
-	yo its ryan IS TIME TO DO MY TIME, IVE BEEN SENTENCED TO 
-	A DINGY FUCKIN PRISON IN MY MIND
-THESE RIGID SIES HAVE BEEN EATING ME ALIVE, TREATING ME LIKE 
-OME OF AKIND UP IN THE HIVE, IT SUCKS BEIN RYNE
-ME HEART IS CAVIN IN, IVE GOT THIS RAGE WITHIN, I STOPPED
+famished beings holding on to a mindless dreams the<br /><br />
+finest stream of nothing washes through the kindest tragedy[ever seen].<br />
+go FUCK yourself daily the reason your girl's misshapen ass left so angry was the mitch bade emo version you showed her of your mixtape NObody underSTANDS is constantly mentioned in in your hooks it's a common theme you have and it sucks, use caution. I've got a mob of Tall blonds at the promenade they'll easily GO bra less the REAsoning of asking Why Men LOVE HIRE ing OBjects is obvious the pro meat grading of yourself U S D A choice rawdoggin for verification but only According to strangers and people you've known soley on facebook see my people easily own anyone in a battle like were collecting war prisoners after i sprayed them down congradulations i ran out of ammo how about a round of applause for the ones in my basement its full of rappers too basic to make a come up and take the stares from the ones that constantly judge and charge us yeah, patience but Will you ever be satisfied with loosing like this and being inveloped verbally, its rhetoricle, see you've been forced follow the ordinances wheather or not you know of them is trivial take a stab in the dark like a game show, take away my ankle weights when i get baked i fly right up into space illusive in the booth the truth used to be imovable but now its about as fluid and confused as your half the schools about gender pronouns just as old used up as you grandmother was. the grand unseen cultural masters couched up a hachet of a plan or more like a multigenerational project they've been commanded to serve your carnal wants and desires to foster 'cause what better way than to literally lull you to Sheep with a cost and you buy it<br />
+</p><p><br /><br />
+this time its ryan whos takin his time to kill all nine lives <br /><br />
+of the pussy cat tonight.hos old soululs want <br />
+no more to do with the kid it over like you and your <br />
+girlfrientd then get her toes curling that shit jus as <br />
+devive like i said tin the first time.<br />
+now ill pass it to ryaann<br />
+</p><p><br /><h4>
+	yo its ryan IS TIME TO DO MY TIME,</h4> IVE BEEN SENTENCED TO 
+	A DINGY FUCKIN PRISON IN MY MIND<br />
+THESE RIGID SIES HAVE BEEN EATING ME ALIVE, TREATING ME LIKE <br /><br />
+OME OF AKIND UP IN THE HIVE, IT SUCKS BEIN RYNE<br />
+ME HEART IS CAVIN IN, IVE GOT THIS RAGE WITHIN, I STOPPED<br />
  TO SAVE THE ;THIN LINE THAT DIVIDES THE GODS FROM THE DEVIL 
- AND ITS BEEN 
- RIGHT IN THE CNETER OF ME THIS WHOLE TIME, HOLD TIGHT 	
+ AND ITS BEEN <br /><br />
+ RIGHT IN THE CNETER OF ME THIS WHOLE TIME, HOLD TIGHT 	<br />
  
- WHENS THE LAST TIME YOU 
- IGNORANT FOOLS
- CAME TO CONCLUSIONS
+ WHENS THE LAST TIME YOU <br />
+ IGNORANT FOOLS<br />
+ CAME TO CONCLUSIONS<br /><br />
  I BEEN BOOZIN 
- UNDER THE MOON
- I TAKE YOURE HEART AND 
+ UNDER THE MOON<br />
+ I TAKE YOURE HEART AND <br /><br />
  LEAVE YOU ALONE JUST BEACUSE YOU LOOK LIKE A FOOL 
- I BEEN EATIN VYVAN CE AND THESSE PLANTS GO TME HIGH MAN 
- THE WiNTER TIME IS MINE CUZ ITS FIVE OR SIX MILES 
- TO MY HOUSE FROM THE RITZ. 
- IVE BBEEN LYING TO MYSELF NEED 
- ANOTHER PLACE TO DWELL,
- I NEED ALL THAT I CAN GET 
- NEED ANOHTHER 6 TABS OF ACID I
-TRIP Like The FASTEST TRAVELing light beam is used to 
-seeing its poetic scenery TO THE Mastering of tracks for free
+ I BEEN EATIN VYVAN CE AND THESSE PLANTS GO TME HIGH MAN <br />
+ THE WiNTER TIME IS MINE CUZ ITS FIVE OR SIX MILES <br />
+ TO MY HOUSE FROM THE RITZ. <br />
+ IVE BBEEN LYING TO MYSELF NEED <br />
+ ANOTHER PLACE TO DWELL,<br />
+ I NEED ALL THAT I CAN GET <br />
+ NEED ANOHTHER 6 TABS OF ACID I<br />
+TRIP Like The FASTEST TRAVELing light beam is used to <br />
+seeing its poetic scenery TO THE Mastering of tracks for free<br />
+<br />
+  EVERY SECOND EVRERY RHYME IVE BEEN KILLIN <br />
+  AND YEAH YOU KNOW WE BACK AT THE RITZZ AND SHIIT <br /><br />
+  AT THE RITZ LOOOK AT ME IM A THE RITZ<br />
+  AT THE RITZ LOOOK AT ME IM A THE RITZ<br />
+  <br />
+  I NEED A LIGHTER TO LIKGHT THRE END OR MY SIGARETTE ON FIRE<br />
 
-  EVERY SECOND EVRERY RHYME IVE BEEN KILLIN 
-  AND YEAH YOU KNOW WE BACK AT THE RITZZ AND SHIIT 
-  AT THE RITZ LOOOK AT ME IM A THE RITZ
-  AT THE RITZ LOOOK AT ME IM A THE RITZ
-  
-  I NEED A LIGHTER TO LIKGHT THRE END OR MY SIGARETTE ON FIRE
-
-IM TIRED OF RHYIM AND SMiling
+<h4>IM TIRED OF RHYIM AND SMiling</h4><br /><br />
   BILL TYPING ON THR KEYBOARD THE ONLY THING HE CAN DO 
-  ID BE THE OVERLORD 
-  OF NOTHIN lIKE An impatient KING ON THE Throne for a BLUmPKIN 
-  TRIED TO BE MILDLY VIOLENT, ONCE YOU SEE, IVE BEEN DREAMIING of
- 
-  LEAVING AND You WILL NEVER GET ahead of IT,
-  ITS JUST WHAT Ive been HUNTING FOR TO GET UP IN 
-  THE SKIES ITS TAKING TIME BUT aching WILD rides MOLDING
-  these uncontrollable SHEEP THEY JUST dead weight, 
-  Asleep, WALKING AROUND THE MATRIX
-  I DONT KNOW whats next, they may just turn maceys against us 
-  keep up because we make powerful CREAtions SO ATAY WITH ME.
-  
-  EVERY NIGHT I GET HIGH JUST TO GET BY AND SLOWLY SOON YOU WILL REALTE WITH THIS
-  FUCK ITS WORTH FIGURING IT OUT
-YOUR GIRL  PROBABLY WANTS WEED 
-  BUT FUCK IT JUST APPLY SUCKTION ON THIS DICK WITH YOUR MOUTH AS A TREAT  SLOBBING OFTEN THEN
- SPREAD MY CHEEKS  CAUSED THE GLOBAL CONIUSNESS SHIFT  AND ITS NOT FOR A SMILE BITCH
- YELL TRUTH AND YEEHAW I DO CRAZY SHIT ON THE DAILY LIKE AN ALIEN ON A SPACEHIP 
-  IS THERE A DIFFERENCE BETWEEN INSANANE AND CRAZY CUZ CLIM SHADY SAID IT AND HE DONT PLAY 
+  ID BE THE OVERLORD <br />
+  OF NOTHIN lIKE An impatient KING ON THE Throne for a yelmPKIN <br />
+  TRIED TO BE MILDLY VIOLENT, ONCE YOU SEE, IVE BEEN DREAMIING of<br />
+ <br /><br />
+  LEAVING AND You WILL NEVER GET ahead of IT,<br />
+  ITS JUST WHAT Ive been HUNTING FOR TO GET UP IN <br />
+  THE SKIES ITS TAKING TIME BUT aching WILD rides MOLDING<br />
+  these uncontrollable SHEEP THEY JUST dead weight, <br />
+  Asleep, WALKING AROUND THE MATRIX<br />
+  I DONT KNOW whats next, they may just turn maceys against us <br />
+  keep up because we make powerful CREAtions SO ATAY WITH ME.<br />
+  <br />
+  EVERY NIGHT I GET HIGH JUST TO GET BY AND SLOWLY SOON YOU WILL REALTE WITH THIS<br />
+  FUCK ITS WORTH FIGURING IT OUT<br /><h4>
+YOUR GIRL  PROBABLY WANTS WEED </h4><br />
+  BUT FUCK IT JUST APPLY SUCKTION ON THIS DICK WITH YOUR MOUTH AS A TREAT  SLOBBING OFTEN THEN<br />
+ SPREAD MY CHEEKS  CAUSED THE GLOBAL CONIUSNESS SHIFT  AND ITS NOT FOR A SMILE BITCH<br />
+ YELL TRUTH AND YEEHAW I DO CRAZY SHIT ON THE DAILY LIKE AN ALIEN ON A SPACEHIP <br />
+  IS THERE A DIFFERENCE BETWEEN INSANANE AND CRAZY CUZ CLIM SHADY SAID IT AND HE DONT PLAY <br />
   ITS JUST A BLAKET ASS STATEMENT MADE TO MAKE YOU CHNGE YOUR WAYS BUT UN LIKE AN OLD 
- TRUCK I AIN'T RUSTY BUT REMAIN THE SAME EVEN THOUG I GO DOWN TO THE FLOOR NOW MATTER WHAT CHANGES I CAME HERE IN 94AND 
- REEARANGE IT AND USE IT TO RUN TO  MOUNT EVERESTS BOOBS....WHAT
- I MEAN SUM IT UP AND SEE THE SUMMIT AS YOU FOOLS PLUMMET  TO THE
- THE UNDERWORLD  WHERE THE SHIT SMELLS SO PUNGENT
- AND THATS WHERE WE'RE DOOMED TO CONTINUE THIS IS WHERE THE WINGED SERPENTS 
- WILL END YOU AND CHOOSE NOT  TO SEND YOU BUT TO JUST DIGEST YOU
- LIKE SOME BAD FOOD UNCHEWED YOU SHIT YOUR SHOES SO BAD THE FUTURE 
- YOU CAME THROUGH FOR THE ACTION JUST TO LAUGH AT YOU
- BUT WHATS BETTER THAN BATTLING  THE BEAST ULTIMATELY  COMBATTING AN ANALOGY THAT
- YOU CHOOSE TO SEEK TURNED INTO A FALICY
-ADN CONTIUING TO DIG THE GRAVE  YOU WHERE SLLEPIN IN YOU WERE MEANT TO, FOO BEST GET TO TO CLEANING THE POO OUT THOSE SHOES
-
-
-
-meanwhile these guys
-stay fly on bean bags, rappin,
-Devine rhyming in my sin-taxing.
-These white rappers lack Passon,
-learn to be a Wise man so you can Grasp Them
-ill run up and smack your Third Eye so fast youll see Past The design we all trapped in.
-ill be kind 'cuse we need compassionate in the ecosystem the whole plan first began
-kick out of heaven we fall eve and the devil and that damn apple  .... and bestowed knowledge to man
-my god it seems odd you cursed us with exactly the right things needed to rise up and ascend
-
- 
-
-youre rhymes poorly chosen,
-while mine was like, 
-they was composed by 
-a great god in the skys 
-that i just opened.
-# Ryline: #
-we reach the apex and kept going 
-while yall stumble,
-we reproduce unlike same sex couples.
-tooned in on the mike ya boy its ryan,
-always crisp, but im fried.
-
-	stumbling backwards, 
-with a bottle of jack in my hand. 
-roaming around just 
-trying to stand being stuck in this strange land.
-...	pummeling rappers.
-i crack skulls in this rap game 
-im humbling ametures and handing their asses 
-back to em wraped in celephane.
+ TRUCK I AIN'T RUSTY BUT REMAIN THE SAME EVEN THOUG I GO DOWN TO THE FLOOR NOW MATTER WHAT CHANGES I CAME HERE IN 94AND <br />
+ REEARANGE IT AND USE IT TO RUN TO  MOUNT EVERESTS BOOBS....WHAT<br />
+ I MEAN SUM IT UP AND SEE THE SUMMIT AS YOU FOOLS PLUMMET  TO THE<br />
+ THE UNDERWORLD  WHERE THE SHIT SMELLS SO PUNGENT<br />
+ AND THATS WHERE WE'RE DOOMED TO CONTINUE THIS IS WHERE THE WINGED SERPENTS <br />
+ WILL END YOU AND CHOOSE NOT  TO SEND YOU BUT TO JUST DIGEST YOU<br /><br />
+ LIKE SOME BAD FOOD UNCHEWED YOU SHIT YOUR SHOES SO BAD THE FUTURE <br />
+ YOU CAME THROUGH FOR THE ACTION JUST TO LAUGH AT YOU<br />
+ BUT WHATS BETTER THAN BATTLING  THE BEAST ULTIMATELY  COMBATTING AN ANALOGY THAT<br />
+ YOU CHOOSE TO SEEK TURNED INTO A FALICY<br />
+ADN CONTIUING TO DIG THE GRAVE  YOU WHERE SLLEPIN IN YOU WERE MEANT TO, <br />
+FOO BEST GET TO TO CLEANING THE POO OUT THOSE SHOES<br />
+</p><p><br />
+<br /><h4>
+youre rhymes poorly chosen,</h4><br />
+while mine was like, <br />
+they was composed by <br />
+a great god in the skys <br />
+that i just opened.<br />
+# Ryline: #<br />
+we reach the apex and kept going <br />
+while yall stumble,<br />
+we reproduce unlike same sex couples.<br />
+tooned in on the mike ya boy its ryan,<br />
+always crisp, but im fried.<br />
+</p><p><br />
+	stumbling backwards, <br />
+with a bottle of jack in my hand. <br />
+roaming around just <br />
+trying to stand being stuck in this strange land.<br />
+...	pummeling rappers.<br />
+i crack skulls in this rap game <br />
+im humbling ametures and handing their asses <br />
+back to em wraped in celephane.<br />
 i made that track.
-now the mask is off,
-now im being candid.
-i'm taking acid, by the sheet. 
-blasted off and never landed.
-i keep it moving while you asleep 
-steady camping.
+now the mask is off,<br /><br />
+now im being candid.<br />
+i'm taking acid, by the sheet. <br />
+blasted off and never landed.<br />
+i keep it moving while you asleep <br />
+steady camping.<br />
 keep the masses in awe
-with my lyrical genius repatoir
-dropping bombs on you sheeple
-and i dont need no reason 
-i tie my dreams into the sky 
-and the morning breeze, best believe
- you have yet to see a god,
-
-	i'm a warrior, 
-amped up and going deep. [#ee]
-my minds a little clever compared 
-to your anaverage diety 
-im a puppet but im pullling strings,
-im seeing through a new eyes.
-im about to be crowned your king.
-but what youre seeing is (actually) 
-the seed of the demon 
-embedded inside of me.
-..contractually.
-its urban chi
-cramin rhymes up in your head 
-smokin these potent trees. 
-
-freestyle shit top of the dome 
-meanwhile these  
-sheep sleepin back at home
-crackin skulls 
-packin bowls, in actuality
- im the master of reality
- attackin flows
- go like a speed boat, defeat the hopeleass
- i leave a wake of woke folks trippin alone on they matress.
-i thought i told you im bat shit
-crazy when im fillin in my mad libs 
-strait blowing the lid off the cabinet 
-im making all matter animate and 
-im adamate about being above average at least
-
-we taking far from calculated dosages,
-we faded and most 'these kids couldn't cope wit this
-when i take my stash out 
-on the weekend i take most of it
-
-
-            
-
-
- this time its ryan whos 
- takin his time to kill all nine lives 
-of the pussy cat tonight.hos
- old soululs want 
-no more to do with the kid it 
-over like you and your 
-girlfrientd then get her toes 
-curling that shit jus as 
-devive like i said tin the first time.
-now ill pass it to ryaann
-
-	yo its ryan IS TIME TO DO MY TIME, 
-	IVE BEEN SENTENCED TO 
-	A DINGY FUCKIN PRISON IN MY MIND
-THESE RIGID SIES HAVE BEEN EATING ME ALIVE,
- TREATING ME LIKE 
-OME OF AKIND UP IN THE HIVE, 
-IT SUCKS BEIN RYNE
-ME HEART IS CAVIN IN, 
-IVE GOT THIS RAGE WITHIN, I STOPPED
- TO SAVE THE ;THIN LINE THAT DIVIDES
- THE GODS FROM THE DEVIL 
- AND ITS BEEN 
- RIGHT IN THE CNETER OF ME THIS
- WHOLE TIME, HOLD TIGHT 	
- 
- WHENS THE LAST TIME YOU 
- IGNORANT FOOLS
- CAME TO CONCLUSIONS
- I BEEN BOOZIN 
- UNDER THE MOON
- I TAKE YOURE HEART AND 
- LEAVE YOU ALONE JUST BEACUSE YOU
- LOOK LIKE A FOOL 
- I BEEN EATIN VYVAN CE AND THESSE 
- PLANTS GO TME HIGH MAN 
- THE WAINTER TIME I
- S MINE CUZ ITS FIVE OR SIX
- MILES TO MY HO
- USE FROM THE RITZ I VE BBEEN 
- LYING TO MYSELF NEED 
- ANOTHER PLACE TO DWELL I NEED 
- ALL THAT I CAN GET 
- NEED ANOHTHER 6 TABS OF ACID i
-TRIP FROM GETTING TO THE FASTEST 
-TRAVEL FASHER THAN LIGHT
-  EVERY SECOND EVRERY RHYME IVE BEEN KILLIN 
-  AND YEAH YOU KNOW WE BACK AT THE RITZZ AND SHIIT 
-  AT THE RITZ LOOOK AT ME IM A THE RITZ
-  AT THE RITZ LOOOK AT ME IM A THE RITZ
-  
-  I NEED A LIGHTER TO LIKGHT THRE END OR MY SIGARETTE ON FIRE
-
-IM TIRED OF RHYIM AND SM  
-  
-  
-  BILL TYPING ON THR KEYBOARD THE ONLY
-  THING HE CAN DO ID BE THE OVERLORD 
-  OF NOTHIN THIKE IA KING ON THE BLUBPKIN 
-  TRIED TO BE MILDLY VIOLENT ONCE 
-  YOU SEE IVE BEEN DREAMIING
-  
-  
-  
-  
-  LEAVING AND I WILL NEVER GET IT ITS JUST
-  WHAT IM HUNTING FOR TO GET  UP IN 
-  TH E SKIES ITS TAKING TIME BUT IM GONNE 
-  WILD MOLDING SHESE SHEEP THEY JUST Asleep WALKING AROUND THE MATRIX
-  I DONT KNOW WHAT IT ITS  BUT IM A ABOUT TO
-  CREATE IT SO ATAY WITH ME 
-  EVERY NIGHT I GET HIGH JUST TO GET BY AND
-  SLOWLY SOON YOU WILL REALTE WITH THIS
-  FUCK ITS WORTH FIGURING IT OUT
-YOUR GIRL  PROBABLY WANTS WEED 
-  BUT FUCK IT JUST APPLY SUCKTION ON THIS DICK 
-  WITH YOUR MOUTH AS A TREAT  SLOBBING OFTEN THEN
- SPREAD MY CHEEKS  CAUSED THE GLOBAL CONIUSNESS SHIFT 
- AND ITS NOT FOR A SMILE BITCH
- YELL TRUTH AND YEEHAW I DO CRAZY SHIT ON THE DAILY
- LIKE AN ALIEN ON A SPACEHIP 
-  IS THERE A DIFFERENCE BETWEEN INSANANE AND CRAZY 
-  CUZ CLIM SHADY SAID IT AND HE DONT PLAY 
-  ITS JUST A BLAKET ASS STATEMENT MADE TO MAKE YOU 
-  CHNGE YOUR WAYS BUT UN LIKE AN OLD 
- TRUCK I AIN'T RUSTY BUT REMAIN THE SAME EVEN THOUG 
- I GO DOWN TO THE FLOOR NOW MATTER WHAT CHANGES
- I CAME HERE IN 94AND 
- REEARANGE IT AND USE IT TO RUN TO  MOUNT EVERESTS 
- BOOBS....WHAT
- I MEAN SUM IT UP AND SEE THE SUMMIT AS YOU FOOLS 
- PLUMMET  TO THE
- THE UNDERWORLD  WHERE THE SHIT SMELLS SO PUNGENT
- AND THATS WHERE WE'RE DOOMED TO CONTINUE THIS IS 
- WHERE THE WINGED SERPENTS 
- WILL END YOU AND CHOOSE NOT  TO SEND YOU BUT 
- TO JUST DIGEST YOU
- LIKE SOME BAD FOOD UNCHEWED YOU SHIT YOUR SHOES
- SO BAD THE FUTURE 
- YOU CAME THROUGH FOR THE ACTION JUST TO LAUGH 
- AT YOU
- BUT WHATS BETTER THAN BATTLING  THE BEAST ULTIMATELY  
- COMBATTING AN ANALOGY THAT
- YOU CHOOSE TO SEEK TURNED INTO A FALICY
-ADN CONTIUING TO DIG THE GRAVE  YOU WHERE 
-STEPPIN IN YOU WERE MEANT TO, 
-FOO BEST GET TO TO CLEANING THE POO OUT THOSE SHOES
-
-
-            
-
-            
-            
-
-                
-                
-☺
-
-we fly on bean bags di-
-vine rhyming sintax.
-These white rappers need Passion,
-be wisWise so you can Grasp it,
-might smack your Third Eye to see
- Past The design we all trapped in.
-ill be kind 'cuse the whole plan first began
-.E-A-.E-A-.E-a-O-A. .duh-nuh nuh-nuh.
-.duh-nuh nuh-nuh. .duh-nuh nuh-nuh.
-eve and the devil 
-and that damn apple
-.duh-nuh nuh-nuh. .duh-nuh nuh-nuh.
-and bestowed knowledge to man
-my god it seems odd you handed 
-us the main nu-nu to flex on
-and use that curse to ascend 
-or what that yuor plan?
-
-
-
-
-Rhymes 3
-
-youre rhymes poorly chosen,
-while mine was like, 
-they was composed by 
-a great god in the skys 
-that i just opened.
-# Ryline: #
-we reach the apex and kept going 
-while yall stumble,
-we reproduce unlike same sex couples.
-tooned in on the mike ya boy its ryan,
-always crisp, but im fried.
-
-	stumbling backwards, 
-with a bottle of jack in my hand. 
-roaming around just 
-trying to stand being stuck in this strange land.
-...	pummeling rappers.
-i crack skulls in this rap game 
-im humbling ametures and handing their asses 
-back to em wraped in celephane.
-i made that track.
-now the mask is off,
-now im being candid.
-i'm taking acid, by the sheet. 
-blasted off and never landed.
-i keep it moving while you asleep 
-steady camping.
-keep the masses in awe
-with my lyrical genius repatoir
-dropping bombs on you sheeple
-and i dont need no reason 
-i tie my dreams into the sky 
-and the morning breeze, best believe
- you have yet to see a god,
-
-	i'm a warrior, 
-amped up and going deep. [#ee]
-my minds a little clever compared 
-to your anaverage diety 
-im a puppet but im pullling strings,
-im seeing through a new eyes.
-im about to be crowned your king.
-but what youre seeing is (actually) 
-the seed of the demon 
-embedded inside of me.
-..contractually.
-its urban chi
-cramin rhymes up in your head 
-smokin these potent trees. 
-
-freestyle shit top of the dome 
-meanwhile these  
-sheep sleepin back at home
-crackin skulls 
-packin bowls, in actuality
- im the master of reality
- attackin flows
- go like a speed boat, defeat the hopeleass
- i leave a wake of woke folks trippin alone on they matress.
-i thought i told you im bat shit
-crazy when im fillin in my mad libs 
-strait blowing the lid off the cabinet 
-im making all matter animate and 
-im adamate about being above average at least
-
-we taking far from calculated dosages,
-we faded and most 'these kids couldn't cope wit this
-when i take my stash out 
-on the weekend i take most of it
-
-go FUCK yourself the reason your girl's misshapen ass left so angry was the mitch bade emo version you showed her of your mixtape NObody underSTANDS constantly mentioned in in your hooks it's a common theme I've got a mob of Tall blonds at the promenade they'll easily GO bra less the REAsoning of asking Why Men LOVE HIRE ing OBjects is obvious the pro meat grading of yourself U S D A choice rawdoggin for verification but only According to strangers and people you've known soley on facebook see my people easily own anyone in a battle like were collenting war prisoners as slaves my bbasement is full of rappers too basic to make a come up yeah, patience but Will you ever be satisfied with loosing like this and being inveloped verbally rhetoricle, see you're forced follow the ordinances wheather or not you know of them is trivial they've been commanded to serve your carnal wants and desires 'cause what better way than to literally lull you to Sheep and you buy it
-Random ran rhymes
-
- this time its ryan whos takin his time to kill all nine lives 
-of the pussy cat tonight.hos old soululs want 
-no more to do with the kid it over like you and your 
-girlfrientd then get her toes curling that shit jus as 
-devive like i said tin the first time.
-now ill pass it to ryaann
-
-	yo its ryan IS TIME TO DO MY TIME, IVE BEEN SENTENCED TO 
-	A DINGY FUCKIN PRISON IN MY MIND
-THESE RIGID SIES HAVE BEEN EATING ME ALIVE, TREATING ME LIKE 
-OME OF AKIND UP IN THE HIVE, IT SUCKS BEIN RYNE
-ME HEART IS CAVIN IN, IVE GOT THIS RAGE WITHIN, I STOPPED
- TO SAVE THE ;THIN LINE THAT DIVIDES THE GODS FROM THE DEVIL 
- AND ITS BEEN 
- RIGHT IN THE CNETER OF ME THIS WHOLE TIME, HOLD TIGHT 	
- 
- WHENS THE LAST TIME YOU 
- IGNORANT FOOLS
- CAME TO CONCLUSIONS
- I BEEN BOOZIN 
- UNDER THE MOON
- I TAKE YOURE HEART AND 
- LEAVE YOU ALONE JUST BEACUSE YOU LOOK LIKE A FOOL 
- I BEEN EATIN VYVAN CE AND THESSE PLANTS GO TME HIGH MAN 
- THE WAINTER TIME I
- S MINE CUZ ITS FIVE OR SIX MILES TO MY HO
- USE FROM THE RITZ I VE BBEEN LYING TO MYSELF NEED 
- ANOTHER PLACE TO DWELL I NEED ALL THAT I CAN GET 
- NEED ANOHTHER 6 TABS OF ACID i
-TRIP FROM GETTING TO THE FASTEST TRAVEL FASHER THAN LIGHT
-  EVERY SECOND EVRERY RHYME IVE BEEN KILLIN 
-  AND YEAH YOU KNOW WE BACK AT THE RITZZ AND SHIIT 
-  AT THE RITZ LOOOK AT ME IM A THE RITZ
-  AT THE RITZ LOOOK AT ME IM A THE RITZ
-  
-  I NEED A LIGHTER TO LIKGHT THRE END OR MY SIGARETTE ON FIRE
-
-IM TIRED OF RHYIM AND SM  
-  
-  
-  BILL TYPING ON THR KEYBOARD THE ONLY THING HE CAN DO ID BE THE OVERLORD 
-  OF NOTHIN THIKE IA KING ON THE BLUBPKIN 
-  TRIED TO BE MILDLY VIOLENT ONCE YOU SEE IVE BEEN DREAMIING
-  
-  
-  
-  
-  LEAVING AND I WILL NEVER GET IT ITS JUST WHAT IM HUNTING FOR TO GET  UP IN 
-  TH E SKIES ITS TAKING TIME BUT IM GONNE WILD MOLDING SHESE SHEEP THEY JUST Asleep WALKING AROUND THE MATRIX
-  I DONT KNOW WHAT IT ITS  BUT IM A ABOUT TO CREATE IT SO ATAY WITH ME 
-  EVERY NIGHT I GET HIGH JUST TO GET BY AND SLOWLY SOON YOU WILL REALTE WITH THIS
-  FUCK ITS WORTH FIGURING IT OUT
-YOUR GIRL  PROBABLY WANTS WEED 
-  BUT FUCK IT JUST APPLY SUCKTION ON THIS DICK WITH YOUR MOUTH AS A TREAT  SLOBBING OFTEN THEN
- SPREAD MY CHEEKS  CAUSED THE GLOBAL CONIUSNESS SHIFT  AND ITS NOT FOR A SMILE BITCH
- YELL TRUTH AND YEEHAW I DO CRAZY SHIT ON THE DAILY LIKE AN ALIEN ON A SPACEHIP 
-  IS THERE A DIFFERENCE BETWEEN INSANANE AND CRAZY CUZ CLIM SHADY SAID IT AND HE DONT PLAY 
-  ITS JUST A BLAKET ASS STATEMENT MADE TO MAKE YOU CHNGE YOUR WAYS BUT UN LIKE AN OLD 
- TRUCK I AIN'T RUSTY BUT REMAIN THE SAME EVEN THOUG I GO DOWN TO THE FLOOR NOW MATTER WHAT CHANGES I CAME HERE IN 94AND 
- REEARANGE IT AND USE IT TO RUN TO  MOUNT EVERESTS BOOBS....WHAT
- I MEAN SUM IT UP AND SEE THE SUMMIT AS YOU FOOLS PLUMMET  TO THE
- THE UNDERWORLD  WHERE THE SHIT SMELLS SO PUNGENT
- AND THATS WHERE WE'RE DOOMED TO CONTINUE THIS IS WHERE THE WINGED SERPENTS 
- WILL END YOU AND CHOOSE NOT  TO SEND YOU BUT TO JUST DIGEST YOU
- LIKE SOME BAD FOOD UNCHEWED YOU SHIT YOUR SHOES SO BAD THE FUTURE 
- YOU CAME THROUGH FOR THE ACTION JUST TO LAUGH AT YOU
- BUT WHATS BETTER THAN BATTLING  THE BEAST ULTIMATELY  COMBATTING AN ANALOGY THAT
- YOU CHOOSE TO SEEK TURNED INTO A FALICY
-ADN CONTIUING TO DIG THE GRAVE  YOU WHERE SLLEPIN IN YOU WERE MEANT TO, FOO BEST GET TO TO CLEANING THE POO OUT THOSE SHOES
-
-
-	youre rhymes poorly chosen,
-while mine was like, 
-they was composed by 
-a great god in the skys 
-that i just opened.
-# Ryline: #
-we reach the apex and kept going 
-while yall stumble,
-we reproduce unlike same sex couples.
-tooned in on the mike ya boy its ryan,
-always crisp, but im fried.
-
-	stumbling backwards, 
-with a bottle of jack in my hand. 
-roaming around just 
-trying to stand being stuck in this strange land.
-...	pummeling rappers.
-i crack skulls in this rap game 
-im humbling ametures and handing their asses 
-back to em wraped in celephane.
-i made that track.
-now the mask is off,
-now im being candid.
-i'm taking acid, by the sheet. 
-blasted off and never landed.
-i keep it moving while you asleep 
-steady camping.
-keep the masses in awe
-with my lyrical genius repatoir
-dropping bombs on you sheeple
-and i dont need no reason 
-i tie my dreams into the sky 
-and the morning breeze, best believe
- you have yet to see a god,
-
-	i'm a warrior, 
-amped up and going deep. [#ee]
-my minds a little clever compared 
-to your anaverage diety 
-im a puppet but im pullling strings,
-im seeing through a new eyes.
-im about to be crowned your king.
-but what youre seeing is (actually) 
-the seed of the demon 
-embedded inside of me.
-..contractually.
-its urban chi
-cramin rhymes up in your head 
-smokin these potent trees. 
-
-freestyle shit top of the dome 
-meanwhile these  
-sheep sleepin back at home
-crackin skulls 
-packin bowls, in actuality
- im the master of reality
- attackin flows
- go like a speed boat, defeat the hopeleass
- i leave a wake of woke folks trippin alone on they matress.
-i thought i told you im bat shit
-crazy when im fillin in my mad libs 
-strait blowing the lid off the cabinet 
-im making all matter animate and 
-im adamate about being above average at least
-
-we taking far from calculated dosages,
-we faded and most 'these kids couldn't cope wit this
-when i take my stash out 
-on the weekend i take most of it
-
-Rhyming Poetery Section
-
-
-I Ride tides 'round the earth like he follows the moon when its full,
-Why lie I found White lies can sound wonderfull,
-just wisen up or get hurt by horrible truth.
-The splendor is endless I'd like to spend it with you
-33 Howls from the grave to bless her reign is most the way through.
-you about remember bill billions forever,
-im the confusing genius staying richer than you,
-thank heaven and nature for eveything i made to come true
-amazing that this fucking guy doesnt get it yet,
-if I sleep outside better believe we're having a banquet
-you Couldnt make it one night in the wilderness, bitch
-cuz the first minute of weather youre dying under a blanket
-my boooks continuously updating the profits we automate the process
-when i start to drive the hard cascade of styles the Users CSharp
-enough to start command serving function,
-my Sick heart grows by the gigs that im in
-it just like computer code or am i the grinch
-i thought i told you im a mixture of a angry gndalf and earcle
-try beeefing and learn
-im the first m.c.-murdering-rhyme-slayer, my catchy
-hooks composed of magic words,
-with my hieroglyph letters im casually cursing the world,
-nine levels of hell i already mapped the course of your doom.
-shine light in the darknessdarkness is head lights from a hearse for you again i want three things in return:
-keep on your toes, behold and be a whitness
-when my timing and brilliance both combine
-the illumination lights up bright enough
-to only be rivaled by zeus' with his bolts of thunder and lighning.
-you know where i be but you not sure where i'm living at
-im at the ritz violating rules in fact ive noticed
-these days lately i overhear them saying
-he's so skilled and amazing, well,
-thats basically what my game is.
+with my lyrical genius repatoir<br />
+dropping bombs on you sheeple<br /><br />
+and i dont need no reason <br />
+i tie my dreams into the sky <br />
+and the morning breeze, best believe<br />
+ you have yet to see a god,<br />
+</p><p><br />
+	i'm a warrior, <br />
+amped up and going deep. [#ee]<br />
+my minds a little clever compared <br />
+to your anaverage diety <br />
+im a puppet but im pullling strings,<br />
+im seeing through a new eyes.<br />
+im about to be crowned your king.<br />
+but what youre seeing is (actually) <br />
+the seed of the demon <br />
+embedded inside of me.<br />
+..contractually.<br />
+its urban chi<br />
+cramin rhymes up in your head <br />
+smokin these potent trees. <br />
+</p><h4>
+freestyle Written off the top of the dome </h4><p><br />
+meanwhile these sheep sleepin back at home<br />
+crackin skulls packin bowls, in actuality<br />
+ im the master of reality, attackin flows<br />
+ go like a speed boat, defeat the hopelessness<br />
+ i leave a wake of woke folks trippin alone on they matresses.<br />
+i thought i told you im bat shit,<br />
+crazy when im fillin in my mad libs,<br />
+strait blowing the lid off the cabinet,<br />
+im making all matter animate,<br />
+ and im adamate about being above average at least.<br />
+we taking far from calculated dosages,<br />
+we faded and most 'these kids couldn't cope wit this<br />
+when i take my stash out <br />
+on the weekend i take most of it<br />
+<br />
+ <br />
+    </p><h4>            
+☺<br /><br />
+<br />
+we fly on bean bags,</h4>
+di-vine rhyming sintax.<br />
+These white rappers need Passion,<br />
+be wise so you can Grasp it,<br />
+we shine we real masters,<br />
+no lie we will smack your,<br />
+Third Eye to see Past The,<br />
+design we all trapped in.<br />
+ill be kind 'cuse the whole plan first began<br />
+eve and the devil <br />
+and that damn apple<br />
+bestowed knowledge to man,<br />
+my god it seems odd you handed <br />
+us the perfect version to flex on<br />
+and use that curse to ascend <br />
+or what that yuor plan?<br />
+<br />
 </p><p>
-pay attention to the rules i morally break,
-and when i choose to obey.
-carving the least resistant path
-i see the sheep want me back,
-i guess to heard a sheppard so easilly i was born to lead
+youre rhymes poorly chosen,<br />
+while mine was like, <br />
+they was composed by <br />
+a great god in the skys <br />
+that i just opened.<br />
+# Ryline: #<br />
+we reach the apex and kept going <br />
+while yall stumble,<br />
+we reproduce unlike same sex couples.<br />
+tooned in on the mike ya boy its ryan,<br />
+always crisp, but im fried.<br />
+</p><p><br />
+	stumbling backwards, <br />
+with a bottle of jack in my hand. <br />
+roaming around just <br />
+trying to stand being stuck in this strange land.<br />
+...	pummeling rappers.<br />
+i crack skulls in this rap game <br />
+im humbling ametures and handing their asses <br />
+back to em wraped in celephane.<br />
+i made that track.<br />
+now the mask is off,<br /><br />
+now im being candid.<br />
+i'm taking acid, by the sheet. <br />
+blasted off and never landed.
+i keep it moving while you asleep <br /><br />
+steady camping.<br />
+keep the masses in awe<br />
+with my lyrical genius repatoir<br />
+dropping bombs on you sheeple<br />
+and i dont need no reason 
+i tie my dreams into the sky <br />
+and the morning breeze, best believe<br /><br />
+ you have yet to see a god,<br />
+</p><p><br />
+	i'm a warrior, <br />
+amped up and going deep. [#ee]<br />
+my minds a little clever compared <br />
+to your anaverage diety 
+im a puppet but im pullling strings,<br />
+im seeing through a new eyes.<br /><br />
+im about to be crowned your king.
+but what youre seeing is (actually) <br />
+the seed of the demon <br /><br />
+embedded inside of me.<br />
+..contractually.<br />
+its urban chi<br />
+cramin rhymes up in your head <br />
+smokin these potent trees. 
+</p><p><br /><br />
+freestyle shit top of the dome 
+meanwhile these  <br />
+sheep sleepin back at home<br />
+crackin skulls <br />
+packin bowls, in actuality<br />
+ im the master of reality<br />
+ attackin flows<br />
+ go like a speed boat, defeat the hopeleass<br />
+ i leave a wake of woke folks trippin alone on they matress.<br />
+i thought i told you im bat shit<br />
+crazy when im fillin in my mad libs <br />
+strait blowing the lid off the cabinet <br />
+im making all matter animate and <br />
+im adamate about being above average at least<br />
+</p><p><br />
+<h4>go FUCK yourself the reason your girl's misshapen ass left so angry</h4> was the mitch bade emo version you showed her of your mixtape NObody underSTANDS constantly mentioned in in your hooks it's a common theme I've got a mob of Tall blonds at the promenade they'll easily GO bra less the REAsoning of asking Why Men LOVE HIRE ing OBjects is obvious the pro meat grading of yourself U S D A choice rawdoggin for verification but only According to strangers and people you've known soley on facebook see my people easily own anyone in a battle like were collenting war prisoners as slaves my bbasement is full of rappers too basic to make a come up yeah, patience but Will you ever be satisfied with loosing like this and being inveloped verbally rhetoricle, see you're forced follow the ordinances wheather or not you know of them is trivial they've been commanded to serve your carnal wants and desires 'cause what better way than to literally lull you to Sheep and you buy it<br /><br />
+<h4>
+I Ride tides 'round the earth like he follows the moon when its full,</h4><br />
+Why lie I found White lies can sound wonderfull,<br />
+just wisen up or get hurt by horrible truth.<br />
+The splendor is endless I'd like to spend it with you<br />
+33 Howls from the grave to bless her reign is most the way through.<br />
+you about remember bill billions forever,<br />
+im the confusing genius staying richer than you,<br />
+thank heaven and nature for eveything i made to come true
+amazing that this fucking guy doesnt get it yet,<br />
+if I sleep outside better believe we're having a banquet<br />
+you Couldnt make it one night in the wilderness, bitch<br /><br />
+cuz the first minute of weather youre dying under a blanket<br />
+my boooks continuously updating the profits we automate the process<br />
+when i start to drive the hard cascade of styles the Users CSharp<br />
+enough to start command serving function,<br />
+my Sick heart grows by the gigs that im in<br />
+it just like computer code or am i the grinch<br />
+i thought i told you im a mixture of a angry gndalf and earcle<br />
+try beeefing and learn<br />
+im the first m.c.-murdering-rhyme-slayer, my catchy<br />
+hooks composed of magic words,<br />
+with my hieroglyph letters im casually cursing the world,<br />
+nine levels of hell i already mapped the course of your doom.<br />
+shine light in the darknessdarkness is head lights from a hearse for you again i want three things in return:<br />
+keep on your toes, behold and be a whitness<br />
+when my timing and brilliance both combine<br />
+the illumination lights up bright enough<br />
+to only be rivaled by zeus' with his bolts of thunder and lighning.<br />
+you know where i be but you not sure where i'm living at<br />
+im at the ritz violating rules in fact ive noticed<br />
+these days lately i overhear them saying<br />
+he's so skilled and amazing, well,<br />
+thats basically what my game is.<br />
+</p><p><br />
+pay attention to the rules i morally break,<br />
+and when i choose to obey.<br />
+carving the least resistant path<br />
+i see the sheep want me back,<br />
+i guess to heard a sheppard so easilly i was born to lead<br />
 weather or not i choose to be is irellevant
-after the ashes burn down to the floor,
-as im leaving you bastards
+after the ashes burn down to the floor,<br />
+as im leaving you bastards<br /><br />
 you're ass kissing for more i went and took a
-long inward journey coring to the center of the human
-advnture a wizard told me we're
-all lonely consumers of pleasure
+long inward journey coring to the center of the human<br />
+advnture a wizard told me we're<br />
+all lonely consumers of pleasure<br />
 im learning now and im realizing
-all that we've been through its simple to see
-why whores were the first thing our species
-invented its answered. 
+all that we've been through its simple to see<br /><br />
+why whores were the first thing our species<br />
+invented its answered. <br />
 </p><p>
 consumers of pleasure
-two can take up the rest of the room fast
-especially if they aint even using the mattress
+two can take up the rest of the room fast<br />
+especially if they aint even using the mattress<br />
 her eyes belie her fashion and tell when shes coming soon
-and faster than you think a way to end the persuasion
-but actually its kinda like a cage or trap
-we just call it the pussy the past,
-</p><p>
-im through with it, i alreaty lost an eye
-but found two in the process,tell he doctor to quit it,or pay me
-that is unless, of course you're more awake you seem
-similtaniously walking the 3 paths of a warrior,
-other than that dont' lecture me or
+and faster than you think a way to end the persuasion<br />
+but actually its kinda like a cage or trap<br />
+we just call it the pussy the past,<br />
+</p><p><br />
+im through with it, i alreaty lost an eye<br />
+but found two in the process,tell he doctor to quit it,or pay me<br />
+that is unless, of course you're more awake you seem<br />
+similtaniously walking the 3 paths of a warrior,<br />
+other than that dont' lecture me or<br />
 anyone else i keep in my family roster,
-becuse i can tell you fora fact we read
-a hell of a lot more books than your library offers.
-</p><p>
-address your bitch as your majesty graphically,
-compared to your rhymes, her snaplchat posts escape gravity falls,
+becuse i can tell you fora fact we read<br /><br />
+a hell of a lot more books than your library offers.<br />
+</p><p><br />
+address your bitch as your majesty graphically,<br />
+compared to your rhymes, her snaplchat posts escape gravity falls,<br />
 we all get it going faaster than light be going in-in a circle
-, kinda like my writing I use that inertia to launch me
-out my seat and now im traveling back in time to the 90s and first thing,
-imma see if i can watch my favorite RE-runs of earcle.
-go on the air for the first time new ones.
-</p><p>
-The weak type of guy is defined by
-the reason he chooses to stay that way
-But not ryan he’s hardly alive
-hes died a thousand deaths
-and He’s still getting by
-in spite of his terrible eyesight
-he sees life's divinity when he takes the stage.
+, kinda like my writing I use that inertia to launch me<br />
+out my seat and now im traveling back in time to the 90s and first thing,<br />
+imma see if i can watch my favorite RE-runs of earcle.<br />
+go on the air for the first time new ones.<br />
+</p><p><br />
+The weak type of guy is defined by<br />
+the reason he chooses to stay that way<br /><br />
+But not ryan he’s hardly alive<br />
+hes died a thousand deaths<br />
+and He’s still getting by<br />
+in spite of his terrible eyesight<br />
+he sees life's divinity when he takes the stage.<br />
 bought the ticket and took the ride and he's stuck in his ways
-in the stairs and escalators in my mind,
-</p><p>
-im alive channeling the ony thing i can belive ain't a lie
-is mine cuz each individual hads their time on this earth
+in the stairs and escalators in my mind,<br /><br />
+</p><p><br />
+im alive channeling the ony thing i can belive ain't a lie<br />
+is mine cuz each individual hads their time on this earth<br />
 and then its right back to the skys and realxing, no work
-yeah its nice for a while untill the boredom of
-too easily hum drum living never learning
-on a whim it begins to get old,
-expected and kinda like a want to get high so we dive
-back and limit your self so you can enjoy a ride
-then you die again.
-</p><p>
-somethings alive in my third eye they're attacking
-my brain placing the old beliefs in the trunk of my space ship
-and im flying away Dying to say Confusion`
-ill leave you with several contusions
-and your crutches rub the abrasions and wounds
-till the bruises pulsing black and blue and you’re fully consumed by anger
-</p><p>
-Blunt force trauma like 90 mile-an-hour
+yeah its nice for a while untill the boredom of<br />
+too easily hum drum living never learning<br />
+on a whim it begins to get old,<br />
+expected and kinda like a want to get high so we dive<br />
+back and limit your self so you can enjoy a ride<br />
+then you die again.<br />
+</p><p><br />
+somethings alive in my third eye they're attacking<br />
+my brain placing the old beliefs in the trunk of my space ship<br />
+and im flying away Dying to say Confusion`<br />
+ill leave you with several contusions<br />
+and your crutches rub the abrasions and wounds<br />
+till the bruises pulsing black and yele and you’re fully consumed by anger<br />
+</p><p><br />
+yelnt force trauma like 90 mile-an-hour<br />
 bottle of booze I run through the crew full of losers and mutants And which one are you?
-‘cause the truth is, the music and Mathematics
-both fused with a emtions and bad habbits.
-Your impotent imagination manifests as failed creations,
-Am I a god or just the son of satan?
-Initiation in to hyperspace is eminent soon
-it doesn’t matter im working every moment
-twards us Busting out the firmament faster.
-</p><p>
-No i Dont need master,
-espacially one thans never even phathomed
-the actual spirit has answers
-your aura can easilly inflate and pop
+‘cause the truth is, the music and Mathematics<br />
+both fused with a emtions and bad habbits.<br />
+Your impotent imagination manifests as failed creations,<br />
+Am I a god or just the son of satan?<br />
+Initiation in to hyperspace is eminent soon<br />
+it doesn’t matter im working every moment<br />
+twards us Busting out the firmament faster.<br />
+</p><p><br />
+No i Dont need master,<br />
+espacially one thans never even phathomed<br />
+the actual spirit has answers<br />
+your aura can easilly inflate and pop<br />
 you sould stop,
-those around you see your
-soul is being woudned by mindless ventures of plasure.
-i'm immune to the rhetoric and pointless confusion,
-your girl told me she believes the lines full
-of bullshit and stupid solutions
-that'll never let you get ahead of it.
-The usual suspects are'nt always the ones using some fuses as shoestrings.
-All this weight on my shoulders has got me Sweating profusely.
-</p><p>
-I Come over showing you
-lessons to keep awakening this journalistic anguish
-thats filled out on every page of my loose leaf
-So open your eyes and let the truth speak
-youd think i was writing a movie
-the way my rhymes move you in ways more entertaining
-than the lame vivid dreams of the life that you seek.
-
-Cant complain with that schooling you had
-Gimme two weeks to learn it
-you said but id rather nap instead
-Bill Billions is up on top
-stepping over you fools
-for confusing the rantings and the sentiment.
-I grab my pen When we try to keep evil defenceless
-i leverage the deamons using leads that I freeed
-from the evident breath of wilderness
-</p><p>
-Whats heard depends on your will so be wise and see it for what it is
+those around you see your<br />
+soul is being woudned by mindless ventures of plasure.<br />
+i'm immune to the rhetoric and pointless confusion,<br />
+your girl told me she believes the lines full<br />
+of bullshit and stupid solutions<br />
+that'll never let you get ahead of it.<br />
+The usual suspects are'nt always the ones using some fuses as shoestrings.<br />
+All this weight on my shoulders has got me Sweating profusely.<br />
+</p><p><br />
+I Come over showing you<br />
+lessons to keep awakening this journalistic anguish<br />
+thats filled out on every page of my loose leaf<br />
+So open your eyes and let the truth speak<br />
+youd think i was writing a movie<br />
+the way my rhymes move you in ways more entertaining<br />
+than the lame vivid dreams of the life that you seek.<br />
+<br />
+Cant complain with that schooling you had<br />
+Gimme two weeks to learn it<br />
+you said but id rather nap instead<br />
+Bill Billions is up on top<br />
+stepping over you fools<br />
+for confusing the rantings and the sentiment.<br />
+I grab my pen When we try to keep evil defenceless<br />
+i leverage the deamons using leads that I freeed<br />
+from the evident breath of wilderness<br />
+</p><p><br />
+Whats heard depends on your will so be wise and see it for what it is<br />
 this is what divides the shepherd from the sheep
-When Pressed for Eternal time, we press on a dime
-and arrive moving nowhere when we stepping over these lines
-we brighter than you can prepare prepair
+When Pressed for Eternal time, we press on a dime<br />
+and arrive moving nowhere when we stepping over these lines<br /><br />
+we brighter than you can prepare prepair<br />
 try not to stop we moving alive when
-the high tides come in.
-The skys vibes are raising as we radiate the light within.
-Here to take my life back I trried once and ill try again
+the high tides come in.<br /><br />
+The skys vibes are raising as we radiate the light within.<br />
+Here to take my life back I trried once and ill try again<br />
 </p><p>
-you clowns keep on raiding the lockers,
-imma slaughter her and fuck her daughter till she's
-walking around my house wearing my underwear
-and shes blissuflly unaware and wondering
-where she can check for me supposely sentimentally.
-I cant help but notice you wandering behind as we hop in the ride
-and imma tear out of here
-take a drive or a flight, might wind up
-at the martian sky i know how you love a good scandal
-so come a little closer and didnt notice my hand grab the handle
-nice and quick like a commando around
-kick her out and say bye.
-</p><p>
-then i come back rich with a tarp and a stick
+you clowns keep on raiding the lockers,<br />
+imma slaughter her and fuck her daughter till she's<br />
+walking around my house wearing my underwear<br />
+and shes blissuflly unaware and wondering<br />
+where she can check for me supposely sentimentally.<br />
+I cant help but notice you wandering behind as we hop in the ride<br />
+and imma tear out of here<br />
+take a drive or a flight, might wind up<br />
+at the martian sky i know how you love a good scandal<br />
+so come a little closer and didnt notice my hand grab the handle<br />
+nice and quick like a commando around<br />
+kick her out and say bye.<br />
+</p><p><br />
+then i come back rich with a tarp and a stick<br />
 cuz im using it inside specifically to hold up the ritz.
-Go back years later maybe in november reliving a needless
-time when im watching tv
-pbs guy named bill nye,
-im getting high with him at the crib
-and hes blowing my mind while shes blowing these guys
+Go back years later maybe in november reliving a needless<br />
+time when im watching tv<br />
+pbs guy named bill nye,<br />
+im getting high with him at the crib<br />
+and hes blowing my mind while shes blowing these guys<br />
+</p><p><br />
+It's no woories about girlys and such its B-Killions i got billions of sperm in my nuts.<br />
+litterally, come fuck me, I need more drugs<br />
+so round up the kids like you give a fuck<br />
+figureatively cuz girl you know youre a slut.<br />
+meet me in Salt Lake City utah at the church,<br />
+on the back of your block.<br />
+ill bust on your back, FACE and THIRD In your BUTT.<br />
+Thats true Fuck you, for me its something great to spoil.<br />
+you can tell by the way im spillin ink on this plate amd making it boil<br />
+</p><p><br />
+confusion,<br />
+EAT to SPOILs im chillin keeping the pace with my beats<br />
+this is for my LATE BOTHERS we live infinate live Lives forever<br />
+IVE BEEN JESUS AND a sinner while similtaniously<br />
+runnning the humand race I<br />
+see time clearly leanring form a 4th perspective<br />
+and i gotta leave the heard behind to fend for themselves<br />
+when you heard i was leaving i had you with adain<br />
+with those contusuions i was talking about<br />
+in the last verse, meanwhile<br />
+imma be dead cruisin around in my coffin anaware, of<br />
+any worries, foot on the gas and time to spare,<br />
+I light a flare to the skyline 'cause im the only one there<br />
+I cant bare another second on the edge,<br />
+time to step,<br />
+My lifes fueled by the overwhelming regret,<br />
+that fills my soul every time<br />
+I allow myself to forget. or resent.<br />
+Toiling over the lines throughout infiniate lives<br />
+i believe these pointless endevors<br />
+i like are recently to as for me recenly i decided<br />
+start tring to take my time and completion<br />
 </p><p>
-It's no woories about girlys and such its B-Killions i got billions of sperm in my nuts.
-litterally, come fuck me, I need more drugs
-so round up the kids like you give a fuck
-figureatively cuz girl you know youre a slut.
-meet me in Salt Lake City utah at the church,
-on the back of your block.
-ill bust on your back, FACE and THIRD In your BUTT.
-Thats true Fuck you, for me its something great to spoil.
-you can tell by the way im spillin ink on this plate amd making it boil
-</p><p>
-confusion,
-EAT to SPOILs im chillin keeping the pace with my beats
-this is for my LATE BOTHERS we live infinate live Lives forever
-IVE BEEN JESUS AND a sinner while similtaniously
-runnning the humand race I
-see time clearly leanring form a 4th perspective
-and i gotta leave the heard behind to fend for themselves
-when you heard i was leaving i had you with adain
-with those contusuions i was talking about
-in the last verse, meanwhile
-imma be dead cruisin around in my coffin anaware, of
-any worries, foot on the gas and time to spare,
-I light a flare to the skyline 'cause im the only one there
-I cant bare another second on the edge,
-time to step,
-My lifes fueled by the overwhelming regret,
-that fills my soul every time
-I allow myself to forget. or resent.
-Toiling over the lines throughout infiniate lives
-i believe these pointless endevors
-i like are recently to as for me recenly i decided
-start tring to take my time and completion
-</p><p>
-one night i was ambushed
-by gome guys trynna scare a G,
-i atttacked them just fast enough to avoid seeing
-the back of a toyota fleeing the scene
-and hap-hazardly crashed
-into my last usual stash spot
-taking advantage of the distraction
-i casually went back to the mansion
-where everyone was supprised to see
-turns out that they set me up and
-they didnt know I had all the cash in the attic.
-
+one night i was ambushed<br />
+by gome guys trynna scare a G,<br />
+i atttacked them just fast enough to avoid seeing<br />
+the back of a toyota fleeing the scene<br />
+and hap-hazardly crashed<br />
+into my last usual stash spot<br />
+taking advantage of the distraction<br />
+i casually went back to the mansion<br />
+where everyone was supprised to see<br />
+turns out that they set me up and<br />
+they didnt know I had all the cash in the attic.<br />
+<br />
 © Bill Billions - Box52 Software LLC 2020
-</p><br />Section Five<br /><br /><br /><br />
-                </section>
+
             </article>
             <!-- End Main -->
         </div>
         <!-- End wrapper -->
-        <script type='text/javascript' src='./app.js'></script>
+        <script type='text/javascript' src='../../js/app.js'></script>
         <script src='https://use.fontawesome.com/257608c757.js'></script>
-        <!--script type='text/javascript' src=''></script-->
+        <script type='text/javascript' src='../../js/jquery.min.js'/></script>
     </body>
 
     </html>
