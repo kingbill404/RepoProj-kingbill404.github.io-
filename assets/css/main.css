@@ -56,6 +56,7 @@
 }
 
 body {
+	margin:0 auto;
     text-shadow: var(--shat), var(--shab);
     font-weight: 200;
     background-color: var(--bg);
@@ -99,7 +100,7 @@ h4,
 h5,
 h6 {
     font-family: 'Markazi Text';
-    margin: 0 0 0  20px;
+    margin: 0 auto;
     padding: 0 auto;
     font-weight: 900;
     text-decoration: underline;
@@ -111,8 +112,8 @@ h1 {
 	    text-transform: uppercase;
     text-decoration: underline;
     letter-spacing: 0.7;
-    font-size: 2em;
-    width: calc(100%/2);
+    font-size: 35px;
+    width: 100%;
     text-shadow: var(--shat2);
 }
 

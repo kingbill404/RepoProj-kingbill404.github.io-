@@ -1,12 +1,22 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+  /*
+  *  	Portfolio by Bill_Billions
+  * 	kingBill404.github.io | bill@billions.host
+  *    Urban Chi, Producer | kingbill404.github.io/ryansmind.html
+  * 	All Content Released Free for personal and commercial use under the CCA 3.0 license (hhttps://kingbill4040.github.io/license.txt)*
+  */
+/* Vars */
+:root {
+	--light: #e2e9ef;
+	--med: #92999f;
+	--dark: #32333f;
+	--bg: #24292f;
+	--shab: inset 0 -3px 8px: rgba(210,210,210,0.8), inset 0 0 4px rgba(20,20,20,0.4), 2px 3px 3px rgba(80,80,80,0.3), inset 3px -13px 4px rgba(185, 185, 185, 0.3);
+}
 
+/* Reset */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -23,11 +33,14 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+	box-shadow: var(--shab);
+}
 
 body {
 	line-height: 1;
@@ -95,7 +108,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1b1f22;
+		background: var(--bg);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -140,7 +153,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: var(--light);
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
@@ -151,6 +164,7 @@ input, select, textarea {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
@@ -162,7 +176,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: var(--light);
 		font-weight: 600;
 	}
 

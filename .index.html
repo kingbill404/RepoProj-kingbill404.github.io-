@@ -1,0 +1,632 @@
+<!-- 
+    // Copyright (c)Bill Billions, web development | bill@BIllions.host 
+    // Urban Chi, Music Producer | https://kingbill404.io/ryansmind.html
+	// Box52 media llc, Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+    -->
+<!DOCTYPE html>
+<html lang='en-US'>
+<!-- 
+    https://kingbill404.github.io/index.html 
+    - Homepage -
+-->
+
+<head>
+
+    <!-- Meta -->
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />
+    <meta http-equiv='X-UA-Compatable' content='ie=edge; chrome=1' />
+    <meta name='author' content='Bill_Billions'>
+    <![if lt IE 7]>
+    <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+    <![endif]>
+    <![if IE 7]>
+    <html class="no-js lt-ie9 lt-ie8">
+    <![endif]>
+    <![if IE 8]>
+    <html class="no-js lt-ie9">
+    <![endif]>
+    <![if gt IE 8]>
+    <html class="no-js">
+    <![endif]>
+
+    <!-- Vendor CDNs-->
+    <link rel='stylesheet' href='./assets/vendor/font-awesome/all.min.css' />
+    <link rel='stylesheet' href='./assets/vendorcdn.css' />
+    <link rel='stylesheet' href='./assets/vendor/bootstrap/bootstrap.css' />
+    <!-- Meta -->
+    <meta name='description' content='King Bills Freestyle Sandbox, Hobbyist Full Stack Developer. This is my Projects Sandbox, and anything I deem worthy, Rick and Morty Season 4 Posted as theyre released' />
+    <meta name='keywords' content='kingBill404, Sandbox website, code, Scripting, App Development, Web Development, Bill Billions, HTML, JavaScript, CSS, C#, CS, XML'>
+
+    <!-- Embedded Stylesheet (CSS) -->
+    <style type='text/css'>
+        html {
+            width: 100%;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            background-color: #333;
+            display: grid;
+            grid-auto-rows: 20%;
+        }
+        /*!----------------------------------------------------------------------*/
+    </style>
+    <!--link type='text/css' rel='stylesheet' href='./assets/css/main2.css' /-->
+    <!--link type='text/css' rel='stylesheet' href='./assets/css/_vars.css' /-->
+    <link type='text/css' rel='stylesheet' href='./assets/css/style.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/vendor/font-awesome/all.min.css' />
+    <!--link type='text/css' rel='stylesheet' href='./assets/css/button_styles.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_fonts.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_textography.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_layout.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_format.css' /-->
+    <link type='text.css' rel='stylesheet' href='./assets/css/billions-all.min.css' />
+    <title>King Bill's Freestyle Site</title>
+
+    <!-- Meta Content -->
+    <meta name='robots' content='index'  />
+    <meta name='description' content='King Bills Freestyle Sandbox, Hobbyist Full Stack Developer. This is my Sandbox Website for hosting some of my projects or anything I deem worthy, Rick and Morty Season 4 Posted as theyre released to youtube' />
+    <meta name='keywords' content='kingbill, king bill, kingBill404, kingBill404.github.io, Sandbox website, code, Scripting, App Development, Web Development, Bill Billions, HTML, JavaScript, CSS, C#, CS, XML' />
+
+    <link rel='icon' href='./img/kingBill.favico.ico' />
+	
+	  <link type='text/css' rel='stylesheet' href='./assets/vendor/font-awesome/all.min.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/vendor/jquery/jquery.min.css' />
+
+    <link type='text/css' rel='stylesheet' href='./assets/css/main.css' />
+    <!--link type='text/css' rel='stylesheet' href='./assets/css/_vars.css' /-->
+    <!--link type='text/css' rel='stylesheet' href='./assets/css/button_styles.css' /-->
+    <link type='text/css' rel='stylesheet' href='./assets/css/style.css' />
+    <!--link type='text/css' rel='stylesheet' href='./assets/css/main.css' /-->
+    <!--link type='text/css' rel='stylesheet' href='./assets/css/index.css' /-->
+    <!--link type='text/css' rel='stylesheet' href='./assets/css/dimension.css' /-->
+  
+    <!--Embedded Stylesheet (CSS) 
+    <style type='text/css'>
+        html,
+        body, 
+		body div, 
+		article, 
+		article section {
+            width: 100%;
+            display: block;
+        }
+        /*----------------------------------------------------------------------*/
+    </style-->
+    <link type='text/css' rel='stylesheet' href='./assets/vendor/Billions-all.min.css' />
+    <style>
+        .nav-btn {
+            box-shadow: inset 0 10px 2px #e3e3e3;
+            max-height: 60px;
+            border-top: 2px solid #111;
+        }
+        
+        ul {
+            display: flex;
+        }
+        
+        li {
+            flex: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='wrapper'>
+        <header>
+            <h1>kingBill's FreeHand WebPage</h1>
+            <p><em>"Why <b>worry</b> about it, when you can <strong>WarrΦr</strong> 'bout it."</em></p>
+            
+			<nav>
+                <div>
+                    <h2>Site Navigation</h2>
+                </div>
+
+                <ul>
+
+                    <div>Pages</div>
+                    <li><a class='btn btn-style-1' href='./assets/html/snake.html'><span class='fa fa-dragon'></span>Quetzi Game</a></li>
+                    <li><a class='btn btn-style-1' href='./assets/html/Audioindex-2020.html'><span class='fa fa-music'></span>Albums</a></li>
+                    <li><a class='btn btn-style-1' href='./assets/html/rhymes/000.html'><span class='fa fa-microphone'></span>Rhymes000</a></li>
+                    <li><a class='btn btn-style-1' href='./assets/html/Audioindex.html'><span class='fa fa-brush'></span>Get Back In The Book! LP</a></li>
+                    <li><a class='btn btn-style-1' href='./assets/html/rms4.html'><span class='fa fa-ufo-alt'></span>Rick &amp; Morty S4</a></li>
+                    <li><a class='btn btn-style-1' href='./assets/html/philosophy.html'><span class='fa fa-user'></span>Philosophy</a></li>
+                    <li><a class='btn btn-style-1' href='./ryansmind.html'><span class='fa fa-brain'></span>Ryans Mind</a></li>
+                    </ul>
+                    
+					      <ul class='grid'>
+                        <li><a class='btn btn-style-5 nav-btn' href='./assets/html/rhymes/000.html><span class='fa fa-dragon'></span>000.html</a></li>
+                        <li><a class='btn btn-style-5 nav-btn' href='./assets/html/audio.html'><span class='fa fa-music'></span>Music Index(audio.html)</a></li>
+                        <li><a class='btn btn-style-5 nav-btn' href='./assets/html/rhymes/randomerRhymes.html'><span class='fa fa-microphone'></span>Randomer Rhymes</a></li>
+                        <li><a class='btn btn-style-5 nav-btn' href='./assets/html/gridteest.html'><span class='fa fa-brush'></span>Art Gallery</a></li>
+                        <li><a class='btn btn-style-5 nav-btn' href='./assets/html/01-janJams.html'><span class='fa fa-ufo-alt'></span>Jan Jams</a></li>
+                        <li><a class='btn btn-style-5 nav-btn' href='./assets/html/philosophy.html'><span class='fa fa-user'></span>PhΦsophy</a></li>
+                        <li><a class='btn btn-style-5 nav-btn' href='./assets/html/rhymes/rhymes.html'><span class='fa fa-brain'></span>Rhymes</a></li>
+</ul><ul>
+                        <li><a class='btn' href='./assets/html/audioplayer(full).html'><span class='fa fa-diamond'></span>Audio Player Full</a></li>
+                        <li><a class='btn' href='./assets/html/about.html'><span class='fa fa-user'></span>about</a></li>
+                        <li><a class='btn' href='./assets/html/bootstrap.index.html'><span class='fa fa-music'></span>Bootstrap</a></li>
+                        <li><a class='btn' href='./assets/html/rhymes/rhymes000.html'><span class='fa fa-microphone'></span>Rhymes000</a></li>
+                        <li><a class='btn' href='./assets/Dimension/index.html'><span class='fa fa-globe'></span>dimmension</a></li>
+                        <li><a class='btn' href='./assets/html/Audioindex-mar-2020.html'><span class='fa fa-diamond'></span>March 2020 Tracks</a></li>
+                        <li><a class='btn' href='./ryansmind.html'><span class='fas fa-brain'></span>Ryans Mind</a></li>
+          </ul>              
+						<nav>
+                            <div style='text-align: center;'>
+                                <h2>Quick Links</h2>
+                            </div>
+                            <ul class='links container'>
+                                <p>
+                                    <li><a class='btn btn-style-4' href='./html/rhymes000.html'><span class='fa fa-2x fa-microphone'></span>Rhymes000</a></li>
+                                    <li><a class='btn btn-style-4' href='https://www.soundcloud.com/'><span class='fa fa-2x fa-soundcloud'></span>SoundCloud</a></li>
+                                    <li><a class='btn btn-style-4' href='https://github.com'><span class='fa fa-2x fa-github'></span>Github</a></li>
+                                    <li><a class='btn btn-style-4' href='https://www.facebook.com/messages/t/100006454368374'><span class='fa fa-2x fa-facebook'></span>Messenger</a></li>
+                                    <li><a class='btn btn-style-4' href='http://editor.hostgator.com/#/site/49804837/tid/18431402/desktop/'><span class='fas fa-2x fa-code'></span>billions.host</a></li>
+                                    <li><a class='btn btn-style-4' href='https://github.com/kingbill404/kingBill404.github.io/edit/master/index.html'><span class='fa fa-2x fa-cog'></span>Edit HTML</a></li>
+                                </p>
+                            </ul>
+                            <br />
+                        </nav>
+=======
+                    <li><a class='btn nav-btn' href='./assets/html/snake.html'><span class='fa fa-dragon'></span>Quetzi Game</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/audioindex.html'><span class='fa fa-music'></span>Music Index</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/rhymes.html'><span class='fa fa-microphone'></span>Rhyming Poetry</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/randomerRhymes.html'><span class='fa fa-microphone'></span>Randomer Rhymes</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/galleryindex.html'><span class='fa fa-brush'></span>Art Gallery</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/rms4.html'><span class='fa fa-ufo-alt'></span>Rick &amp; Morty S4</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/philosophy.html'><span class='fa fa-user'></span>PhΦsophy</a></li>
+                    <li><a class='btn nav-btn' href='./assets/html/ryansmind.html'><span class='fa fa-brain'></span>Ryans Mind</a></li>
+                    <li><a class='btn-style-5' href='./assets/html/snake.html'><span class='fa fa-dragon'></span>Quetzi Game</a></li>
+                    <li><a class='btn btn-primary' href='./assets/html/audioindex.html'><span class='fa fa-music'></span>Music Index</a></li>
+                    <li><a class='btn btn-primary' href='./assets/html/rhymes/rhymes.html'><span class='fa fa-microphone'></span>Rhyming Poetry</a></li>
+                    <li><a class='btn btn-primary' href='./assets/html/galleryindex.html'><span class='fa fa-brush'></span>Art Gallery</a></li>
+                    <li><a class='btn btn-primary' href='./assets/html/rms4.html'><span class='fa fa-ufo-alt'></span>Rick &amp; Morty S4</a></li>
+                    <li><a class='btn btn-primary' href='./assets/html/philosophy.html'><span class='fa fa-user'></span>PhΦsophy</a></li>
+                    <li><a class='btn btn-primary' href='./assets/html/ryansmind.html'><span class='fa fa-brain'></span>Ryans Mind</a></li>
+<div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+
+                    <li><a class='btn' href='./AudioProject/Audioindex-Mar2020.html'><span class='fa fa-diamond'></span>2020 Tracks</a></li>
+                    <li><a class='btn' href='./html/phiosophy.html'><span class='fa fa-user'></span>Watts Wave (Alan watts)</a></li>
+                    <li><a class='btn' href='./AudioProject/Audioindex.html'><span class='fa fa-music'></span>Get Back In The Book LP</a></li>
+                    <li><a class='btn' href='./AudioProject/rhymes000.html'><span class='fa fa-microphone'></span>Rhymes000</a></li>
+                    <li><a class='btn' href='#rms4'><span class='fa fa-globe'></span>Rick &amp; Morty S4</a></li>
+                    <li><a class='btn' href='./assets/Audioindex-2020.html'><span class='fa fa-diamond'></span>March 2020 Tracks</a></li>
+                    <li><a class='btn' href='./ryansmind.html'><span class='fas fa-brain'></span>Ryans Mind</a></li>
+                    </ul>
+                    </nav></div>
+        <header>
+            <h1>King Bill's FreeHand WebPage</h1>
+            <p>You can either <em>worry</em> about it, or you can <strong>Warrior</strong> 'bout it</p>
+            <nav>
+                <div style='text-align: center;'>
+                    <h2>Lsite Navigation</h2>
+                </div>
+                <ul class='links'>
+                    <p>
+                        <li><a class='btn' href='./html/rhymes000.html'><span class='fa fa-2x fa-microphone'></span>Rhymes000</a></li>
+                        <li><a class='btn' href='https://www.soundcloud.com/'><span class='fa fa-2x fa-soundcloud'></span>SoundCloud</a></li>
+                        <li><a class='btn' href='https://github.com'><span class='fa fa-2x fa-github'></span>Github</a></li>
+                        <li><a class='btn' href='https://www.facebook.com/messages/t/100006454368374'><span class='fa fa-2x fa-facebook'></span>Messenger</a></li>
+                        <li><a class='btn' href='http://editor.hostgator.com/#/site/49804837/tid/18431402/desktop/'><span class='fas fa-2x fa-code'></span>billions.host</a></li>
+                        <li><a class='btn' href='https://github.com/kingbill404/kingBill404.github.io/edit/master/index.html'><span class='fa fa-2x fa-cog'></span>Edit HTML</a></li>
+                    </p>
+                </ul>
+                <br />
+            </nav>
+>>>>>>> dev
+        </div>
+		<!--script>
+                                            document.innerhtml
+                                        </script-->
+        <article>
+            <section class='table-wrapper'>
+                <div>Billion Beats &amp; Urban Chi</div>
+                <thead class='thead'>
+                    <table>
+                        <thead class='#'>
+                            <tr>
+                                <td>Playlist</td>
+                                <td>Player</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <select>
+							 <option>-Off-</option> 
+							 <optgroup>Playlists</optgroup>
+							    <option value='./assets/audio/json/03-marJams.json'>March</option>
+							    <option value='./assets/audio/json/01-janJams.json'>January</option>
+							    <option value='./assets/audio/json/02-janJams.json'>February</option>
+							    <option value='./assets/audio/json/01-mySamples.json'>My Samples</option>
+							</select>
+                                </td>
+                                <td>
+                                    <div class='audio-player'>[{"src": assets/audio/01-janJams/01-18-NiceToSeeYouAgain.wav, "type": audio/wav}]
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class='audio-wrap'>
+                                <td>beatzzz</td>
+                                <td>
+                                    <div class='audio-player'></div>
+                                </td>
+                            </tr>
+
+                            <tbody class='tbody'>BillBillions &amp Urban Chi &copy 2020
+                                <tr class='audio-wrap'>
+                                    <td>Ek 'i'Nosty</td>
+                                    <td>
+                                        <audio controls>
+                                <source src='./assets/audio/03-marjams/03-02-EkiNosty(RapToThis).mp3' type='audio/mpeg' />
+                              </audio>
+                                    </td>
+                                </tr>
+								                <tr class='audio-wrap'>
+                                    <td>Birth Of The Lotus</td>
+                                    <td>
+                                        <audio  autoplay controls>
+                                <source src='./assets/audio/01-janjams/01-01-BirthOfTheLotus.mp3' type='audio/mpeg' />
+                              </audio>
+                                    </td>
+                                </tr>
+                                <tr class='audio-wrap'>
+                                    <td>03-15 RYano</td>
+                                    <td>
+                                        <audio controls>
+                                <source src='./AudioProject/Music/2020-jams/03-15-RYano.mp3' type='audio/mpeg' />
+                              </audio>
+                                    </td>
+                                </tr>
+
+
+                                <tr class='audio-wrap'>
+                                    <td>My Wacky Unkle Alan</td>
+                                    <td class='audio-player'>
+                                        <audio controls>
+                                   <source src='./AudioProject/Music/2020-jams/Jazz.mp3' type='audio/mpeg' />
+                                </audio>
+                                    </td>
+                                </tr>
+                                <tr class='audio-wrap'>
+                                    <td class=''>Pop Ops</td>
+                                    <td class='Audio-Player'>
+                                        <audio controls>
+                        <source src='./AudioProject/Music/2020-jams/popop.mp3' type='audio/mpeg' />
+                      </audio>
+                                    </td>
+                                    <tbody class='tbody'>
+                                        <tr class='audio-wrap'>
+                                            <td class='currentPlaylist'>currentPlaylist</td>
+                                            <td class='cureentTrack'>currentTrack</td>
+                                            <td class='audioplayer'>AudioPlayer
+                                                <div class='audio-player'> [ { "Title": Ek iNosty, "type": audio/mpeg, "src": ./assets/audio/03-marjams/03-02-EkiNosty, "length": #, "artist":twoheadedbryan, "album": mar-jams, "year": 2020,}]</div>
+                                                    
+                                            </td>
+
+                                        </tr>
+
+                                        <tr class='audio-wrap'>
+                                            <td>Jam 2</td>
+                                            <td>
+                                                <audio controls>
+                                                        <source src='./AudioProject/Music/2020-jams/02-22jam2.mp3' type='audio/mpeg' />
+                                                        </audio>
+
+                                                <audio controls>
+                        <source src='./assets/audio/2020-jams/02-22jam2.mp3' type='audio/mpeg' />
+                      </audio>
+                                            </td>
+                                        </tr>
+                                        <tr class='audio-wrap'>
+                                            <td>02-20 Jam</td>
+                                            <td>
+                                                <audio controls>
+                        <source src='./assets/audio/2020-jams/02-21-20jam.mp3' type='audio/mpeg' />
+                    </audio>
+                                            </td>
+                                        </tr>
+                                        <tr class='audio-wrap'>
+                                            <td>02-18 Pattern3</td>
+                                            <td>
+                                                <audio controls>
+                              <source src='./assets/audio/2020-jams/02-18-pattern3.wav' type='audio/wav' />
+                            </audio>
+                                            </td>
+                                        </tr>
+                                        <tr class='audio-wrap'>
+                                            <td>02-11 Jam</td>
+                                            <td>
+                                                <audio controls>
+                              <source src='./assets/audio/2020-jams/02-11.jam.mp3' type='audio/mpeg' />
+                            </audio>
+                                            </td>
+                                        </tr>
+                                </tr>
+                                <tr class='audio-wrap'>
+                                    <td>Ominous</td>
+                                    <td>
+                                        <audio controls>
+                <source src='./assets/audio/2020-jams/02-04-Omnous.mp3' type='audio/mpeg' />
+            </audio>
+                                    </td>
+                                </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>Copyright &copy; 2020 Bill Billions &amp; Urban Chi, Co-producers. </td>
+                                    </tr>
+                                </tfoot>
+                    </table>
+                
+            </section>
+         
+
+            <article id='rms4' class='abril'>
+                <!-- Rick and Morty Season 4 -->
+                <section>
+                    <table><br />
+                        <thead>
+                            <div class='header'>
+                                <h1>Rick and Morty: Season 4</h1>
+                            </div>
+                            <br />
+                            <tr>
+                                <td>Title</td>
+                                <td>Video</td>
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>
+                                <h2>Ep. 401 - Edge of Tomorty: Rick Die Rickpeat.</h2>
+                            </td>
+                            <td> <iframe width='356' height='200' src='https://www.youtube.com/embed/9l9I0slGBEU?list=ELookltG2FBbU9zMWy7pbkqg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                            </td>
+                            <td>Rick Has Problems attempting to get home</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2>Ep. 402 - The Old Man And The Seat.</h2>
+                            </td>
+                            <td> <iframe width='356' height='200' src='https://www.youtube.com/embed/o5DBT4UdAN8?list=ELookltG2FBbU9zMWy7pbkqg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></td>
+                            <td>The family learns a secret about rick</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2>Ep. 403 - One Crew Over The Crewcoo's Morty</h2>
+                            </td>
+                            <td> <iframe width='356' height='200' src='https://www.youtube.com/embed/v3xm6OUAW_A' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                            </td>
+                            <td>Morty gets a Pitch Meeting for NetFlix </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2>Ep. 404 - Claw and Hoarder: Special Ricktim's Morty</h2>
+                            </td>
+                            <td><iframe width='356' height='200' src='https://www.youtube.com/embed/PIf_M_BQjNM?list=ELookltG2FBbU9zMWy7pbkqg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                            </td>
+                            <td>Morty Gets a Dragon</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2>Ep. 405 - Rattlestar Ricklactica</h2>
+                            </td>
+                            <td>
+                                <p> <iframe width='356' height='200' src='https://www.youtube.com/embed/5HIVqNEZ05Q?list=ELookltG2FBbU9zMWy7pbkqg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>
+                            </td>
+                            <td>Jerry has a hard time setting up christmas lights</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2>Ep. 406 - [title]</h2>
+                            </td>
+                            <td>
+                                <p>[TBA]</p>
+                            </td>
+                            <td>[No Description]</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2>Ep. 407 - [title]</h2>
+                            </td>
+                            <td>
+                                <p>[TBA]</p>
+                            </td>
+                            <td>[No Description]</td>
+                        </tr>
+                    </table>
+                </section><br />
+
+
+
+
+                <section>
+                    <div class='iframe-box'>
+                        <table id='alanwaves'>
+                            <div>
+                                <h2><span class='icon fa fa-2x fa-globe'></span><span class='icon fa fa-user'></span>philosophy Section</h2>
+                            </div>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        <span><h3>Watts Waves</h3></span>
+                                    </td>
+                                    <td>
+                                        <h3 class='ttitle'>Video</h3>
+                                    </td>
+                                    <td>
+                                        <h3></h3>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h3 id='alanwaves'>Watts Waves</h3>
+                                    </td>
+                                    <td>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qdTfXJVm_CU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            Alan Watts is a brittish philosopher, self described as a link between eastern and western philosophy/ religions.
+                                        </p>
+                                        <br />
+                                        <hr width='75%' style='color: #e0f;' /><br />
+                                    </td>
+                                    </li>
+                                    <li>
+                                        <h3>Nature doesn't make mistakes</h3>
+                                        <p>"Do You Critisize the Valleys for being low and praise the Mountains for being high?" <br /> - Alan Watts</p>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XygcfOZonA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <br />
+                                        <hr width='75%' style='color: #e0f;' /><br />
+                                    </li>
+                                    <li>
+                                        <h3>The Cosmic Network</h3>
+                                        <iframe width="360" height="220" src="https://www.youtube.com/embed/bGUNkFf4_6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <br />
+                                        <hr width='75%' style='color: #e0f;' /><br />
+                                    </li>
+                                    <li>
+                                        <h3>alan watts</h3>
+                                        <p>I want to take some audio samples from this video</p>
+                                        <iframe width="360" height="220" src="https://www.youtube.com/embed/cwsn9N3U59c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <br />
+                                        <hr width='75%' style='color: #e0f;' /><br />
+                                    </li>
+                </section>
+            </article>
+            <!-- End Article #1 -->
+
+            </div>
+            <!-- Elements -->
+            <article class='box '>
+                <section>
+                    <h3 class="major btn">Buttons</h3>
+                    <ul class="actions">
+                        <li><a href="#" class="btn btn-style-2 button special">Special</a></li>
+                        <li><a href="#" class="btn button">Default</a></li>
+                    </ul>
+                    <ul class="actions">
+                        <li><a href="#" class="button">Default</a></li>
+                        <li><a href="#" class="button small">Small</a></li>
+                    </ul>
+                    <ul class="actions">
+                        <li><a href="#" class="btn button special fa icon fa-download">Icon</a></li>
+                        <li><a href="#" class="button icon fa-download">Icon</a></li>
+                    </ul>
+                    <ul class="actions">
+                        <li><span class="btn2 button special disabled">Disabled</span></li>
+                        <li><span class="button disabled">Disabled</span></li>
+                    </ul>
+                </section>
+                c
+                <!-- Form -->
+                <section>
+                    <h3 class="major">Form</h3>
+                    <form method="post" action="#">
+                        <div class="field half first">
+                            <label for="demo-name">Name</label>
+                            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+                        </div>
+                        <!-- field -->
+                        <div class="field half">
+                            <label for="demo-email">Email</label>
+                            <input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+                        </div>
+                        <!-- categorys -->
+                        <div class="field">
+                            <label for="demo-category">Category</label>
+                            <div class="select-wrapper">
+                                <select name="demo-category" id="demo-category">
+                      <option value="">Select an Option</option>
+                      <option value="1">Manufacturing</option>
+                      <option value="1">Shipping</option>
+                      <option value="1">Administration</option>
+                      <option value="1">Human Resources</option>
+                    </select>
+                            </div>
+                        </div>
+                        <!-- input section -->
+                        <div class="field half first">
+                            <input type="radio" id="demo-priority-low" name="demo-priority" checked>
+                            <label for="demo-priority-low">Low</label>
+                        </div>
+                        <div class="field half">
+                            <input type="radio" id="demo-priority-high" name="demo-priority">
+                            <label for="demo-priority-high">High</label>
+                        </div>
+                        <div class="field half first">
+                            <input type="checkbox" id="demo-copy" name="demo-copy">
+                            <label for="demo-copy">Email me a copy</label>
+                        </div>
+                        <div class="field half">
+                            <input type="checkbox" id="demo-human" name="demo-human" checked>
+                            <label for="demo-human">Not a robot</label>
+                        </div>
+                        <div class="field">
+                            <label for="demo-message">Message</label>
+                            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" class="special" /></li>
+                            <li><input type="reset" value="Reset" /></li>
+                        </ul>
+                    </form>
+                </section>
+            </article>
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <p class="copyright">&copy; &copy Bill Billions - Box52 Software LLC
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                </p>
+            </footer>
+    </div>
+
+    <!-- BG -->
+    <!--div id="bg"></div-->
+    </div>
+    <!-- End Wrapper -->
+
+    <!-- Scripts -->
+	  <script type='application/javascript' src='./assets/vendor/font-awesome/all.min.js'></script>
+    <script type='application/javascript' src='./assets/vendor/bootStrap/jquery-bootstrap.js'></script>
+    <script type='application/javascript' src='./assets/vendor/bootStrap/bootstrap.min.js'></script>															<script src="./assets/vendor/fa.all.js"></script>
+    <script type='application/javascript' src="./assets/vendor/JQuery/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/audioplayer.js"></script>
+</body>
+
+</html>
