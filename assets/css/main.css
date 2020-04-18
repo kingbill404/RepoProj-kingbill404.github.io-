@@ -109,8 +109,6 @@ h6 {
 }
 
 h1 {
-	    text-transform: uppercase;
-    text-decoration: underline;
     letter-spacing: 0.7;
     font-size: 35px;
     width: 100%;
@@ -121,7 +119,7 @@ h2 {
     text-align: center;
     font-family: 'Abril Fatface';
     letter-spacing: 0.5em;
-    font-size: 1em;
+    font-size: 30px;
 }
 
 .fugaz {
