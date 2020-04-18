@@ -15,7 +15,7 @@
 		$main = $('#main'),
 		$main_articles = $main.children('article');
 
-	// Breakpoints.
+	/* Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
 			large:    [ '981px',   '1280px' ],
@@ -24,7 +24,7 @@
 			xsmall:   [ '361px',   '480px'  ],
 			xxsmall:  [ null,      '360px'  ]
 		});
-
+*/
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
